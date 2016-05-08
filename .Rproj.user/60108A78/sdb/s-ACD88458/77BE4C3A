@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "\n# All data land on Ellis Island\nknitr::stitch_rmd(\n  script=\"./manipulation/map/0-ellis-island-map.R\", \n  output=\"./manipulation/map/stitched-output/0-ellis-island-map.md\"\n)\n\n# Initial reivew of variables\nrmarkdown::render(\n  input = \"./reports/review-variables/map/review-variables-map.Rmd\" ,\n  output_format=\"html_document\", \n  clean=TRUE\n)\n\n\nknitr::stitch_rmd(\n  script=\"./manipulation/map/1-ms-measure-map.R\", \n  output=\"./manipulation/map/stitched-output/1-ms-measure-map.md\"\n)\n",
+    "created" : 1462719175065.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4271279099",
+    "id" : "77BE4C3A",
+    "lastKnownWriteTime" : 1461599735,
+    "last_content_update" : 1461599735,
+    "path" : "~/GitHub/ELSA/manipulation/governor-map.R",
+    "project_path" : "manipulation/governor-map.R",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
