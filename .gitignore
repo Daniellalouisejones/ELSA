@@ -1,0 +1,32 @@
+.Rproj.user/60108A78/sdb/s-ACD88458/lock_file
+##############
+# R and RStudio files.
+.Rhistory
+.RData
+.Rproj.user
+.Rproj.user/
+
+# The devtools zip is downloaded when the package is updating itself.  If it's not deleted, there's no reason to commit it to the repository.
+devtools.zip
+
+##############
+# Protected Information; see cubuspl42's answer in http://stackoverflow.com/questions/2415873/exceptions-in-gitignore
+/unshared_material/*
+/unshared-material/*
+/data_unshared/*
+/data-unshared/*
+/data/unshared/raw/*
+/data/unshared/derived/*
+
+##############
+# Exceptions
+!data/*.md
+!data/*/*.md
+!data/*/*/*.md
+!data/*/*/*/*.md
+
+##############
+# Exclude caches in case they contain PHI
+cache/
+*/cache/
+*/*/cache/
