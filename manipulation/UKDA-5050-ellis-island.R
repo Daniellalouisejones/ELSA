@@ -32,12 +32,20 @@ folderPath <- "./data/unshared/raw/UKDA-5050-spss/spss/spss19/"
 (listFiles <- list.files(folderPath, full.names = T,  pattern = ".sav", recursive = F))
 # list the names of the studies to be used in subsequent code
 waveNames <- c("w1", "w2", "w3", "w4", "w5","w6")
-names(dto[["waveName"]]) <- "occasions of measurement"
-names(dto$waveName)
+names(waveNames) <- waveNames
+dto[["waveName"]] <- waveNames
+# names(dto[["waveName"]]) <- "occasions of measurement"
+names(dto)
+# dto$waveName
 # ---- dto-2 ---------------------------------------------------------
 #
 ### dto (2) : file paths to corresponding data files
 #
+
+# at this point the object `dto` contains components:
+lapply(dto,class)
+lapply(dto,names)
+
 # manually declare the file paths to enforce the order and prevent mismatching
 wave_1_path_input  <- paste0(folderPath,"wave_1_core_data_v3.sav")
 wave_2_path_input  <- paste0(folderPath,"wave_2_core_data_v4.sav")
@@ -66,47 +74,46 @@ names(dto$filePath) <- waveNames
 ### dto (3) : datasets with raw source data from each wave
 #
 # at this point the object `dto` contains components:
-names(dto)
-dto$filePath
+lapply(dto,class)
+lapply(dto,names)
+
 # next, we will add another element to this list `dto`  and call it "unitData"
 # it will be a list object in itself, storing datasets from studies as seperate elements
 # no we will reach to the file paths in `dto[["filePath"]][[i]] and input raw data sets
 # where `i` is iteratively each study in `dto[["waveName"]][[i]]
 
 # disable BELOW after creating dto[1:3]
-# data_list <- list() # declare a list to populate
-# for(i in seq_along(dto[["waveName"]])){
-#   # i <- 1
-#   # input the 5 SPSS files in .SAV extension provided with the exercise
-#   data_list[[i]] <- Hmisc::spss.get(dto[["filePath"]][i], use.value.labels = TRUE) 
-# }
-# names(data_list) <- waveNames # name the elements of the data list
-# dto[["unitData"]] <- data_list # include data list into the main list as another element
-# names(dto$unitData) <- waveNames
-# rm(data_list)
-# names(dto) # elements in the main list object
-# names(dto[["unitData"]]) # elements in the subelement 
-# saveRDS(dto,   "./data/unshared/derived/dto_cache.rds")
+data_list <- list() # declare a list to populate
+for(i in seq_along(dto[["waveName"]])){
+  # i <- 1
+  # input the 5 SPSS files in .SAV extension provided with the exercise
+  # ds <- Hmisc::spss.get(dto[["filePath"]][i], use.value.labels = TRUE)
+  data_list[[i]] <- Hmisc::spss.get(dto[["filePath"]][i], use.value.labels = TRUE)
+}
+names(data_list) <- waveNames # name the elements of the data list
+dto[["unitData"]] <- data_list # include data list into the main list as another element
+names(dto$unitData) <- waveNames
+rm(data_list)
+names(dto) # elements in the main list object
+names(dto[["unitData"]]) # elements in the subelement
+saveRDS(dto,   "./data/unshared/derived/dto_cache.rds")
+rm(dto)
 # disable ABOVE after creating dto[1:3]
-
-
-
-
-# at this point the object `dto` contains components:
-names(dto)
-lapply(dto,names)
-# dto contains:  "waveName" ,  "filePath",  "unitData"
-# we have just added the (3rd) element, a list of datasets:
-names(dto$unitData)
-lapply(dto$unitData, dim)
 
 dto <- readRDS("./data/unshared/derived/dto_cache.rds")
 
 
 
+# ---- dto-4 ---------------------------------------------------------
 #
 ### dto (4) : collect metadata
 #
+
+# at this point the object `dto` contains components:
+lapply(dto,class)
+lapply(dto,names)
+
+
 
 # ---- inspect-raw-data -------------------------------------------------------------
 # inspect the variable names and their labels in the raw data files
@@ -128,7 +135,7 @@ for(i in waveNames){
   write.csv(save_csv, paste0("./data/shared/meta/names-labels-live/nl-",i,".csv"), 
             row.names = T)  
 }  
-# these 5 individual .cvs contain the original variable names and labels
+# these individual .cvs contain the original variable names and labels
 # now we combine these files to create the starter for our metadata object
 dum <- list()
 for(i in waveNames){  
@@ -140,53 +147,66 @@ mdsraw["X"] <- NULL # remove native counter variable, not needed
 write.csv(mdsraw, "./data/shared/meta/names-labels-live/names-labels-live.csv", row.names = T)  
 
 # ----- import-meta-data-dead -----------------------------------------
-# after the final version of the data files used in the excerside have been obtained
+# after the final version of the data files used in the analysis have been obtained
 # we made a dead copy of `./data/shared/derived/meta-raw-live.csv` and named it `./data/shared/meta-data-map.csv`
 # decisions on variables' renaming and classification is encoded in this map
 # reproduce ellis-island script every time you make changes to `meta-data-map.csv`
 dsm <- read.csv("./data/shared/meta/meta-data-elsa.csv")
 # dsm <- read.csv("./data/shared/meta/names-labels-live/names-labels-live.csv")
 dsm["X"] <- NULL # remove native counter variable, not needed
-# dsm["X.1"] <- NULL # remove native counter variable, not needed
-# dsm$url <- if(is.na(dsm$url){paste0("[link](", dsm$url,")")
-# dsm$url <- as.character(dsm$url)
-# for(i in seq_along(dsm$url)){ # i <- 20
-#   if(!dsm[i,"url"]==""){
-#     dsm[i,"url"] <- paste0("[link](",dsm[i,"url"],")")
-#   } 
-# }   
+
 
 # attach metadata object as the 4th element of the dto
 dto[["metaData"]] <- dsm
 
 
+dto[["metaData"]] %>%
+  dplyr::filter(retained==TRUE) %>%
+  dplyr::mutate(name = as.character(name),
+                varname = as.character(varname),
+                label = as.character(label)) %>%
+  dplyr::select_("wave_name","name", "varname", "label") %>%
+  DT::datatable(
+    class   = 'cell-border stripe',
+    caption = "This is the primary metadata file. Edit at `./data/shared/meta-data-map.csv",
+    filter  = "top",
+    options = list(pageLength = 6, autoWidth = TRUE)
+  )
+
+
+
+#######################  developing code beyond this point
+
 
 assemble_dto <- function(dto, get_these_variables){
   
   l <- list() #  list object with data frome each wave
-  for(s in dto[["waveName"]]){
-    d <- dto[["unitData"]][[s]] # get wave data from dto
+  for(wave_name_ in dto[["waveName"]]){
+    dsm <- dto$metaData %>% 
+      dplyr::filter(retained==TRUE, wave_name==wave_name_) %>% 
+    get_these_variables <- unique(as.character(dsm$name))
+     
+    
+    d <- dto[["unitData"]][[wave_name_]][,get_these_variables] # get wave data from dto
     variables_present <- colnames(d) %in% get_these_variables # variables on the list
     l[[s]] <- d[, variables_present] # keep only them
   }
   return(l)
 }
-
-ldto <- assemble_dto(
-  dto=dto,
-  get_these_variables <- c(
-    "id",
-    "year_of_wave","age_in_years","year_born",
-    "female",
-    "marital", "single",
-    "educ3",
-    "smoke_now","smoked_ever",
-    "current_work_2",
-    "current_drink",
-    "sedentary",
-    "poor_health"
-  )
+get_these_variables <- c(
+  "id",
+  "year_of_wave","age_in_years","year_born",
+  "female",
+  "marital", "single",
+  "educ3",
+  "smoke_now","smoked_ever",
+  "current_work_2",
+  "current_drink",
+  "sedentary",
+  "poor_health"
 )
+
+ldto <- assemble_dto(dto=dto, get_these_variables = get_these_variables)
 lapply(lsh, names) # view the contents of the list object
 ds <- plyr::ldply(lsh,data.frame, .id = "study_name")
 ds$id <- 1:nrow(ds) # some ids values might be identical, replace
@@ -198,18 +218,6 @@ ds %>% names()
 
 
 
-dto[["metaData"]] %>%
-  dplyr::filter(retained==TRUE) %>% 
-  dplyr::mutate(name = as.character(name),
-                varname = as.character(varname),
-                label = as.character(label)) %>% 
-  dplyr::select_("wave_name","name", "varname", "label") %>%
-  DT::datatable(
-    class   = 'cell-border stripe',
-    caption = "This is the primary metadata file. Edit at `./data/shared/meta-data-map.csv",
-    filter  = "top",
-    options = list(pageLength = 6, autoWidth = TRUE)
-  )
 
 # ---- variables-to-extract
 
