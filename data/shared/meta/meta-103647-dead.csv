@@ -1,0 +1,2988 @@
+name,name_new,include,label
+idauniq,id,TRUE,unique individual serial number /num
+idauniqc,,,unique individual serial number /6-char
+pn,,,person number within household
+pnc,,,person number within household (char)
+hh1hhid,,,wave 1 specific household serial number /num
+hh2hhid,,,wave 2 specific household serial number /num
+hh3hhid,,,wave 3 specific household serial number /num
+hh4hhid,,,wave 4 specific household serial number /num
+hh5hhid,,,wave 5 specific household serial number /num
+hh6hhid,,,wave 6 specific household serial number /num
+hh1hhidc,,,wave 1 specific household serial number /5-char
+hh2hhidc,,,wave 2 specific household serial number /5-char
+hh3hhidc,,,wave 3 specific household serial number /5-char
+hh4hhidc,,,wave 4 specific household serial number /5-char
+hh5hhidc,,,wave 5 specific household serial number /5-char
+hh6hhidc,,,wave 6 specific household serial number /5-char
+h1coupid,,,wave 1 specific couple id number /num
+h2coupid,,,wave 2 specific couple id number /num
+h3coupid,,,wave 3 specific couple id number /num
+h4coupid,,,wave 4 specific couple id number /num
+h5coupid,,,wave 5 specific couple id number /num
+h6coupid,,,wave 6 specific couple id number /num
+h1coupidc,,,wave 1 specific couple id number /5-char
+h2coupidc,,,wave 2 specific couple id number /5-char
+h3coupidc,,,wave 3 specific couple id number /5-char
+h4coupidc,,,wave 4 specific couple id number /5-char
+h5coupidc,,,wave 5 specific couple id number /5-char
+h6coupidc,,,wave 6 specific couple id number /5-char
+s1idauniq,,,s1idauniq:w1 spouse idauniq
+s2idauniq,,,s2idauniq:w2 spouse idauniq
+s3idauniq,,,s3idauniq:w3 spouse idauniq
+s4idauniq,,,s4idauniq:w4 spouse idauniq
+s5idauniq,,,s5idauniq:w5 spouse idauniq
+s6idauniq,,,s6idauniq:w6 spouse idauniq
+raspct,,,raspct: # of spouses with pn
+raspid1,,,raspid1: idauniq of 1st spouse
+raspid2,,,raspid2: idauniq of 2nd spouse
+raspid3,,,raspid3: idauniq of 3rd spouse
+raspid4,,,raspid4: idauniq of 4th spouse
+inw1,responded_1,,inw1: =1 if respondent w1
+inw2,responded_2,,inw2: =1 if respondent w2
+inw3,responded_3,,inw3: =1 if respondent w3
+inw4,responded_4,,inw4: =1 if respondent w4
+inw5,responded_5,,inw5: =1 if respondent w5
+inw6,responded_6,,inw6: =1 if respondent w6
+inw1sc,,,inw1sc: =1 if respondent w1 self-completion
+inw2sc,,,inw2sc: =1 if respondent w2 self-completion
+inw3sc,,,inw3sc: =1 if respondent w3 self-completion
+inw4sc,,,inw4sc: =1 if respondent w4 self-completion
+inw5sc,,,inw5sc: =1 if respondent w5 self-completion
+inw6sc,,,inw6sc: =1 if respondent w6 self-completion
+r1iwstat,alive_status_1,,r1iwstat:w1 r interview status
+r2iwstat,alive_status_2,,r2iwstat:w2 r interview status
+r3iwstat,alive_status_3,,r3iwstat:w3 r interview status
+r4iwstat,alive_status_4,,r4iwstat:w4 r interview status
+r5iwstat,alive_status_5,,r5iwstat:w5 r interview status
+r6iwstat,alive_status_6,,r6iwstat:w6 r interview status
+s1iwstat,,,s1iwstat:w1 s interview status
+s2iwstat,,,s2iwstat:w2 s interview status
+s3iwstat,,,s3iwstat:w3 s interview status
+s4iwstat,,,s4iwstat:w4 s interview status
+s5iwstat,,,s5iwstat:w5 s interview status
+s6iwstat,,,s6iwstat:w6 s interview status
+r1cohort.e,cohort_1,,"r1cohort_e:w1 sample cohort, ELSA specific"
+r2cohort.e,cohort_2,,"r2cohort_e:w2 sample cohort, ELSA specific"
+r3cohort.e,cohort_3,,"r3cohort_e:w3 sample cohort, ELSA specific"
+r4cohort.e,cohort_4,,"r4cohort_e:w4 sample cohort, ELSA specific"
+r5cohort.e,cohort_5,,"r5cohort_e:w5 sample cohort, ELSA specific"
+r6cohort.e,cohort_6,,"r6cohort_e:w6 sample cohort, ELSA specific"
+s1cohort.e,,,"s1cohort_e: sample cohort, ELSA specific"
+s2cohort.e,,,"s2cohort_e: sample cohort, ELSA specific"
+s3cohort.e,,,"s3cohort_e: sample cohort, ELSA specific"
+s4cohort.e,,,"s4cohort_e: sample cohort, ELSA specific"
+s5cohort.e,,,"s5cohort_e: sample cohort, ELSA specific"
+s6cohort.e,,,"s6cohort_e: sample cohort, ELSA specific"
+raelsamp,eligible_sample,,raelsamp:ELSA sample-age eligible/Wave 1 Resp
+s1elsamp,,,s1elsamp:ELSA sample-age eligible/Wave 1 Resp
+s2elsamp,,,s2elsamp:ELSA sample-age eligible/Wave 1 Resp
+s3elsamp,,,s3elsamp:ELSA sample-age eligible/Wave 1 Resp
+s4elsamp,,,s4elsamp:ELSA sample-age eligible/Wave 1 Resp
+s5elsamp,,,s5elsamp:ELSA sample-age eligible/Wave 1 Resp
+s6elsamp,,,s6elsamp:ELSA sample-age eligible/Wave 1 Resp
+r1strat,,,w1 hse stratification variable
+r2strat,,,w2 hse stratification variable
+raclust,,,hse clustering variable
+r1cwtresp,,,"r1cwtresp:w1 person-level cross-sectional weight, core sample"
+r3cwtresp,,,"r3cwtresp:w3 person-level cross-sectional weight, core sample"
+r4cwtresp,,,"r4cwtresp:w4 person-level cross-sectional weight, core sample"
+r5cwtresp,,,"r5cwtresp:w5 person-level cross-sectional weight, core sample"
+r6cwtresp,,,"r6cwtresp:w6 person-level cross-sectional weight, core sample"
+s1cwtresp,,,"s1cwtresp:w1 person-level cross-sectional weight, core sample"
+s3cwtresp,,,"s3cwtresp:w3 person-level cross-sectional weight, core sample"
+s4cwtresp,,,"s4cwtresp:w4 person-level cross-sectional weight, core sample"
+s5cwtresp,,,"s5cwtresp:w5 person-level cross-sectional weight, core sample"
+s6cwtresp,,,"s6cwtresp:w6 person-level cross-sectional weight, core sample"
+r2lwtresp,,,"r2lwtresp:w2 person-level longitudinal weight, core sample"
+r3lwtresp,,,"r3lwtresp:w3 person-level longitudinal weight, core sample"
+r4lwtresp,,,"r4lwtresp:w4 person-level longitudinal weight, core sample"
+r5lwtresp,,,"r5lwtresp:w5 person-level longitudinal weight, core sample"
+r6lwtresp,,,"r6lwtresp:w6 person-level longitudinal weight, core sample"
+s2lwtresp,,,"s2lwtresp:w2 person-level longitudinal weight, core sample"
+s3lwtresp,,,"s3lwtresp:w3 person-level longitudinal weight, core sample"
+s4lwtresp,,,"s4lwtresp:w4 person-level longitudinal weight, core sample"
+s5lwtresp,,,"s5lwtresp:w5 person-level longitudinal weight, core sample"
+s6lwtresp,,,"s6lwtresp:w6 person-level longitudinal weight, core sample"
+r2scwtresp,,,"r2scwtresp:w2 person-level weight, self-completion sample"
+r4scwtresp,,,"r4scwtresp:w4 person-level weight, self-completion sample"
+r5scwtresp,,,"r5scwtresp:w5 person-level weight, self-completion sample"
+r6scwtresp,,,"r6scwtresp:w6 person-level weight, self-completion sample"
+s2scwtresp,,,"s2scwtresp:w2 person-level weight, self-completion sample"
+s4scwtresp,,,"s4scwtresp:w4 person-level weight, self-completion sample"
+s5scwtresp,,,"s5scwtresp:w5 person-level weight, self-completion sample"
+s6scwtresp,,,"s6scwtresp:w6 person-level weight, self-completion sample"
+hh1hhresp,,,hh1hhresp:w1 # core respondents in hh
+hh2hhresp,,,hh2hhresp:w2 # core respondents in hh
+hh3hhresp,,,hh3hhresp:w3 # core respondents in hh
+hh4hhresp,,,hh4hhresp:w4 # core respondents in hh
+hh5hhresp,,,hh5hhresp:w5 # core respondents in hh
+hh6hhresp,,,hh6hhresp:w6 # core respondents in hh
+h1cpl,,,h1cpl:w1 whether coupled
+h2cpl,,,h2cpl:w2 whether coupled
+h3cpl,,,h3cpl:w3 whether coupled
+h4cpl,,,h4cpl:w4 whether coupled
+h5cpl,,,h5cpl:w5 whether coupled
+h6cpl,,,h6cpl:w6 whether coupled
+r1finr,,,r1finr:w1 whether financial resp
+r2finr,,,r2finr:w2 whether financial resp
+r3finr,,,r3finr:w3 whether financial resp
+r4finr,,,r4finr:w4 whether financial resp
+r5finr,,,r5finr:w5 whether financial resp
+r6finr,,,r6finr:w6 whether financial resp
+s1finr,,,s1finr:w1 whether financial resp
+s2finr,,,s2finr:w2 whether financial resp
+s3finr,,,s3finr:w3 whether financial resp
+s4finr,,,s4finr:w4 whether financial resp
+s5finr,,,s5finr:w5 whether financial resp
+s6finr,,,s6finr:w6 whether financial resp
+h1anyfin,,,h1anyfin:w1 whether any finr in couple
+h2anyfin,,,h2anyfin:w2 whether any finr in couple
+h3anyfin,,,h3anyfin:w3 whether any finr in couple
+h4anyfin,,,h4anyfin:w4 whether any finr in couple
+h5anyfin,,,h5anyfin:w5 whether any finr in couple
+h6anyfin,,,h6anyfin:w6 whether any finr in couple
+r1hhr,,,r1hhr:w1 whether hh resp
+r2hhr,,,r2hhr:w2 whether hh resp
+r3hhr,,,r3hhr:w3 whether hh resp
+r4hhr,,,r4hhr:w4 whether hh resp
+r5hhr,,,r5hhr:w5 whether hh resp
+r6hhr,,,r6hhr:w6 whether hh resp
+s1hhr,,,s1hhr:w1 whether hh resp
+s2hhr,,,s2hhr:w2 whether hh resp
+s3hhr,,,s3hhr:w3 whether hh resp
+s4hhr,,,s4hhr:w4 whether hh resp
+s5hhr,,,s5hhr:w5 whether hh resp
+s6hhr,,,s6hhr:w6 whether hh resp
+r1hor,,,r1hor:w1 whether housing resp
+r2hor,,,r2hor:w2 whether housing resp
+r3hor,,,r3hor:w3 whether housing resp
+r4hor,,,r4hor:w4 whether housing resp
+r5hor,,,r5hor:w5 whether housing resp
+r6hor,,,r6hor:w6 whether housing resp
+s1hor,,,s1hor:w1 hh housing resp
+s2hor,,,s2hor:w2 hh housing resp
+s3hor,,,s3hor:w3 hh housing resp
+s4hor,,,s4hor:w4 hh housing resp
+s5hor,,,s5hor:w5 hh housing resp
+s6hor,,,s6hor:w6 hh housing resp
+hh1anyho,,,hh1anyho:w1 whether any hor in hh
+hh2anyho,,,hh2anyho:w2 whether any hor in hh
+hh3anyho,,,hh3anyho:w3 whether any hor in hh
+hh4anyho,,,hh4anyho:w4 whether any hor in hh
+hh5anyho,,,hh5anyho:w5 whether any hor in hh
+hh6anyho,,,hh6anyho:w6 whether any hor in hh
+r1proxy,,,r1proxy:w1 whether proxy interview
+r2proxy,,,r2proxy:w2 whether proxy interview
+r3proxy,,,r3proxy:w3 whether proxy interview
+r4proxy,,,r4proxy:w4 whether proxy interview
+r5proxy,,,r5proxy:w5 whether proxy interview
+r6proxy,,,r6proxy:w6 whether proxy interview
+s1proxy,,,s1proxy:w1 whether proxy interview
+s2proxy,,,s2proxy:w2 whether proxy interview
+s3proxy,,,s3proxy:w3 whether proxy interview
+s4proxy,,,s4proxy:w4 whether proxy interview
+s5proxy,,,s5proxy:w5 whether proxy interview
+s6proxy,,,s6proxy:w6 whether proxy interview
+hh1iwhh,,,hh1iwhh:w1 household interview date
+hh2iwhh,,,hh2iwhh:w2 household interview date
+hh3iwhh,,,hh3iwhh:w3 household interview date
+hh4iwhh,,,hh4iwhh:w4 household interview date
+hh1iwhhf,,,hh1iwhhf:w1 household interview date flag
+hh2iwhhf,,,hh2iwhhf:w2 household interview date flag
+hh3iwhhf,,,hh3iwhhf:w3 household interview date flag
+hh4iwhhf,,,hh4iwhhf:w4 household interview date flag
+hh1iwhhm,,,hh1iwhhm:w1 household interview month
+hh2iwhhm,,,hh2iwhhm:w2 household interview month
+hh3iwhhm,,,hh3iwhhm:w3 household interview month
+hh4iwhhm,,,hh4iwhhm:w4 household interview month
+hh1iwhhy,,,hh1iwhhy:w1 household interview year
+hh2iwhhy,,,hh2iwhhy:w2 household interview year
+hh3iwhhy,,,hh3iwhhy:w3 household interview year
+hh4iwhhy,,,hh4iwhhy:w4 household interview year
+r1iwind,date_1,,r1iwind:w1 individual interview date
+r2iwind,date_2,,r2iwind:w2 individual interview date
+r3iwind,date_3,,r3iwind:w3 individual interview date
+r4iwind,date_4,,r4iwind:w4 individual interview date
+r5iwind,date_5,,r5iwind:w5 individual interview date
+r6iwind,date_6,,r6iwind:w6 individual interview date
+s1iwind,,,s1iwind:w1 individual interview date
+s2iwind,,,s2iwind:w2 individual interview date
+s3iwind,,,s3iwind:w3 individual interview date
+s4iwind,,,s4iwind:w4 individual interview date
+s5iwind,,,s5iwind:w5 individual interview date
+s6iwind,,,s6iwind:w6 individual interview date
+r1iwindf,,,r1iwindf:w1 individual interview date flag
+r2iwindf,,,r2iwindf:w2 individual interview date flag
+r3iwindf,,,r3iwindf:w3 individual interview date flag
+r4iwindf,,,r4iwindf:w4 individual interview date flag
+r5iwindf,,,r5iwindf:w5 individual interview date flag
+r6iwindf,,,r6iwindf:w6 individual interview date flag
+s1iwindf,,,s1iwindf:w1 individual interview date flag
+s2iwindf,,,s2iwindf:w2 individual interview date flag
+s3iwindf,,,s3iwindf:w3 individual interview date flag
+s4iwindf,,,s4iwindf:w4 individual interview date flag
+s5iwindf,,,s5iwindf:w5 individual interview date flag
+s6iwindf,,,s6iwindf:w6 individual interview date flag
+r1iwindm,,,r1iwindm:w1 individual interview month
+r2iwindm,,,r2iwindm:w2 individual interview month
+r3iwindm,,,r3iwindm:w3 individual interview month
+r4iwindm,,,r4iwindm:w4 individual interview month
+r5iwindm,,,r5iwindm:w5 individual interview month
+r6iwindm,,,r6iwindm:w6 individual interview month
+s1iwindm,,,s1iwindm:w1 individual interview month
+s2iwindm,,,s2iwindm:w2 individual interview month
+s3iwindm,,,s3iwindm:w3 individual interview month
+s4iwindm,,,s4iwindm:w4 individual interview month
+s5iwindm,,,s5iwindm:w5 individual interview month
+s6iwindm,,,s6iwindm:w6 individual interview month
+r1iwindy,,,r1iwindy:w1 individual interview year
+r2iwindy,,,r2iwindy:w2 individual interview year
+r3iwindy,,,r3iwindy:w3 individual interview year
+r4iwindy,,,r4iwindy:w4 individual interview year
+r5iwindy,,,r5iwindy:w5 individual interview year
+r6iwindy,,,r6iwindy:w6 individual interview year
+s1iwindy,,,s1iwindy:w1 individual interview year
+s2iwindy,,,s2iwindy:w2 individual interview year
+s3iwindy,,,s3iwindy:w3 individual interview year
+s4iwindy,,,s4iwindy:w4 individual interview year
+s5iwindy,,,s5iwindy:w5 individual interview year
+s6iwindy,,,s6iwindy:w6 individual interview year
+rabyear,birth_year,,rabyear: r birth year
+s1byear,,,s1byear: s birth year
+s2byear,,,s2byear: s birth year
+s3byear,,,s3byear: s birth year
+s4byear,,,s4byear: s birth year
+s5byear,,,s5byear: s birth year
+s6byear,,,s6byear: s birth year
+rafbyear,,,rafbyear: flag birth year bottom-coded
+s1fbyear,,,s1fbyear: flag birth year bottom-coded
+s2fbyear,,,s2fbyear: flag birth year bottom-coded
+s3fbyear,,,s3fbyear: flag birth year bottom-coded
+s4fbyear,,,s4fbyear: flag birth year bottom-coded
+s5fbyear,,,s5fbyear: flag birth year bottom-coded
+s6fbyear,,,s6fbyear: flag birth year bottom-coded
+radyear,death_year,,radyear: r death year
+s1dyear,,,s1dyear:w1 s death year
+s2dyear,,,s2dyear:w2 s death year
+s3dyear,,,s3dyear:w3 s death year
+s4dyear,,,s4dyear:w4 s death year
+s5dyear,,,s5dyear:w5 s death year
+s6dyear,,,s6dyear:w6 s death year
+r1agey,age_at_visit_1,,r1agey:w1 r age (years) at ivw
+r2agey,age_at_visit_2,,r2agey:w2 r age (years) at ivw
+r3agey,age_at_visit_3,,r3agey:w3 r age (years) at ivw
+r4agey,age_at_visit_4,,r4agey:w4 r age (years) at ivw
+r5agey,age_at_visit_5,,r5agey:w5 r age (years) at ivw
+r6agey,age_at_visit_6,,r6agey:w6 r age (years) at ivw
+s1agey,,,s1agey:w1 s age (years) at ivw
+s2agey,,,s2agey:w2 s age (years) at ivw
+s3agey,,,s3agey:w3 s age (years) at ivw
+s4agey,,,s4agey:w4 s age (years) at ivw
+s5agey,,,s5agey:w5 s age (years) at ivw
+s6agey,,,s6agey:w6 s age (years) at ivw
+r1fagey,,,r1fagey:w1 flag age at iwv top-coded
+r2fagey,,,r2fagey:w2 flag age at iwv top-coded
+r3fagey,,,r3fagey:w3 flag age at iwv top-coded
+r4fagey,,,r4fagey:w4 flag age at iwv top-coded
+r5fagey,,,r5fagey:w5 flag age at iwv top-coded
+r6fagey,,,r6fagey:w6 flag age at iwv top-coded
+s1fagey,,,s1fagey:w1 flag age at iwv top-coded
+s2fagey,,,s2fagey:w2 flag age at iwv top-coded
+s3fagey,,,s3fagey:w3 flag age at iwv top-coded
+s4fagey,,,s4fagey:w4 flag age at iwv top-coded
+s5fagey,,,s5fagey:w5 flag age at iwv top-coded
+s6fagey,,,s6fagey:w6 flag age at iwv top-coded
+ragender,gender,,ragender: r gender
+s1gender,,,s1gender: s gender
+s2gender,,,s2gender: s gender
+s3gender,,,s3gender: s gender
+s4gender,,,s4gender: s gender
+s5gender,,,s5gender: s gender
+s6gender,,,s6gender: s gender
+ragendrf,,,ragendrf: flag if problem with r gender
+s1gendrf,,,s1gendrf: flag if problem with s gender
+s2gendrf,,,s2gendrf: flag if problem with s gender
+s3gendrf,,,s3gendrf: flag if problem with s gender
+s4gendrf,,,s4gendrf: flag if problem with s gender
+s5gendrf,,,s5gendrf: flag if problem with s gender
+s6gendrf,,,s6gendrf: flag if problem with s gender
+raracem,race,,raracem: r race - masked
+s1racem,,,s1racem: s race - masked
+s2racem,,,s2racem: s race - masked
+s3racem,,,s3racem: s race - masked
+s4racem,,,s4racem: s race - masked
+s5racem,,,s5racem: s race - masked
+s6racem,,,s6racem: s race - masked
+raracef,,,raracef: flag if problem with r race
+s1racef,,,s1racef: flag if problem with s race
+s2racef,,,s2racef: flag if problem with s race
+s3racef,,,s3racef: flag if problem with s race
+s4racef,,,s4racef: flag if problem with s race
+s5racef,,,s5racef: flag if problem with s race
+s6racef,,,s6racef: flag if problem with s race
+raedyrs.e,educ_years,,raedyrs_e: r years of education
+s1edyrs.e,,,s1edyrs_e: s years of education
+s2edyrs.e,,,s2edyrs_e: s years of education
+s3edyrs.e,,,s3edyrs_e: s years of education
+s4edyrs.e,,,s4edyrs_e: s years of education
+s5edyrs.e,,,s5edyrs_e: s years of education
+s6edyrs.e,,,s6edyrs_e: s years of education
+raeduc.e,educ_category,,raeduc_e: r education (categ)
+s1educ.e,,,s1educ_e: s education (categ)
+s2educ.e,,,s2educ_e: s education (categ)
+s3educ.e,,,s3educ_e: s education (categ)
+s4educ.e,,,s4educ_e: s education (categ)
+s5educ.e,,,s5educ_e: s education (categ)
+s6educ.e,,,s6educ_e: s education (categ)
+raedisced,,,raedisced:R education ISCED
+s1edisced,,,s1edisced:w1 S education ISCED
+s2edisced,,,s2edisced:w2 S education ISCED
+s3edisced,,,s3edisced:w3 s education isced
+s4edisced,,,s4edisced:w4 s education isced
+s5edisced,,,s5edisced:w5 s education isced
+s6edisced,,,s6edisced:w6 s education isced
+r1mstat,,,"r1mstat:w1 r marital status w/partners, filled"
+r2mstat,,,"r2mstat:w2 r marital status w/partners, filled"
+r3mstat,,,"r3mstat:w3 r marital status w/partners, filled"
+r4mstat,,,"r4mstat:w4 r marital status w/partners, filled"
+r5mstat,,,"r5mstat:w5 r marital status w/partners, filled"
+r6mstat,,,"r6mstat:w6 r marital status w/partners, filled"
+s1mstat,,,"s1mstat:w1 s marital status w/partners, filled"
+s2mstat,,,"s2mstat:w2 s marital status w/partners, filled"
+s3mstat,,,"s3mstat:w3 s marital status w/partners, filled"
+s4mstat,,,"s4mstat:w4 s marital status w/partners, filled"
+s5mstat,,,"s5mstat:w5 s marital status w/partners, filled"
+s6mstat,,,"s6mstat:w6 s marital status w/partners, filled"
+r1mpart,,,r1mpart:w1 r implied partnership status
+r2mpart,,,r2mpart:w2 r implied partnership status
+r3mpart,,,r3mpart:w3 r implied partnership status
+r4mpart,,,r4mpart:w4 r implied partnership status
+r5mpart,,,r5mpart:w5 r implied partnership status
+r6mpart,,,r6mpart:w6 r implied partnership status
+s1mpart,,,s1mpart:w1 s implied partnership status
+s2mpart,,,s2mpart:w2 s implied partnership status
+s3mpart,,,s3mpart:w3 s implied partnership status
+s4mpart,,,s4mpart:w4 s implied partnership status
+s5mpart,,,s5mpart:w5 s implied partnership status
+s6mpart,,,s6mpart:w6 s implied partnership status
+r1mstath,,,r1mstath:w1 r marital status
+r2mstath,,,r2mstath:w2 r marital status
+r3mstath,,,r3mstath:w3 r marital status
+r4mstath,,,r4mstath:w4 r marital status
+r5mstath,,,r5mstath:w5 r marital status
+r6mstath,,,r6mstath:w6 r marital status
+s1mstath,,,s1mstath:w1 s marital status
+s2mstath,,,s2mstath:w2 s marital status
+s3mstath,,,s3mstath:w3 s marital status
+s4mstath,,,s4mstath:w4 s marital status
+s5mstath,,,s5mstath:w5 s marital status
+s6mstath,,,s6mstath:w6 s marital status
+r1mstatf,,,r1mstatf:w1 r mstath-flag diff w/marhist
+r2mstatf,,,r2mstatf:w2 r mstath-flag diff w/marhist
+r3mstatf,,,r3mstatf:w3 r mstath-flag diff w/marhist
+r4mstatf,,,r4mstatf:w4 r mstath-flag diff w/marhist
+r5mstatf,,,r5mstatf:w5 r mstath-flag diff w/marhist
+r6mstatf,,,r6mstatf:w6 r mstath-flag diff w/marhist
+s1mstatf,,,s1mstatf:w1 s mstath-flag diff w/marhist
+s2mstatf,,,s2mstatf:w2 s mstath-flag diff w/marhist
+s3mstatf,,,s3mstatf:w3 s mstath-flag diff w/marhist
+s4mstatf,,,s4mstatf:w4 s mstath-flag diff w/marhist
+s5mstatf,,,s5mstatf:w5 s mstath-flag diff w/marhist
+s6mstatf,,,s6mstatf:w6 s mstath-flag diff w/marhist
+r1mrct,,,r1mrct:w1 r # marriages
+r2mrct,,,r2mrct:w2 r # marriages
+r3mrct,,,r3mrct:w3 r # marriages
+r4mrct,,,r4mrct:w4 r # marriages
+r5mrct,,,r5mrct:w5 r # marriages
+r6mrct,,,r6mrct:w6 r # marriages
+s1mrct,,,s1mrct:w1 s # marriages
+s2mrct,,,s2mrct:w2 s # marriages
+s3mrct,,,s3mrct:w3 s # marriages
+s4mrct,,,s4mrct:w4 s # marriages
+s5mrct,,,s5mrct:w5 s # marriages
+s6mrct,,,s6mrct:w6 s # marriages
+r1mnev,,,r1mnev:w1 r never married
+r2mnev,,,r2mnev:w2 r never married
+r3mnev,,,r3mnev:w3 r never married
+r4mnev,,,r4mnev:w4 r never married
+r5mnev,,,r5mnev:w5 r never married
+r6mnev,,,r6mnev:w6 r never married
+s1mnev,,,s1mnev:w1 s never married
+s2mnev,,,s2mnev:w2 s never married
+s3mnev,,,s3mnev:w3 s never married
+s4mnev,,,s4mnev:w4 s never married
+s5mnev,,,s5mnev:w5 s never married
+s6mnev,,,s6mnev:w6 s never married
+r1mdiv,,,r1mdiv:w1 r # times divorced
+r2mdiv,,,r2mdiv:w2 r # times divorced
+r3mdiv,,,r3mdiv:w3 r # times divorced
+r4mdiv,,,r4mdiv:w4 r # times divorced
+r5mdiv,,,r5mdiv:w5 r # times divorced
+r6mdiv,,,r6mdiv:w6 r # times divorced
+s1mdiv,,,s1mdiv:w1 s # times divorced
+s2mdiv,,,s2mdiv:w2 s # times divorced
+s3mdiv,,,s3mdiv:w3 s # times divorced
+s4mdiv,,,s4mdiv:w4 s # times divorced
+s5mdiv,,,s5mdiv:w5 s # times divorced
+s6mdiv,,,s6mdiv:w6 s # times divorced
+r1mwid,,,r1mwid:w1 r # times widowed
+r2mwid,,,r2mwid:w2 r # times widowed
+r3mwid,,,r3mwid:w3 r # times widowed
+r4mwid,,,r4mwid:w4 r # times widowed
+r5mwid,,,r5mwid:w5 r # times widowed
+r6mwid,,,r6mwid:w6 r # times widowed
+s1mwid,,,s1mwid:w1 s # times widowed
+s2mwid,,,s2mwid:w2 s # times widowed
+s3mwid,,,s3mwid:w3 s # times widowed
+s4mwid,,,s4mwid:w4 s # times widowed
+s5mwid,,,s5mwid:w5 s # times widowed
+s6mwid,,,s6mwid:w6 s # times widowed
+r1mend,,,r1mend:w1 r # times unknown end marriage
+r2mend,,,r2mend:w2 r # times unknown end marriage
+r3mend,,,r3mend:w3 r # times unknown end marriage
+r4mend,,,r4mend:w4 r # times unknown end marriage
+r5mend,,,r5mend:w5 r # times unknown end marriage
+r6mend,,,r6mend:w6 r # times unknown end marriage
+s1mend,,,s1mend:w1 s # times unknown end marriage
+s2mend,,,s2mend:w2 s # times unknown end marriage
+s3mend,,,s3mend:w3 s # times unknown end marriage
+s4mend,,,s4mend:w4 s # times unknown end marriage
+s5mend,,,s5mend:w5 s # times unknown end marriage
+s6mend,,,s6mend:w6 s # times unknown end marriage
+r1mcurln,,,r1mcurln:w1 r length of current marriage
+r2mcurln,,,r2mcurln:w2 r length of current marriage
+r3mcurln,,,r3mcurln:w3 r length of current marriage
+r4mcurln,,,r4mcurln:w4 r length of current marriage
+r5mcurln,,,r5mcurln:w5 r length of current marriage
+r6mcurln,,,r6mcurln:w6 r length of current marriage
+s1mcurln,,,s1mcurln:w1 s length of current marriage
+s2mcurln,,,s2mcurln:w2 s length of current marriage
+s3mcurln,,,s3mcurln:w3 s length of current marriage
+s4mcurln,,,s4mcurln:w4 s length of current marriage
+s5mcurln,,,s5mcurln:w5 s length of current marriage
+s6mcurln,,,s6mcurln:w6 s length of current marriage
+r1mlen,,,r1mlen:w1 r length of longest marriage
+r2mlen,,,r2mlen:w2 r length of longest marriage
+r3mlen,,,r3mlen:w3 r length of longest marriage
+r4mlen,,,r4mlen:w4 r length of longest marriage
+r5mlen,,,r5mlen:w5 r length of longest marriage
+r6mlen,,,r6mlen:w6 r length of longest marriage
+s1mlen,,,s1mlen:w1 s length of longest marriage
+s2mlen,,,s2mlen:w2 s length of longest marriage
+s3mlen,,,s3mlen:w3 s length of longest marriage
+s4mlen,,,s4mlen:w4 s length of longest marriage
+s5mlen,,,s5mlen:w5 s length of longest marriage
+s6mlen,,,s6mlen:w6 s length of longest marriage
+rabplace,,,rabplace: r place of birth
+s1bplace,,,s1bplace: s place of birth
+s2bplace,,,s2bplace: s place of birth
+s3bplace,,,s3bplace: s place of birth
+s4bplace,,,s4bplace: s place of birth
+s5bplace,,,s5bplace: s place of birth
+s6bplace,,,s6bplace: s place of birth
+rarelig.e,,,rarelig_e:r religion
+s5relig.e,,,s5relig_e:w5 s religion
+r1momliv,,,r1momliv:w1 mother alive
+r2momliv,,,r2momliv:w2 mother alive
+r3momliv,,,r3momliv:w3 mother alive
+r4momliv,,,r4momliv:w4 mother alive
+r5momliv,,,r5momliv:w5 mother alive
+r6momliv,,,r6momliv:w6 mother alive
+s1momliv,,,s1momliv:w1 mother alive
+s2momliv,,,s2momliv:w2 mother alive
+s3momliv,,,s3momliv:w3 mother alive
+s4momliv,,,s4momliv:w4 mother alive
+s5momliv,,,s5momliv:w5 mother alive
+s6momliv,,,s6momliv:w6 mother alive
+r1dadliv,,,r1dadliv:w1 father alive
+r2dadliv,,,r2dadliv:w2 father alive
+r3dadliv,,,r3dadliv:w3 father alive
+r4dadliv,,,r4dadliv:w4 father alive
+r5dadliv,,,r5dadliv:w5 father alive
+r6dadliv,,,r6dadliv:w6 father alive
+s1dadliv,,,s1dadliv:w1 father alive
+s2dadliv,,,s2dadliv:w2 father alive
+s3dadliv,,,s3dadliv:w3 father alive
+s4dadliv,,,s4dadliv:w4 father alive
+s5dadliv,,,s5dadliv:w5 father alive
+s6dadliv,,,s6dadliv:w6 father alive
+r1momage,,,r1momage:w1 mother age current/at death
+r2momage,,,r2momage:w2 mother age current/at death
+r3momage,,,r3momage:w3 mother age current/at death
+r4momage,,,r4momage:w4 mother age current/at death
+r5momage,,,r5momage:w5 mother age current/at death
+r6momage,,,r6momage:w6 mother age current/at death
+s1momage,,,s1momage:w1 mother age current/at death
+s2momage,,,s2momage:w2 mother age current/at death
+s3momage,,,s3momage:w3 mother age current/at death
+s4momage,,,s4momage:w4 mother age current/at death
+s5momage,,,s5momage:w5 mother age current/at death
+s6momage,,,s6momage:w6 mother age current/at death
+r1fmomage,,,r1fmomage:w1 flag mother age current/at death
+r2fmomage,,,r2fmomage:w2 flag mother age current/at death
+r3fmomage,,,r3fmomage:w3 flag mother age current/at death
+r4fmomage,,,r4fmomage:w4 flag mother age current/at death
+r5fmomage,,,r5fmomage:w5 flag mother age current/at death
+r6fmomage,,,r6fmomage:w6 flag mother age current/at death
+s1fmomage,,,s1fmomage:w1 flag mother age current/at death
+s2fmomage,,,s2fmomage:w2 flag mother age current/at death
+s3fmomage,,,s3fmomage:w3 flag mother age current/at death
+s4fmomage,,,s4fmomage:w4 flag mother age current/at death
+s5fmomage,,,s5fmomage:w5 flag mother age current/at death
+s6fmomage,,,s6fmomage:w6 flag mother age current/at death
+r1dadage,,,r1dadage:w1 father age current/at death
+r2dadage,,,r2dadage:w2 father age current/at death
+r3dadage,,,r3dadage:w3 father age current/at death
+r4dadage,,,r4dadage:w4 father age current/at death
+r5dadage,,,r5dadage:w5 father age current/at death
+r6dadage,,,r6dadage:w6 father age current/at death
+s1dadage,,,s1dadage:w1 father age current/at death
+s2dadage,,,s2dadage:w2 father age current/at death
+s3dadage,,,s3dadage:w3 father age current/at death
+s4dadage,,,s4dadage:w4 father age current/at death
+s5dadage,,,s5dadage:w5 father age current/at death
+s6dadage,,,s6dadage:w6 father age current/at death
+r1fdadage,,,r1fdadage:w1 flag father age current/at death
+r2fdadage,,,r2fdadage:w2 flag father age current/at death
+r3fdadage,,,r3fdadage:w3 flag father age current/at death
+r4fdadage,,,r4fdadage:w4 flag father age current/at death
+r5fdadage,,,r5fdadage:w5 flag father age current/at death
+r6fdadage,,,r6fdadage:w6 flag father age current/at death
+s1fdadage,,,s1fdadage:w1 flag father age current/at death
+s2fdadage,,,s2fdadage:w2 flag father age current/at death
+s3fdadage,,,s3fdadage:w3 flag father age current/at death
+s4fdadage,,,s4fdadage:w4 flag father age current/at death
+s5fdadage,,,s5fdadage:w5 flag father age current/at death
+s6fdadage,,,s6fdadage:w6 flag father age current/at death
+r1shlt,,,r1shlt:w1 self-report of health
+r2shlt,,,r2shlt:w2 self-report of health
+r4shlt,,,r4shlt:w4 self-report of health
+r5shlt,,,r5shlt:w5 self-report of health
+r6shlt,,,r6shlt:w6 self-report of health
+s1shlt,,,s1shlt:w1 self-report of health
+s2shlt,,,s2shlt:w2 self-report of health
+s4shlt,,,s4shlt:w4 self-report of health
+s5shlt,,,s5shlt:w5 self-report of health
+s6shlt,,,s6shlt:w6 self-report of health
+r1shltf,,,r1shltf:w1 flag position of self-report health
+s1shltf,,,s1shltf:w1 flag position of self-report health
+r1shlta,,,"r1shlta:w1 self-report of health, European scale"
+r3shlta,,,"r3shlta:w3 self-report of health, European scale"
+s1shlta,,,"s1shlta:w1 self-report of health, European scale"
+s3shlta,,,"s3shlta:w3 self-report of health, European scale"
+r1shltaf,,,"r1shltaf:w1 flag position of self-report health, European scale"
+s1shltaf,,,"s1shltaf:w1 flag position of self-report health, European scale"
+r2hlthlm,,,r2hlthlm:w2 hlth problems limit work
+r3hlthlm,,,r3hlthlm:w3 hlth problems limit work
+r4hlthlm,,,r4hlthlm:w4 hlth problems limit work
+r5hlthlm,,,r5hlthlm:w5 hlth problems limit work
+r6hlthlm,,,r6hlthlm:w6 hlth problems limit work
+s2hlthlm,,,s2hlthlm:w2 hlth problems limit work
+s3hlthlm,,,s3hlthlm:w3 hlth problems limit work
+s4hlthlm,,,s4hlthlm:w4 hlth problems limit work
+s5hlthlm,,,s5hlthlm:w5 hlth problems limit work
+s6hlthlm,,,s6hlthlm:w6 hlth problems limit work
+r1walkra,,,r1walkra:w1 R Some Diff-Walk across room
+r2walkra,,,r2walkra:w2 R Some Diff-Walk across room
+r3walkra,,,r3walkra:w3 R Some Diff-Walk across room
+r4walkra,,,r4walkra:w4 R Some Diff-Walk across room
+r5walkra,,,r5walkra:w5 R Some Diff-Walk across room
+r6walkra,,,r6walkra:w6 R Some Diff-Walk across room
+s1walkra,,,s1walkra:w1 S Some Diff-Walk across room
+s2walkra,,,s2walkra:w2 S Some Diff-Walk across room
+s3walkra,,,s3walkra:w3 S Some Diff-Walk across room
+s4walkra,,,s4walkra:w4 S Some Diff-Walk across room
+s5walkra,,,s5walkra:w5 S Some Diff-Walk across room
+s6walkra,,,s6walkra:w6 S Some Diff-Walk across room
+r1dressa,,,r1dressa:w1 R Some Diff-Dressing
+r2dressa,,,r2dressa:w2 R Some Diff-Dressing
+r3dressa,,,r3dressa:w3 R Some Diff-Dressing
+r4dressa,,,r4dressa:w4 R Some Diff-Dressing
+r5dressa,,,r5dressa:w5 R Some Diff-Dressing
+r6dressa,,,r6dressa:w6 R Some Diff-Dressing
+s1dressa,,,s1dressa:w1 S Some Diff-Dressing
+s2dressa,,,s2dressa:w2 S Some Diff-Dressing
+s3dressa,,,s3dressa:w3 S Some Diff-Dressing
+s4dressa,,,s4dressa:w4 S Some Diff-Dressing
+s5dressa,,,s5dressa:w5 S Some Diff-Dressing
+s6dressa,,,s6dressa:w6 S Some Diff-Dressing
+r1batha,,,"r1batha:w1 R Some Diff-Bathing, shower"
+r2batha,,,"r2batha:w2 R Some Diff-Bathing, shower"
+r3batha,,,"r3batha:w3 R Some Diff-Bathing, shower"
+r4batha,,,"r4batha:w4 R Some Diff-Bathing, shower"
+r5batha,,,"r5batha:w5 R Some Diff-Bathing, shower"
+r6batha,,,"r6batha:w6 R Some Diff-Bathing, shower"
+s1batha,,,"s1batha:w1 S Some Diff-Bathing, shower"
+s2batha,,,"s2batha:w2 S Some Diff-Bathing, shower"
+s3batha,,,"s3batha:w3 S Some Diff-Bathing, shower"
+s4batha,,,"s4batha:w4 S Some Diff-Bathing, shower"
+s5batha,,,"s5batha:w5 S Some Diff-Bathing, shower"
+s6batha,,,"s6batha:w6 S Some Diff-Bathing, shower"
+r1eata,,,r1eata:w1 R Some Diff-Eating
+r2eata,,,r2eata:w2 R Some Diff-Eating
+r3eata,,,r3eata:w3 R Some Diff-Eating
+r4eata,,,r4eata:w4 R Some Diff-Eating
+r5eata,,,r5eata:w5 R Some Diff-Eating
+r6eata,,,r6eata:w6 R Some Diff-Eating
+s1eata,,,s1eata:w1 S Some Diff-Eating
+s2eata,,,s2eata:w2 S Some Diff-Eating
+s3eata,,,s3eata:w3 S Some Diff-Eating
+s4eata,,,s4eata:w4 S Some Diff-Eating
+s5eata,,,s5eata:w5 S Some Diff-Eating
+s6eata,,,s6eata:w6 S Some Diff-Eating
+r1beda,,,r1beda:w1 R Some Diff-Get in/out bed
+r2beda,,,r2beda:w2 R Some Diff-Get in/out bed
+r3beda,,,r3beda:w3 R Some Diff-Get in/out bed
+r4beda,,,r4beda:w4 R Some Diff-Get in/out bed
+r5beda,,,r5beda:w5 R Some Diff-Get in/out bed
+r6beda,,,r6beda:w6 R Some Diff-Get in/out bed
+s1beda,,,s1beda:w1 S Some Diff-Get in/out bed
+s2beda,,,s2beda:w2 S Some Diff-Get in/out bed
+s3beda,,,s3beda:w3 S Some Diff-Get in/out bed
+s4beda,,,s4beda:w4 S Some Diff-Get in/out bed
+s5beda,,,s5beda:w5 S Some Diff-Get in/out bed
+s6beda,,,s6beda:w6 S Some Diff-Get in/out bed
+r1toilta,,,r1toilta:w1 R Some Diff-Using the toilet
+r2toilta,,,r2toilta:w2 R Some Diff-Using the toilet
+r3toilta,,,r3toilta:w3 R Some Diff-Using the toilet
+r4toilta,,,r4toilta:w4 R Some Diff-Using the toilet
+r5toilta,,,r5toilta:w5 R Some Diff-Using the toilet
+r6toilta,,,r6toilta:w6 R Some Diff-Using the toilet
+s1toilta,,,s1toilta:w1 S Some Diff-Using the toilet
+s2toilta,,,s2toilta:w2 S Some Diff-Using the toilet
+s3toilta,,,s3toilta:w3 S Some Diff-Using the toilet
+s4toilta,,,s4toilta:w4 S Some Diff-Using the toilet
+s5toilta,,,s5toilta:w5 S Some Diff-Using the toilet
+s6toilta,,,s6toilta:w6 S Some Diff-Using the toilet
+r1mapa,,,r1mapa:w1 R Some Diff-Use a map
+r2mapa,,,r2mapa:w2 R Some Diff-Use a map
+r3mapa,,,r3mapa:w3 R Some Diff-Use a map
+r4mapa,,,r4mapa:w4 R Some Diff-Use a map
+r5mapa,,,r5mapa:w5 R Some Diff-Use a map
+r6mapa,,,r6mapa:w6 R Some Diff-Use a map
+s1mapa,,,s1mapa:w1 S Some Diff-Use a map
+s2mapa,,,s2mapa:w2 S Some Diff-Use a map
+s3mapa,,,s3mapa:w3 S Some Diff-Use a map
+s4mapa,,,s4mapa:w4 S Some Diff-Use a map
+s5mapa,,,s5mapa:w5 S Some Diff-Use a map
+s6mapa,,,s6mapa:w6 S Some Diff-Use a map
+r1phonea,,,r1phonea:w1 R Some Diff-Use telephone
+r2phonea,,,r2phonea:w2 R Some Diff-Use telephone
+r3phonea,,,r3phonea:w3 R Some Diff-Use telephone
+r4phonea,,,r4phonea:w4 R Some Diff-Use telephone
+r5phonea,,,r5phonea:w5 R Some Diff-Use telephone
+r6phonea,,,r6phonea:w6 R Some Diff-Use telephone
+s1phonea,,,s1phonea:w1 S Some Diff-Use a telephone
+s2phonea,,,s2phonea:w2 S Some Diff-Use a telephone
+s3phonea,,,s3phonea:w3 S Some Diff-Use a telephone
+s4phonea,,,s4phonea:w4 S Some Diff-Use a telephone
+s5phonea,,,s5phonea:w5 S Some Diff-Use a telephone
+s6phonea,,,s6phonea:w6 S Some Diff-Use a telephone
+r1moneya,,,r1moneya:w1 R Some Diff-Managing money
+r2moneya,,,r2moneya:w2 R Some Diff-Managing money
+r3moneya,,,r3moneya:w3 R Some Diff-Managing money
+r4moneya,,,r4moneya:w4 R Some Diff-Managing money
+r5moneya,,,r5moneya:w5 R Some Diff-Managing money
+r6moneya,,,r6moneya:w6 R Some Diff-Managing money
+s1moneya,,,s1moneya:w1 S Some Diff-Managing money
+s2moneya,,,s2moneya:w2 S Some Diff-Managing money
+s3moneya,,,s3moneya:w3 S Some Diff-Managing money
+s4moneya,,,s4moneya:w4 S Some Diff-Managing money
+s5moneya,,,s5moneya:w5 S Some Diff-Managing money
+s6moneya,,,s6moneya:w6 S Some Diff-Managing money
+r1medsa,,,r1medsa:w1 R Some Diff-Take medications
+r2medsa,,,r2medsa:w2 R Some Diff-Take medications
+r3medsa,,,r3medsa:w3 R Some Diff-Take medications
+r4medsa,,,r4medsa:w4 R Some Diff-Take medications
+r5medsa,,,r5medsa:w5 R Some Diff-Take medications
+r6medsa,,,r6medsa:w6 R Some Diff-Take medications
+s1medsa,,,s1medsa:w1 S Some Diff-Take medications
+s2medsa,,,s2medsa:w2 S Some Diff-Take medications
+s3medsa,,,s3medsa:w3 S Some Diff-Take medications
+s4medsa,,,s4medsa:w4 S Some Diff-Take medications
+s5medsa,,,s5medsa:w5 S Some Diff-Take medications
+s6medsa,,,s6medsa:w6 S Some Diff-Take medications
+r1shopa,,,r1shopa:w1 R Some Diff-Shop for grocery
+r2shopa,,,r2shopa:w2 R Some Diff-Shop for grocery
+r3shopa,,,r3shopa:w3 R Some Diff-Shop for grocery
+r4shopa,,,r4shopa:w4 R Some Diff-Shop for grocery
+r5shopa,,,r5shopa:w5 R Some Diff-Shop for grocery
+r6shopa,,,r6shopa:w6 R Some Diff-Shop for grocery
+s1shopa,,,s1shopa:w1 S Some Diff-Shop for grocery
+s2shopa,,,s2shopa:w2 S Some Diff-Shop for grocery
+s3shopa,,,s3shopa:w3 S Some Diff-Shop for grocery
+s4shopa,,,s4shopa:w4 S Some Diff-Shop for grocery
+s5shopa,,,s5shopa:w5 S Some Diff-Shop for grocery
+s6shopa,,,s6shopa:w6 S Some Diff-Shop for grocery
+r1mealsa,,,r1mealsa:w1 R Some Diff-Prepare hot meal
+r2mealsa,,,r2mealsa:w2 R Some Diff-Prepare hot meal
+r3mealsa,,,r3mealsa:w3 R Some Diff-Prepare hot meal
+r4mealsa,,,r4mealsa:w4 R Some Diff-Prepare hot meal
+r5mealsa,,,r5mealsa:w5 R Some Diff-Prepare hot meal
+r6mealsa,,,r6mealsa:w6 R Some Diff-Prepare hot meal
+s1mealsa,,,s1mealsa:w1 S Some Diff-Prepare hot meal
+s2mealsa,,,s2mealsa:w2 S Some Diff-Prepare hot meal
+s3mealsa,,,s3mealsa:w3 S Some Diff-Prepare hot meal
+s4mealsa,,,s4mealsa:w4 S Some Diff-Prepare hot meal
+s5mealsa,,,s5mealsa:w5 S Some Diff-Prepare hot meal
+s6mealsa,,,s6mealsa:w6 S Some Diff-Prepare hot meal
+r1housewka,,,r1housewka:w1 R Some Diff-Doing work around the house or garden
+r2housewka,,,r2housewka:w2 R Some Diff-Doing work around the house or garden
+r3housewka,,,r3housewka:w3 R Some Diff-Doing work around the house or garden
+r4housewka,,,r4housewka:w4 R Some Diff-Doing work around the house or garden
+r5housewka,,,r5housewka:w5 R Some Diff-Doing work around the house or garden
+r6housewka,,,r6housewka:w6 R Some Diff-Doing work around the house or garden
+s1housewka,,,s1housewka:w1 S Some Diff-Doing work around the house or garden
+s2housewka,,,s2housewka:w2 S Some Diff-Doing work around the house or garden
+s3housewka,,,s3housewka:w3 S Some Diff-Doing work around the house or garden
+s4housewka,,,s4housewka:w4 S Some Diff-Doing work around the house or garden
+s5housewka,,,s5housewka:w5 S Some Diff-Doing work around the house or garden
+s6housewka,,,s6housewka:w6 S Some Diff-Doing work around the house or garden
+r1walk100a,,,r1walk100a:w1 R Some Diff-Walk 100y
+r2walk100a,,,r2walk100a:w2 R Some Diff-Walk 100y
+r3walk100a,,,r3walk100a:w3 R Some Diff-Walk 100y
+r4walk100a,,,r4walk100a:w4 R Some Diff-Walk 100y
+r5walk100a,,,r5walk100a:w5 R Some Diff-Walk 100y
+r6walk100a,,,r6walk100a:w6 R Some Diff-Walk 100y
+s1walk100a,,,s1walk100a:w1 S Some Diff-Walk 100y
+s2walk100a,,,s2walk100a:w2 S Some Diff-Walk 100y
+s3walk100a,,,s3walk100a:w3 S Some Diff-Walk 100y
+s4walk100a,,,s4walk100a:w4 S Some Diff-Walk 100y
+s5walk100a,,,s5walk100a:w5 S Some Diff-Walk 100y
+s6walk100a,,,s6walk100a:w6 S Some Diff-Walk 100y
+r1sita,,,r1sita:w1 R Some Diff-Sit for 2 hours
+r2sita,,,r2sita:w2 R Some Diff-Sit for 2 hours
+r3sita,,,r3sita:w3 R Some Diff-Sit for 2 hours
+r4sita,,,r4sita:w4 R Some Diff-Sit for 2 hours
+r5sita,,,r5sita:w5 R Some Diff-Sit for 2 hours
+r6sita,,,r6sita:w6 R Some Diff-Sit for 2 hours
+s1sita,,,s1sita:w1 S Some Diff-Sit for 2 hours
+s2sita,,,s2sita:w2 S Some Diff-Sit for 2 hours
+s3sita,,,s3sita:w3 S Some Diff-Sit for 2 hours
+s4sita,,,s4sita:w4 S Some Diff-Sit for 2 hours
+s5sita,,,s5sita:w5 S Some Diff-Sit for 2 hours
+s6sita,,,s6sita:w6 S Some Diff-Sit for 2 hours
+r1chaira,,,r1chaira:w1 R Some Diff-Get up fr chair
+r2chaira,,,r2chaira:w2 R Some Diff-Get up fr chair
+r3chaira,,,r3chaira:w3 R Some Diff-Get up fr chair
+r4chaira,,,r4chaira:w4 R Some Diff-Get up fr chair
+r5chaira,,,r5chaira:w5 R Some Diff-Get up fr chair
+r6chaira,,,r6chaira:w6 R Some Diff-Get up fr chair
+s1chaira,,,s1chaira:w1 S Some Diff-Get up fr chair
+s2chaira,,,s2chaira:w2 S Some Diff-Get up fr chair
+s3chaira,,,s3chaira:w3 S Some Diff-Get up fr chair
+s4chaira,,,s4chaira:w4 S Some Diff-Get up fr chair
+s5chaira,,,s5chaira:w5 S Some Diff-Get up fr chair
+s6chaira,,,s6chaira:w6 S Some Diff-Get up fr chair
+r1climsa,,,r1climsa:w1 R Some Diff-Clmb sev flt str
+r2climsa,,,r2climsa:w2 R Some Diff-Clmb sev flt str
+r3climsa,,,r3climsa:w3 R Some Diff-Clmb sev flt str
+r4climsa,,,r4climsa:w4 R Some Diff-Clmb sev flt str
+r5climsa,,,r5climsa:w5 R Some Diff-Clmb sev flt str
+r6climsa,,,r6climsa:w6 R Some Diff-Clmb sev flt str
+s1climsa,,,s1climsa:w1 S Some Diff-Clmb sev flt str
+s2climsa,,,s2climsa:w2 S Some Diff-Clmb sev flt str
+s3climsa,,,s3climsa:w3 S Some Diff-Clmb sev flt str
+s4climsa,,,s4climsa:w4 S Some Diff-Clmb sev flt str
+s5climsa,,,s5climsa:w5 S Some Diff-Clmb sev flt str
+s6climsa,,,s6climsa:w6 S Some Diff-Clmb sev flt str
+r1clim1a,,,r1clim1a:w1 R Some Diff-Clmb 1 flt str
+r2clim1a,,,r2clim1a:w2 R Some Diff-Clmb 1 flt str
+r3clim1a,,,r3clim1a:w3 R Some Diff-Clmb 1 flt str
+r4clim1a,,,r4clim1a:w4 R Some Diff-Clmb 1 flt str
+r5clim1a,,,r5clim1a:w5 R Some Diff-Clmb 1 flt str
+r6clim1a,,,r6clim1a:w6 R Some Diff-Clmb 1 flt str
+s1clim1a,,,s1clim1a:w1 S Some Diff-Clmb 1 flt str
+s2clim1a,,,s2clim1a:w2 S Some Diff-Clmb 1 flt str
+s3clim1a,,,s3clim1a:w3 S Some Diff-Clmb 1 flt str
+s4clim1a,,,s4clim1a:w4 S Some Diff-Clmb 1 flt str
+s5clim1a,,,s5clim1a:w5 S Some Diff-Clmb 1 flt str
+s6clim1a,,,s6clim1a:w6 S Some Diff-Clmb 1 flt str
+r1stoopa,,,r1stoopa:w1 R Some Diff-Stoop/Kneel/Crch
+r2stoopa,,,r2stoopa:w2 R Some Diff-Stoop/Kneel/Crch
+r3stoopa,,,r3stoopa:w3 R Some Diff-Stoop/Kneel/Crch
+r4stoopa,,,r4stoopa:w4 R Some Diff-Stoop/Kneel/Crch
+r5stoopa,,,r5stoopa:w5 R Some Diff-Stoop/Kneel/Crch
+r6stoopa,,,r6stoopa:w6 R Some Diff-Stoop/Kneel/Crch
+s1stoopa,,,s1stoopa:w1 S Some Diff-Stoop/Kneel/Crch
+s2stoopa,,,s2stoopa:w2 S Some Diff-Stoop/Kneel/Crch
+s3stoopa,,,s3stoopa:w3 S Some Diff-Stoop/Kneel/Crch
+s4stoopa,,,s4stoopa:w4 S Some Diff-Stoop/Kneel/Crch
+s5stoopa,,,s5stoopa:w5 S Some Diff-Stoop/Kneel/Crch
+s6stoopa,,,s6stoopa:w6 S Some Diff-Stoop/Kneel/Crch
+r1lifta,,,r1lifta:w1 R Some Diff-Lift/carry 10lbs
+r2lifta,,,r2lifta:w2 R Some Diff-Lift/carry 10lbs
+r3lifta,,,r3lifta:w3 R Some Diff-Lift/carry 10lbs
+r4lifta,,,r4lifta:w4 R Some Diff-Lift/carry 10lbs
+r5lifta,,,r5lifta:w5 R Some Diff-Lift/carry 10lbs
+r6lifta,,,r6lifta:w6 R Some Diff-Lift/carry 10lbs
+s1lifta,,,s1lifta:w1 S Some Diff-Lift/carry 10lbs
+s2lifta,,,s2lifta:w2 S Some Diff-Lift/carry 10lbs
+s3lifta,,,s3lifta:w3 S Some Diff-Lift/carry 10lbs
+s4lifta,,,s4lifta:w4 S Some Diff-Lift/carry 10lbs
+s5lifta,,,s5lifta:w5 S Some Diff-Lift/carry 10lbs
+s6lifta,,,s6lifta:w6 S Some Diff-Lift/carry 10lbs
+r1dimea,,,r1dimea:w1 R Some Diff-Pick up a 5p coin
+r2dimea,,,r2dimea:w2 R Some Diff-Pick up a 5p coin
+r3dimea,,,r3dimea:w3 R Some Diff-Pick up a 5p coin
+r4dimea,,,r4dimea:w4 R Some Diff-Pick up a 5p coin
+r5dimea,,,r5dimea:w5 R Some Diff-Pick up a 5p coin
+r6dimea,,,r6dimea:w6 R Some Diff-Pick up a 5p coin
+s1dimea,,,s1dimea:w1 S Some Diff-Pick up a 5p coin
+s2dimea,,,s2dimea:w2 S Some Diff-Pick up a 5p coin
+s3dimea,,,s3dimea:w3 S Some Diff-Pick up a 5p coin
+s4dimea,,,s4dimea:w4 S Some Diff-Pick up a 5p coin
+s5dimea,,,s5dimea:w5 S Some Diff-Pick up a 5p coin
+s6dimea,,,s6dimea:w6 S Some Diff-Pick up a 5p coin
+r1armsa,,,r1armsa:w1 R Some Diff-Rch/xtnd arms up
+r2armsa,,,r2armsa:w2 R Some Diff-Rch/xtnd arms up
+r3armsa,,,r3armsa:w3 R Some Diff-Rch/xtnd arms up
+r4armsa,,,r4armsa:w4 R Some Diff-Rch/xtnd arms up
+r5armsa,,,r5armsa:w5 R Some Diff-Rch/xtnd arms up
+r6armsa,,,r6armsa:w6 R Some Diff-Rch/xtnd arms up
+s1armsa,,,s1armsa:w1 S Some Diff-Rch/xtnd arms up
+s2armsa,,,s2armsa:w2 S Some Diff-Rch/xtnd arms up
+s3armsa,,,s3armsa:w3 S Some Diff-Rch/xtnd arms up
+s4armsa,,,s4armsa:w4 S Some Diff-Rch/xtnd arms up
+s5armsa,,,s5armsa:w5 S Some Diff-Rch/xtnd arms up
+s6armsa,,,s6armsa:w6 S Some Diff-Rch/xtnd arms up
+r1pusha,,,r1pusha:w1 R Some Diff-Push/pull lg obj
+r2pusha,,,r2pusha:w2 R Some Diff-Push/pull lg obj
+r3pusha,,,r3pusha:w3 R Some Diff-Push/pull lg obj
+r4pusha,,,r4pusha:w4 R Some Diff-Push/pull lg obj
+r5pusha,,,r5pusha:w5 R Some Diff-Push/pull lg obj
+r6pusha,,,r6pusha:w6 R Some Diff-Push/pull lg obj
+s1pusha,,,s1pusha:w1 S Some Diff-Push/pull lg obj
+s2pusha,,,s2pusha:w2 S Some Diff-Push/pull lg obj
+s3pusha,,,s3pusha:w3 S Some Diff-Push/pull lg obj
+s4pusha,,,s4pusha:w4 S Some Diff-Push/pull lg obj
+s5pusha,,,s5pusha:w5 S Some Diff-Push/pull lg obj
+s6pusha,,,s6pusha:w6 S Some Diff-Push/pull lg obj
+r1adla,,,r1adla:w1 R Some Diff-ADLs /0-5
+r2adla,,,r2adla:w2 R Some Diff-ADLs /0-5
+r3adla,,,r3adla:w3 R Some Diff-ADLs /0-5
+r4adla,,,r4adla:w4 R Some Diff-ADLs /0-5
+r5adla,,,r5adla:w5 R Some Diff-ADLs /0-5
+r6adla,,,r6adla:w6 R Some Diff-ADLs /0-5
+s1adla,,,s1adla:w1 S Some Diff-ADLs /0-5
+s2adla,,,s2adla:w2 S Some Diff-ADLs /0-5
+s3adla,,,s3adla:w3 S Some Diff-ADLs /0-5
+s4adla,,,s4adla:w4 S Some Diff-ADLs /0-5
+s5adla,,,s5adla:w5 S Some Diff-ADLs /0-5
+s6adla,,,s6adla:w6 S Some Diff-ADLs /0-5
+r1adlam,,,r1adlam:w1 Missings in Some Diff-ADLs /0-5
+r2adlam,,,r2adlam:w2 Missings in Some Diff-ADLs /0-5
+r3adlam,,,r3adlam:w3 Missings in Some Diff-ADLs /0-5
+r4adlam,,,r4adlam:w4 Missings in Some Diff-ADLs /0-5
+r5adlam,,,r5adlam:w5 Missings in Some Diff-ADLs /0-5
+r6adlam,,,r6adlam:w6 Missings in Some Diff-ADLs /0-5
+s1adlam,,,s1adlam:w1 S Missings in Some Diff-ADLs /0-5
+s2adlam,,,s2adlam:w2 S Missings in Some Diff-ADLs /0-5
+s3adlam,,,s3adlam:w3 S Missings in Some Diff-ADLs /0-5
+s4adlam,,,s4adlam:w4 S Missings in Some Diff-ADLs /0-5
+s5adlam,,,s5adlam:w5 S Missings in Some Diff-ADLs /0-5
+s6adlam,,,s6adlam:w6 S Missings in Some Diff-ADLs /0-5
+r1adlwa,,,r1adlwa:w1 R Some Diff-ADLs:Wallace /0-3
+r2adlwa,,,r2adlwa:w2 R Some Diff-ADLs:Wallace /0-3
+r3adlwa,,,r3adlwa:w3 R Some Diff-ADLs:Wallace /0-3
+r4adlwa,,,r4adlwa:w4 R Some Diff-ADLs:Wallace /0-3
+r5adlwa,,,r5adlwa:w5 R Some Diff-ADLs:Wallace /0-3
+r6adlwa,,,r6adlwa:w6 R Some Diff-ADLs:Wallace /0-3
+s1adlwa,,,s1adlwa:w1 S Some Diff-ADLs:Wallace /0-3
+s2adlwa,,,s2adlwa:w2 S Some Diff-ADLs:Wallace /0-3
+s3adlwa,,,s3adlwa:w3 S Some Diff-ADLs:Wallace /0-3
+s4adlwa,,,s4adlwa:w4 S Some Diff-ADLs:Wallace /0-3
+s5adlwa,,,s5adlwa:w5 S Some Diff-ADLs:Wallace /0-3
+s6adlwa,,,s6adlwa:w6 S Some Diff-ADLs:Wallace /0-3
+r1adlwam,,,r1adlwam:w1 R Missings in Some Diff-ADLs:Wallace /0-3
+r2adlwam,,,r2adlwam:w2 R Missings in Some Diff-ADLs:Wallace /0-3
+r3adlwam,,,r3adlwam:w3 R Missings in Some Diff-ADLs:Wallace /0-3
+r4adlwam,,,r4adlwam:w4 R Missings in Some Diff-ADLs:Wallace /0-3
+r5adlwam,,,r5adlwam:w5 R Missings in Some Diff-ADLs:Wallace /0-3
+r6adlwam,,,r6adlwam:w6 R Missings in Some Diff-ADLs:Wallace /0-3
+s1adlwam,,,s1adlwam:w1 S Missings in Some Diff-ADLs:Wallace /0-3
+s2adlwam,,,s2adlwam:w2 S Missings in Some Diff-ADLs:Wallace /0-3
+s3adlwam,,,s3adlwam:w3 S Missings in Some Diff-ADLs:Wallace /0-3
+s4adlwam,,,s4adlwam:w4 S Missings in Some Diff-ADLs:Wallace /0-3
+s5adlwam,,,s5adlwam:w5 S Missings in Some Diff-ADLs:Wallace /0-3
+s6adlwam,,,s6adlwam:w6 S Missings in Some Diff-ADLs:Wallace /0-3
+r1iadla,,,r1iadla:w1 R Some Diff-IADLs: /0-3
+r2iadla,,,r2iadla:w2 R Some Diff-IADLs: /0-3
+r3iadla,,,r3iadla:w3 R Some Diff-IADLs: /0-3
+r4iadla,,,r4iadla:w4 R Some Diff-IADLs: /0-3
+r5iadla,,,r5iadla:w5 R Some Diff-IADLs: /0-3
+r6iadla,,,r6iadla:w6 R Some Diff-IADLs: /0-3
+s1iadla,,,s1iadla:w1 S Some Diff-IADLs: /0-3
+s2iadla,,,s2iadla:w2 S Some Diff-IADLs: /0-3
+s3iadla,,,s3iadla:w3 S Some Diff-IADLs: /0-3
+s4iadla,,,s4iadla:w4 S Some Diff-IADLs: /0-3
+s5iadla,,,s5iadla:w5 S Some Diff-IADLs: /0-3
+s6iadla,,,s6iadla:w6 S Some Diff-IADLs: /0-3
+r1iadlam,,,r1iadlam:w1 R Missings in Some Diff-IADLs: /0-3
+r2iadlam,,,r2iadlam:w2 R Missings in Some Diff-IADLs: /0-3
+r3iadlam,,,r3iadlam:w3 R Missings in Some Diff-IADLs: /0-3
+r4iadlam,,,r4iadlam:w4 R Missings in Some Diff-IADLs: /0-3
+r5iadlam,,,r5iadlam:w5 R Missings in Some Diff-IADLs: /0-3
+r6iadlam,,,r6iadlam:w6 R Missings in Some Diff-IADLs: /0-3
+s1iadlam,,,s1iadlam:w1 S Missings in Some Diff-IADLs: /0-3
+s2iadlam,,,s2iadlam:w2 S Missings in Some Diff-IADLs: /0-3
+s3iadlam,,,s3iadlam:w3 S Missings in Some Diff-IADLs: /0-3
+s4iadlam,,,s4iadlam:w4 S Missings in Some Diff-IADLs: /0-3
+s5iadlam,,,s5iadlam:w5 S Missings in Some Diff-IADLs: /0-3
+s6iadlam,,,s6iadlam:w6 S Missings in Some Diff-IADLs: /0-3
+r1iadlza,,,r1iadlza:w1 R Some Diff-IADLs: /0-5
+r2iadlza,,,r2iadlza:w2 R Some Diff-IADLs: /0-5
+r3iadlza,,,r3iadlza:w3 R Some Diff-IADLs: /0-5
+r4iadlza,,,r4iadlza:w4 R Some Diff-IADLs: /0-5
+r5iadlza,,,r5iadlza:w5 R Some Diff-IADLs: /0-5
+r6iadlza,,,r6iadlza:w6 R Some Diff-IADLs: /0-5
+s1iadlza,,,s1iadlza:w1 S Some Diff-IADLs: /0-5
+s2iadlza,,,s2iadlza:w2 S Some Diff-IADLs: /0-5
+s3iadlza,,,s3iadlza:w3 S Some Diff-IADLs: /0-5
+s4iadlza,,,s4iadlza:w4 S Some Diff-IADLs: /0-5
+s5iadlza,,,s5iadlza:w5 S Some Diff-IADLs: /0-5
+s6iadlza,,,s6iadlza:w6 S Some Diff-IADLs: /0-5
+r1iadlzam,,,r1iadlzam:w1 R Missings in Some Diff-IADLs: /0-5
+r2iadlzam,,,r2iadlzam:w2 R Missings in Some Diff-IADLs: /0-5
+r3iadlzam,,,r3iadlzam:w3 R Missings in Some Diff-IADLs: /0-5
+r4iadlzam,,,r4iadlzam:w4 R Missings in Some Diff-IADLs: /0-5
+r5iadlzam,,,r5iadlzam:w5 R Missings in Some Diff-IADLs: /0-5
+r6iadlzam,,,r6iadlzam:w6 R Missings in Some Diff-IADLs: /0-5
+s1iadlzam,,,s1iadlzam:w1 S Missings in Some Diff-IADLs: /0-5
+s2iadlzam,,,s2iadlzam:w2 S Missings in Some Diff-IADLs: /0-5
+s3iadlzam,,,s3iadlzam:w3 S Missings in Some Diff-IADLs: /0-5
+s4iadlzam,,,s4iadlzam:w4 S Missings in Some Diff-IADLs: /0-5
+s5iadlzam,,,s5iadlzam:w5 S Missings in Some Diff-IADLs: /0-5
+s6iadlzam,,,s6iadlzam:w6 S Missings in Some Diff-IADLs: /0-5
+r1mobilb,,,r1mobilb:w1 R Some Diff-Mobility /0-4
+r2mobilb,,,r2mobilb:w2 R Some Diff-Mobility /0-4
+r3mobilb,,,r3mobilb:w3 R Some Diff-Mobility /0-4
+r4mobilb,,,r4mobilb:w4 R Some Diff-Mobility /0-4
+r5mobilb,,,r5mobilb:w5 R Some Diff-Mobility /0-4
+r6mobilb,,,r6mobilb:w6 R Some Diff-Mobility /0-4
+s1mobilb,,,s1mobilb:w1 S Some Diff-Mobility /0-4
+s2mobilb,,,s2mobilb:w2 S Some Diff-Mobility /0-4
+s3mobilb,,,s3mobilb:w3 S Some Diff-Mobility /0-4
+s4mobilb,,,s4mobilb:w4 S Some Diff-Mobility /0-4
+s5mobilb,,,s5mobilb:w5 S Some Diff-Mobility /0-4
+s6mobilb,,,s6mobilb:w6 S Some Diff-Mobility /0-4
+r1mobilbm,,,r1mobilbm:w1 R Missings in Some Diff-Mobility /0-4
+r2mobilbm,,,r2mobilbm:w2 R Missings in Some Diff-Mobility /0-4
+r3mobilbm,,,r3mobilbm:w3 R Missings in Some Diff-Mobility /0-4
+r4mobilbm,,,r4mobilbm:w4 R Missings in Some Diff-Mobility /0-4
+r5mobilbm,,,r5mobilbm:w5 R Missings in Some Diff-Mobility /0-4
+r6mobilbm,,,r6mobilbm:w6 R Missings in Some Diff-Mobility /0-4
+s1mobilbm,,,s1mobilbm:w1 S Some Missings in Diff-Mobility /0-4
+s2mobilbm,,,s2mobilbm:w2 S Missings in Some Diff-Mobility /0-4
+s3mobilbm,,,s3mobilbm:w3 S Missings in Some Diff-Mobility /0-4
+s4mobilbm,,,s4mobilbm:w4 S Missings in Some Diff-Mobility /0-4
+s5mobilbm,,,s5mobilbm:w5 S Missings in Some Diff-Mobility /0-4
+s6mobilbm,,,s6mobilbm:w6 S Missings in Some Diff-Mobility /0-4
+r1lgmusa,,,r1lgmusa:w1 R Some Diff-Large muscle /0-4
+r2lgmusa,,,r2lgmusa:w2 R Some Diff-Large muscle /0-4
+r3lgmusa,,,r3lgmusa:w3 R Some Diff-Large muscle /0-4
+r4lgmusa,,,r4lgmusa:w4 R Some Diff-Large muscle /0-4
+r5lgmusa,,,r5lgmusa:w5 R Some Diff-Large muscle /0-4
+r6lgmusa,,,r6lgmusa:w6 R Some Diff-Large muscle /0-4
+s1lgmusa,,,s1lgmusa:w1 S Some Diff-Large muscle /0-4
+s2lgmusa,,,s2lgmusa:w2 S Some Diff-Large muscle /0-4
+s3lgmusa,,,s3lgmusa:w3 S Some Diff-Large muscle /0-4
+s4lgmusa,,,s4lgmusa:w4 S Some Diff-Large muscle /0-4
+s5lgmusa,,,s5lgmusa:w5 S Some Diff-Large muscle /0-4
+s6lgmusa,,,s6lgmusa:w6 S Some Diff-Large muscle /0-4
+r1lgmusam,,,r1lgmusam:w1 R Missings in Some Diff-Large muscle /0-4
+r2lgmusam,,,r2lgmusam:w2 R Missings in Some Diff-Large muscle /0-4
+r3lgmusam,,,r3lgmusam:w3 R Missings in Some Diff-Large muscle /0-4
+r4lgmusam,,,r4lgmusam:w4 R Missings in Some Diff-Large muscle /0-4
+r5lgmusam,,,r5lgmusam:w5 R Missings in Some Diff-Large muscle /0-4
+r6lgmusam,,,r6lgmusam:w6 R Missings in Some Diff-Large muscle /0-4
+s1lgmusam,,,s1lgmusam:w1 S Missings in Some Diff-Large muscle /0-4
+s2lgmusam,,,s2lgmusam:w2 S Missings in Some Diff-Large muscle /0-4
+s3lgmusam,,,s3lgmusam:w3 S Missings in Some Diff-Large muscle /0-4
+s4lgmusam,,,s4lgmusam:w4 S Missings in Some Diff-Large muscle /0-4
+s5lgmusam,,,s5lgmusam:w5 S Missings in Some Diff-Large muscle /0-4
+s6lgmusam,,,s6lgmusam:w6 S Missings in Some Diff-Large muscle /0-4
+r1grossa,,,"r1grossa:w1 R Some Diff-Wk,rn,clmb,bd,bth /0-5"
+r2grossa,,,"r2grossa:w2 R Some Diff-Wk,rn,clmb,bd,bth /0-5"
+r3grossa,,,"r3grossa:w3 R Some Diff-Wk,rn,clmb,bd,bth /0-5"
+r4grossa,,,"r4grossa:w4 R Some Diff-Wk,rn,clmb,bd,bth /0-5"
+r5grossa,,,"r5grossa:w5 R Some Diff-Wk,rn,clmb,bd,bth /0-5"
+r6grossa,,,"r6grossa:w6 R Some Diff-Wk,rn,clmb,bd,bth /0-5"
+s1grossa,,,"s1grossa:w1 S Some Diff-Wk,rn,clmb,bd,bth /0-5"
+s2grossa,,,"s2grossa:w2 S Some Diff-Wk,rn,clmb,bd,bth /0-5"
+s3grossa,,,"s3grossa:w3 S Some Diff-Wk,rn,clmb,bd,bth /0-5"
+s4grossa,,,"s4grossa:w4 S Some Diff-Wk,rn,clmb,bd,bth /0-5"
+s5grossa,,,"s5grossa:w5 S Some Diff-Wk,rn,clmb,bd,bth /0-5"
+s6grossa,,,"s6grossa:w6 S Some Diff-Wk,rn,clmb,bd,bth /0-5"
+r1grossam,,,"r1grossam:w1 R Missings in Some Diff-Wk,rn,clmb,bd,bth /0-5"
+r2grossam,,,"r2grossam:w2 R Missings in Some Diff-Wk,rn,clmb,bd,bth /0-5"
+r3grossam,,,"r3grossam:w3 R Missings in Some Diff-Wk,rn,clmb,bd,bth /0-5"
+r4grossam,,,"r4grossam:w4 R Missings in Some Diff-Wk,rn,clmb,bd,bth /0-5"
+r5grossam,,,"r5grossam:w5 R Missings in Some Diff-Wk,rn,clmb,bd,bth /0-5"
+r6grossam,,,"r6grossam:w6 R Missings in Some Diff-Wk,rn,clmb,bd,bth /0-5"
+s1grossam,,,"s1grossam:w1 S Missings in Some Diff-Wk,rn,clmb,bd,bth /0-5"
+s2grossam,,,"s2grossam:w2 S Missings in Some Diff-Wk,rn,clmb,bd,bth /0-5"
+s3grossam,,,"s3grossam:w3 S Missings in Some Diff-Wk,rn,clmb,bd,bth /0-5"
+s4grossam,,,"s4grossam:w4 S Missings in Some Diff-Wk,rn,clmb,bd,bth /0-5"
+s5grossam,,,"s5grossam:w5 S Missings in Some Diff-Wk,rn,clmb,bd,bth /0-5"
+s6grossam,,,"s6grossam:w6 S Missings in Some Diff-Wk,rn,clmb,bd,bth /0-5"
+r1finea,,,r1finea:w1 R Some Diff-Dime/eat/dress /0-3
+r2finea,,,r2finea:w2 R Some Diff-Dime/eat/dress /0-3
+r3finea,,,r3finea:w3 R Some Diff-Dime/eat/dress /0-3
+r4finea,,,r4finea:w4 R Some Diff-Dime/eat/dress /0-3
+r5finea,,,r5finea:w5 R Some Diff-Dime/eat/dress /0-3
+r6finea,,,r6finea:w6 R Some Diff-Dime/eat/dress /0-3
+s1finea,,,s1finea:w1 S Some Diff-Dime/eat/dress /0-3
+s2finea,,,s2finea:w2 S Some Diff-Dime/eat/dress /0-3
+s3finea,,,s3finea:w3 S Some Diff-Dime/eat/dress /0-3
+s4finea,,,s4finea:w4 S Some Diff-Dime/eat/dress /0-3
+s5finea,,,s5finea:w5 S Some Diff-Dime/eat/dress /0-3
+s6finea,,,s6finea:w6 S Some Diff-Dime/eat/dress /0-3
+r1fineam,,,r1fineam:w1 R Missings in Some Diff-Dime/eat/dress /0-3
+r2fineam,,,r2fineam:w2 R Missings in Some Diff-Dime/eat/dress /0-3
+r3fineam,,,r3fineam:w3 R Missings in Some Diff-Dime/eat/dress /0-3
+r4fineam,,,r4fineam:w4 R Missings in Some Diff-Dime/eat/dress /0-3
+r5fineam,,,r5fineam:w5 R Missings in Some Diff-Dime/eat/dress /0-3
+r6fineam,,,r6fineam:w6 R Missings in Some Diff-Dime/eat/dress /0-3
+s1fineam,,,s1fineam:w1 S Missings in Some Diff-Dime/eat/dress /0-3
+s2fineam,,,s2fineam:w2 S Missings in Some Diff-Dime/eat/dress /0-3
+s3fineam,,,s3fineam:w3 S Missings in Some Diff-Dime/eat/dress /0-3
+s4fineam,,,s4fineam:w4 S Missings in Some Diff-Dime/eat/dress /0-3
+s5fineam,,,s5fineam:w5 S Missings in Some Diff-Dime/eat/dress /0-3
+s6fineam,,,s6fineam:w6 S Missings in Some Diff-Dime/eat/dress /0-3
+r1depres,,,"r1depres:w1 CESD: Felt depressed (0,1)"
+r2depres,,,"r2depres:w2 CESD: Felt depressed (0,1)"
+r3depres,,,"r3depres:w3 CESD: Felt depressed (0,1)"
+r4depres,,,"r4depres:w4 CESD: Felt depressed (0,1)"
+r5depres,,,"r5depres:w5 CESD: Felt depressed (0,1)"
+r6depres,,,"r6depres:w6 CESD: Felt depressed (0,1)"
+s1depres,,,"s1depres:w1 CESD: Felt depressed (0,1)"
+s2depres,,,"s2depres:w2 CESD: Felt depressed (0,1)"
+s3depres,,,"s3depres:w3 CESD: Felt depressed (0,1)"
+s4depres,,,"s4depres:w4 CESD: Felt depressed (0,1)"
+s5depres,,,"s5depres:w5 CESD: Felt depressed (0,1)"
+s6depres,,,"s6depres:w6 CESD: Felt depressed (0,1)"
+r1effort,,,"r1effort:w1 CESD: Everthing an effort (0,1)"
+r2effort,,,"r2effort:w2 CESD: Everthing an effort (0,1)"
+r3effort,,,"r3effort:w3 CESD: Everthing an effort (0,1)"
+r4effort,,,"r4effort:w4 CESD: Everthing an effort (0,1)"
+r5effort,,,"r5effort:w5 CESD: Everthing an effort (0,1)"
+r6effort,,,"r6effort:w6 CESD: Everthing an effort (0,1)"
+s1effort,,,"s1effort:w1 CESD: Everthing an effort (0,1)"
+s2effort,,,"s2effort:w2 CESD: Everthing an effort (0,1)"
+s3effort,,,"s3effort:w3 CESD: Everthing an effort (0,1)"
+s4effort,,,"s4effort:w4 CESD: Everthing an effort (0,1)"
+s5effort,,,"s5effort:w5 CESD: Everthing an effort (0,1)"
+s6effort,,,"s6effort:w6 CESD: Everthing an effort (0,1)"
+r1sleepr,,,"r1sleepr:w1 CESD: Sleep was restless (0,1)"
+r2sleepr,,,"r2sleepr:w2 CESD: Sleep was restless (0,1)"
+r3sleepr,,,"r3sleepr:w3 CESD: Sleep was restless (0,1)"
+r4sleepr,,,"r4sleepr:w4 CESD: Sleep was restless (0,1)"
+r5sleepr,,,"r5sleepr:w5 CESD: Sleep was restless (0,1)"
+r6sleepr,,,"r6sleepr:w6 CESD: Sleep was restless (0,1)"
+s1sleepr,,,"s1sleepr:w1 CESD: Sleep was restless (0,1)"
+s2sleepr,,,"s2sleepr:w2 CESD: Sleep was restless (0,1)"
+s3sleepr,,,"s3sleepr:w3 CESD: Sleep was restless (0,1)"
+s4sleepr,,,"s4sleepr:w4 CESD: Sleep was restless (0,1)"
+s5sleepr,,,"s5sleepr:w5 CESD: Sleep was restless (0,1)"
+s6sleepr,,,"s6sleepr:w6 CESD: Sleep was restless (0,1)"
+r1whappy,,,"r1whappy:w1 CESD: Was happy (0,1)"
+r2whappy,,,"r2whappy:w2 CESD: Was happy (0,1)"
+r3whappy,,,"r3whappy:w3 CESD: Was happy (0,1)"
+r4whappy,,,"r4whappy:w4 CESD: Was happy (0,1)"
+r5whappy,,,"r5whappy:w5 CESD: Was happy (0,1)"
+r6whappy,,,"r6whappy:w6 CESD: Was happy (0,1)"
+s1whappy,,,"s1whappy:w1 CESD: Was happy (0,1)"
+s2whappy,,,"s2whappy:w2 CESD: Was happy (0,1)"
+s3whappy,,,"s3whappy:w3 CESD: Was happy (0,1)"
+s4whappy,,,"s4whappy:w4 CESD: Was happy (0,1)"
+s5whappy,,,"s5whappy:w5 CESD: Was happy (0,1)"
+s6whappy,,,"s6whappy:w6 CESD: Was happy (0,1)"
+r1flone,,,"r1flone:w1 CESD: Felt lonely (0,1)"
+r2flone,,,"r2flone:w2 CESD: Felt lonely (0,1)"
+r3flone,,,"r3flone:w3 CESD: Felt lonely (0,1)"
+r4flone,,,"r4flone:w4 CESD: Felt lonely (0,1)"
+r5flone,,,"r5flone:w5 CESD: Felt lonely (0,1)"
+r6flone,,,"r6flone:w6 CESD: Felt lonely (0,1)"
+s1flone,,,"s1flone:w1 CESD: Felt lonely (0,1)"
+s2flone,,,"s2flone:w2 CESD: Felt lonely (0,1)"
+s3flone,,,"s3flone:w3 CESD: Felt lonely (0,1)"
+s4flone,,,"s4flone:w4 CESD: Felt lonely (0,1)"
+s5flone,,,"s5flone:w5 CESD: Felt lonely (0,1)"
+s6flone,,,"s6flone:w6 CESD: Felt lonely (0,1)"
+r1fsad,,,"r1fsad:w1 CESD: Felt sad (0,1)"
+r2fsad,,,"r2fsad:w2 CESD: Felt sad (0,1)"
+r3fsad,,,"r3fsad:w3 CESD: Felt sad (0,1)"
+r4fsad,,,"r4fsad:w4 CESD: Felt sad (0,1)"
+r5fsad,,,"r5fsad:w5 CESD: Felt sad (0,1)"
+r6fsad,,,"r6fsad:w6 CESD: Felt sad (0,1)"
+s1fsad,,,"s1fsad:w1 CESD: Felt sad (0,1)"
+s2fsad,,,"s2fsad:w2 CESD: Felt sad (0,1)"
+s3fsad,,,"s3fsad:w3 CESD: Felt sad (0,1)"
+s4fsad,,,"s4fsad:w4 CESD: Felt sad (0,1)"
+s5fsad,,,"s5fsad:w5 CESD: Felt sad (0,1)"
+s6fsad,,,"s6fsad:w6 CESD: Felt sad (0,1)"
+r1going,,,"r1going:w1 CESD: Could not get going (0,1)"
+r2going,,,"r2going:w2 CESD: Could not get going (0,1)"
+r3going,,,"r3going:w3 CESD: Could not get going (0,1)"
+r4going,,,"r4going:w4 CESD: Could not get going (0,1)"
+r5going,,,"r5going:w5 CESD: Could not get going (0,1)"
+r6going,,,"r6going:w6 CESD: Could not get going (0,1)"
+s1going,,,"s1going:w1 CESD: Could not get going (0,1)"
+s2going,,,"s2going:w2 CESD: Could not get going (0,1)"
+s3going,,,"s3going:w3 CESD: Could not get going (0,1)"
+s4going,,,"s4going:w4 CESD: Could not get going (0,1)"
+s5going,,,"s5going:w5 CESD: Could not get going (0,1)"
+s6going,,,"s6going:w6 CESD: Could not get going (0,1)"
+r1enlife,,,"r1enlife:w1 CESD: Enjoyed life (0,1)"
+r2enlife,,,"r2enlife:w2 CESD: Enjoyed life (0,1)"
+r3enlife,,,"r3enlife:w3 CESD: Enjoyed life (0,1)"
+r4enlife,,,"r4enlife:w4 CESD: Enjoyed life (0,1)"
+r5enlife,,,"r5enlife:w5 CESD: Enjoyed life (0,1)"
+r6enlife,,,"r6enlife:w6 CESD: Enjoyed life (0,1)"
+s1enlife,,,"s1enlife:w1 CESD: Enjoyed life (0,1)"
+s2enlife,,,"s2enlife:w2 CESD: Enjoyed life (0,1)"
+s3enlife,,,"s3enlife:w3 CESD: Enjoyed life (0,1)"
+s4enlife,,,"s4enlife:w4 CESD: Enjoyed life (0,1)"
+s5enlife,,,"s5enlife:w5 CESD: Enjoyed life (0,1)"
+s6enlife,,,"s6enlife:w6 CESD: Enjoyed life (0,1)"
+r1cesd,,,r1cesd:w1 CESD Score
+r2cesd,,,r2cesd:w2 CESD Score
+r3cesd,,,r3cesd:w3 CESD Score
+r4cesd,,,r4cesd:w4 CESD Score
+r5cesd,,,r5cesd:w5 CESD Score
+r6cesd,,,r6cesd:w6 CESD Score
+s1cesd,,,s1cesd:w1 CESD Score
+s2cesd,,,s2cesd:w2 CESD Score
+s3cesd,,,s3cesd:w3 CESD Score
+s4cesd,,,s4cesd:w4 CESD Score
+s5cesd,,,s5cesd:w5 CESD Score
+s6cesd,,,s6cesd:w6 CESD Score
+r1cesdm,,,r1cesdm:w1 missings in CESD score
+r2cesdm,,,r2cesdm:w2 missings in CESD score
+r3cesdm,,,r3cesdm:w3 missings in CESD score
+r4cesdm,,,r4cesdm:w4 missings in CESD score
+r5cesdm,,,r5cesdm:w5 missings in CESD score
+r6cesdm,,,r6cesdm:w6 missings in CESD score
+s1cesdm,,,s1cesdm:w1 missings in CESD score
+s2cesdm,,,s2cesdm:w2 missings in CESD score
+s3cesdm,,,s3cesdm:w3 missings in CESD score
+s4cesdm,,,s4cesdm:w4 missings in CESD score
+s5cesdm,,,s5cesdm:w5 missings in CESD score
+s6cesdm,,,s6cesdm:w6 missings in CESD score
+r1hibpe,,,r1hibpe:w1 r ever had high blood pressure
+r2hibpe,,,r2hibpe:w2 r ever had high blood pressure
+r3hibpe,,,r3hibpe:w3 r ever had high blood pressure
+r4hibpe,,,r4hibpe:w4 r ever had high blood pressure
+r5hibpe,,,r5hibpe:w5 r ever had high blood pressure
+r6hibpe,,,r6hibpe:w6 r ever had high blood pressure
+s1hibpe,,,s1hibpe:w1 s ever had high blood pressure
+s2hibpe,,,s2hibpe:w2 s ever had high blood pressure
+s3hibpe,,,s3hibpe:w3 s ever had high blood pressure
+s4hibpe,,,s4hibpe:w4 s ever had high blood pressure
+s5hibpe,,,s5hibpe:w5 s ever had high blood pressure
+s6hibpe,,,s6hibpe:w6 s ever had high blood pressure
+r1hibpf,,,r1hibpf:w1 flag dispute chg high blood pressure
+r2hibpf,,,r2hibpf:w2 flag dispute chg high blood pressure
+r3hibpf,,,r3hibpf:w3 flag dispute chg high blood pressure
+r4hibpf,,,r4hibpf:w4 flag dispute chg high blood pressure
+r5hibpf,,,r5hibpf:w5 flag dispute chg high blood pressure
+r6hibpf,,,r6hibpf:w6 flag dispute chg high blood pressure
+s1hibpf,,,s1hibpf:w1 s flag dispute chg high blood pressure
+s2hibpf,,,s2hibpf:w2 s flag dispute chg high blood pressure
+s3hibpf,,,s3hibpf:w3 s flag dispute chg high blood pressure
+s4hibpf,,,s4hibpf:w4 s flag dispute chg high blood pressure
+s5hibpf,,,s5hibpf:w5 s flag dispute chg high blood pressure
+s6hibpf,,,s6hibpf:w6 s flag dispute chg high blood pressure
+r1diabe,,,r1diabe:w1 r ever had diabetes
+r2diabe,,,r2diabe:w2 r ever had diabetes
+r3diabe,,,r3diabe:w3 r ever had diabetes
+r4diabe,,,r4diabe:w4 r ever had diabetes
+r5diabe,,,r5diabe:w5 r ever had diabetes
+r6diabe,,,r6diabe:w6 r ever had diabetes
+s1diabe,,,s1diabe:w1 s ever had diabetes
+s2diabe,,,s2diabe:w2 s ever had diabetes
+s3diabe,,,s3diabe:w3 s ever had diabetes
+s4diabe,,,s4diabe:w4 s ever had diabetes
+s5diabe,,,s5diabe:w5 s ever had diabetes
+s6diabe,,,s6diabe:w6 s ever had diabetes
+r1diabf,,,r1diabf:w1 flag dispute chg diabetes
+r2diabf,,,r2diabf:w2 flag dispute chg diabetes
+r3diabf,,,r3diabf:w3 flag dispute chg diabetes
+r4diabf,,,r4diabf:w4 flag dispute chg diabetes
+r5diabf,,,r5diabf:w5 flag dispute chg diabetes
+r6diabf,,,r6diabf:w6 flag dispute chg diabetes
+s1diabf,,,s1diabf:w1 s flag dispute chg diabetes
+s2diabf,,,s2diabf:w2 s flag dispute chg diabetes
+s3diabf,,,s3diabf:w3 s flag dispute chg diabetes
+s4diabf,,,s4diabf:w4 s flag dispute chg diabetes
+s5diabf,,,s5diabf:w5 s flag dispute chg diabetes
+s6diabf,,,s6diabf:w6 s flag dispute chg diabetes
+r1cancre,,,r1cancre:w1 r ever had cancer
+r2cancre,,,r2cancre:w2 r ever had cancer
+r3cancre,,,r3cancre:w3 r ever had cancer
+r4cancre,,,r4cancre:w4 r ever had cancer
+r5cancre,,,r5cancre:w5 r ever had cancer
+r6cancre,,,r6cancre:w6 r ever had cancer
+s1cancre,,,s1cancre:w1 s ever had cancer
+s2cancre,,,s2cancre:w2 s ever had cancer
+s3cancre,,,s3cancre:w3 s ever had cancer
+s4cancre,,,s4cancre:w4 s ever had cancer
+s5cancre,,,s5cancre:w5 s ever had cancer
+s6cancre,,,s6cancre:w6 s ever had cancer
+r1cancrf,,,r1cancrf:w1 flag dispute chg cancer
+r2cancrf,,,r2cancrf:w2 flag dispute chg cancer
+r3cancrf,,,r3cancrf:w3 flag dispute chg cancer
+r4cancrf,,,r4cancrf:w4 flag dispute chg cancer
+r5cancrf,,,r5cancrf:w5 flag dispute chg cancer
+r6cancrf,,,r6cancrf:w6 flag dispute chg cancer
+s1cancrf,,,s1cancrf:w1 s flag dispute chg cancer
+s2cancrf,,,s2cancrf:w2 s flag dispute chg cancer
+s3cancrf,,,s3cancrf:w3 s flag dispute chg cancer
+s4cancrf,,,s4cancrf:w4 s flag dispute chg cancer
+s5cancrf,,,s5cancrf:w5 s flag dispute chg cancer
+s6cancrf,,,s6cancrf:w6 s flag dispute chg cancer
+r1lunge,,,r1lunge:w1 r ever had lung disease
+r2lunge,,,r2lunge:w2 r ever had lung disease
+r3lunge,,,r3lunge:w3 r ever had lung disease
+r4lunge,,,r4lunge:w4 r ever had lung disease
+r5lunge,,,r5lunge:w5 r ever had lung disease
+r6lunge,,,r6lunge:w6 r ever had lung disease
+s1lunge,,,s1lunge:w1 s ever had lung disease
+s2lunge,,,s2lunge:w2 s ever had lung disease
+s3lunge,,,s3lunge:w3 s ever had lung disease
+s4lunge,,,s4lunge:w4 s ever had lung disease
+s5lunge,,,s5lunge:w5 s ever had lung disease
+s6lunge,,,s6lunge:w6 s ever had lung disease
+r1lungf,,,r1lungf:w1 flag dispute chg lung disease
+r2lungf,,,r2lungf:w2 flag dispute chg lung disease
+r3lungf,,,r3lungf:w3 flag dispute chg lung disease
+r4lungf,,,r4lungf:w4 flag dispute chg lung disease
+r5lungf,,,r5lungf:w5 flag dispute chg lung disease
+r6lungf,,,r6lungf:w6 flag dispute chg lung disease
+s1lungf,,,s1lungf:w1 s flag dispute chg lung disease
+s2lungf,,,s2lungf:w2 s flag dispute chg lung disease
+s3lungf,,,s3lungf:w3 s flag dispute chg lung disease
+s4lungf,,,s4lungf:w4 s flag dispute chg lung disease
+s5lungf,,,s5lungf:w5 s flag dispute chg lung disease
+s6lungf,,,s6lungf:w6 s flag dispute chg lung disease
+r1hearte,,,r1hearte:w1 r ever had heart problems
+r2hearte,,,r2hearte:w2 r ever had heart problems
+r3hearte,,,r3hearte:w3 r ever had heart problems
+r4hearte,,,r4hearte:w4 r ever had heart problems
+r5hearte,,,r5hearte:w5 r ever had heart problems
+r6hearte,,,r6hearte:w6 r ever had heart problems
+s1hearte,,,s1hearte:w1 s ever had heart problems
+s2hearte,,,s2hearte:w2 s ever had heart problems
+s3hearte,,,s3hearte:w3 s ever had heart problems
+s4hearte,,,s4hearte:w4 s ever had heart problems
+s5hearte,,,s5hearte:w5 s ever had heart problems
+s6hearte,,,s6hearte:w6 s ever had heart problems
+r1heartf,,,r1heartf:w1 flag dispute chg heart problems
+r2heartf,,,r2heartf:w2 flag dispute chg heart problems
+r3heartf,,,r3heartf:w3 flag dispute chg heart problems
+r4heartf,,,r4heartf:w4 flag dispute chg heart problems
+r5heartf,,,r5heartf:w5 flag dispute chg heart problems
+r6heartf,,,r6heartf:w6 flag dispute chg heart problems
+s1heartf,,,s1heartf:w1 s flag dispute chg heart problems
+s2heartf,,,s2heartf:w2 s flag dispute chg heart problems
+s3heartf,,,s3heartf:w3 s flag dispute chg heart problems
+s4heartf,,,s4heartf:w4 s flag dispute chg heart problems
+s5heartf,,,s5heartf:w5 s flag dispute chg heart problems
+s6heartf,,,s6heartf:w6 s flag dispute chg heart problems
+r1stroke,,,r1stroke:w1 r ever had stroke
+r2stroke,,,r2stroke:w2 r ever had stroke
+r3stroke,,,r3stroke:w3 r ever had stroke
+r4stroke,,,r4stroke:w4 r ever had stroke
+r5stroke,,,r5stroke:w5 r ever had stroke
+r6stroke,,,r6stroke:w6 r ever had stroke
+s1stroke,,,s1stroke:w1 s ever had stroke
+s2stroke,,,s2stroke:w2 s ever had stroke
+s3stroke,,,s3stroke:w3 s ever had stroke
+s4stroke,,,s4stroke:w4 s ever had stroke
+s5stroke,,,s5stroke:w5 s ever had stroke
+s6stroke,,,s6stroke:w6 s ever had stroke
+r1strokf,,,r1strokf:w1 flag dispute chg stroke
+r2strokf,,,r2strokf:w2 flag dispute chg stroke
+r3strokf,,,r3strokf:w3 flag dispute chg stroke
+r4strokf,,,r4strokf:w4 flag dispute chg stroke
+r5strokf,,,r5strokf:w5 flag dispute chg stroke
+r6strokf,,,r6strokf:w6 flag dispute chg stroke
+s1strokf,,,s1strokf:w1 s flag dispute chg stroke
+s2strokf,,,s2strokf:w2 s flag dispute chg stroke
+s3strokf,,,s3strokf:w3 s flag dispute chg stroke
+s4strokf,,,s4strokf:w4 s flag dispute chg stroke
+s5strokf,,,s5strokf:w5 s flag dispute chg stroke
+s6strokf,,,s6strokf:w6 s flag dispute chg stroke
+r1psyche,,,r1psyche:w1 r ever had psych problems
+r2psyche,,,r2psyche:w2 r ever had psych problems
+r3psyche,,,r3psyche:w3 r ever had psych problems
+r4psyche,,,r4psyche:w4 r ever had psych problems
+r5psyche,,,r5psyche:w5 r ever had psych problems
+r6psyche,,,r6psyche:w6 r ever had psych problems
+s1psyche,,,s1psyche:w1 s ever had psych problems
+s2psyche,,,s2psyche:w2 s ever had psych problems
+s3psyche,,,s3psyche:w3 s ever had psych problems
+s4psyche,,,s4psyche:w4 s ever had psych problems
+s5psyche,,,s5psyche:w5 s ever had psych problems
+s6psyche,,,s6psyche:w6 s ever had psych problems
+r1psychf,,,r1psychf:w1 flag dispute chg psych problems
+r2psychf,,,r2psychf:w2 flag dispute chg psych problems
+r3psychf,,,r3psychf:w3 flag dispute chg psych problems
+r4psychf,,,r4psychf:w4 flag dispute chg psych problems
+r5psychf,,,r5psychf:w5 flag dispute chg psych problems
+r6psychf,,,r6psychf:w6 flag dispute chg psych problems
+s1psychf,,,s1psychf:w1 s flag dispute chg psych problems
+s2psychf,,,s2psychf:w2 s flag dispute chg psych problems
+s3psychf,,,s3psychf:w3 s flag dispute chg psych problems
+s4psychf,,,s4psychf:w4 s flag dispute chg psych problems
+s5psychf,,,s5psychf:w5 s flag dispute chg psych problems
+s6psychf,,,s6psychf:w6 s flag dispute chg psych problems
+r1arthre,,,r1arthre:w1 r ever had arthritis
+r2arthre,,,r2arthre:w2 r ever had arthritis
+r3arthre,,,r3arthre:w3 r ever had arthritis
+r4arthre,,,r4arthre:w4 r ever had arthritis
+r5arthre,,,r5arthre:w5 r ever had arthritis
+r6arthre,,,r6arthre:w6 r ever had arthritis
+s1arthre,,,s1arthre:w1 s ever had arthritis
+s2arthre,,,s2arthre:w2 s ever had arthritis
+s3arthre,,,s3arthre:w3 s ever had arthritis
+s4arthre,,,s4arthre:w4 s ever had arthritis
+s5arthre,,,s5arthre:w5 s ever had arthritis
+s6arthre,,,s6arthre:w6 s ever had arthritis
+r1arthrf,,,r1arthrf:w1 flag dispute chg arthritis
+r2arthrf,,,r2arthrf:w2 flag dispute chg arthritis
+r3arthrf,,,r3arthrf:w3 flag dispute chg arthritis
+r4arthrf,,,r4arthrf:w4 flag dispute chg arthritis
+r5arthrf,,,r5arthrf:w5 flag dispute chg arthritis
+r6arthrf,,,r6arthrf:w6 flag dispute chg arthritis
+s1arthrf,,,s1arthrf:w1 s flag dispute chg arthritis
+s2arthrf,,,s2arthrf:w2 s flag dispute chg arthritis
+s3arthrf,,,s3arthrf:w3 s flag dispute chg arthritis
+s4arthrf,,,s4arthrf:w4 s flag dispute chg arthritis
+s5arthrf,,,s5arthrf:w5 s flag dispute chg arthritis
+s6arthrf,,,s6arthrf:w6 s flag dispute chg arthritis
+r1asthmae,,,r1asthmae:w1 r ever had asthma
+r2asthmae,,,r2asthmae:w2 r ever had asthma
+r3asthmae,,,r3asthmae:w3 r ever had asthma
+r4asthmae,,,r4asthmae:w4 r ever had asthma
+r5asthmae,,,r5asthmae:w5 r ever had asthma
+r6asthmae,,,r6asthmae:w6 r ever had asthma
+s1asthmae,,,s1asthmae:w1 s ever had asthma
+s2asthmae,,,s2asthmae:w2 s ever had asthma
+s3asthmae,,,s3asthmae:w3 s ever had asthma
+s4asthmae,,,s4asthmae:w4 s ever had asthma
+s5asthmae,,,s5asthmae:w5 s ever had asthma
+s6asthmae,,,s6asthmae:w6 s ever had asthma
+r1asthmaf,,,r1asthmaf:w1 flag chg previous asthma
+r2asthmaf,,,r2asthmaf:w2 flag chg previous asthma
+r3asthmaf,,,r3asthmaf:w3 flag chg previous asthma
+r4asthmaf,,,r4asthmaf:w4 flag chg previous asthma
+r5asthmaf,,,r5asthmaf:w5 flag chg previous asthma
+r6asthmaf,,,r6asthmaf:w6 flag chg previous asthma
+s1asthmaf,,,s1asthmaf:w1 s flag chg previous asthma
+s2asthmaf,,,s2asthmaf:w2 s flag chg previous asthma
+s3asthmaf,,,s3asthmaf:w3 s flag chg previous asthma
+s4asthmaf,,,s4asthmaf:w4 s flag chg previous asthma
+s5asthmaf,,,s5asthmaf:w5 s flag chg previous asthma
+s6asthmaf,,,s6asthmaf:w6 s flag chg previous asthma
+r1memrye,,,r1memrye:w1 r ever had memory problem
+r2memrye,,,r2memrye:w2 r ever had memory problem
+r3memrye,,,r3memrye:w3 r ever had memory problem
+r4memrye,,,r4memrye:w4 r ever had memory problem
+r5memrye,,,r5memrye:w5 r ever had memory problem
+r6memrye,,,r6memrye:w6 r ever had memory problem
+s1memrye,,,s1memrye:w1 s ever had memory problem
+s2memrye,,,s2memrye:w2 s ever had memory problem
+s3memrye,,,s3memrye:w3 s ever had memory problem
+s4memrye,,,s4memrye:w4 s ever had memory problem
+s5memrye,,,s5memrye:w5 s ever had memory problem
+s6memrye,,,s6memrye:w6 s ever had memory problem
+r1memryf,,,r1memryf:w1 flag chg previous memory prob
+r2memryf,,,r2memryf:w2 flag chg previous memory prob
+r3memryf,,,r3memryf:w3 flag chg previous memory prob
+r4memryf,,,r4memryf:w4 flag chg previous memory prob
+r5memryf,,,r5memryf:w5 flag chg previous memory prob
+r6memryf,,,r6memryf:w6 flag chg previous memory prob
+s1memryf,,,s1memryf:w1 s flag chg prev memory prob
+s2memryf,,,s2memryf:w2 s flag chg prev memory prob
+s3memryf,,,s3memryf:w3 s flag chg prev memory prob
+s4memryf,,,s4memryf:w4 s flag chg prev memory prob
+s5memryf,,,s5memryf:w5 s flag chg prev memory prob
+s6memryf,,,s6memryf:w6 s flag chg prev memory prob
+r2bmi,,,r2bmi:w2 Body Mass Index=kg/m2
+r4bmi,,,r4bmi:w4 Body Mass Index=kg/m2
+r6bmi,,,r6bmi:w6 Body Mass Index=kg/m2
+s2bmi,,,s2bmi:w2 Body Mass Index=kg/m2
+s4bmi,,,s4bmi:w4 Body Mass Index=kg/m2
+s6bmi,,,s6bmi:w6 Body Mass Index=kg/m2
+r2height,,,r2height:w2 Height in meters
+r4height,,,r4height:w4 Height in meters
+r6height,,,r6height:w6 Height in meters
+s2height,,,s2height:w2 Height in meters
+s4height,,,s4height:w4 Height in meters
+s6height,,,s6height:w6 Height in meters
+r2weight,,,r2weight:w2 Weight in kilograms
+r4weight,,,r4weight:w4 Weight in kilograms
+r6weight,,,r6weight:w6 Weight in kilograms
+s2weight,,,s2weight:w2 Weight in kilograms
+s4weight,,,s4weight:w4 Weight in kilograms
+s6weight,,,s6weight:w6 Weight in kilograms
+r5mammog,,,r5mammog:w5 r prev mammogram
+r6mammog,,,r6mammog:w6 r prev mammogram
+s5mammog,,,s5mammog:w5 S prev mammogram
+s6mammog,,,s6mammog:w6 S prev mammogram
+r5prost,,,r5prost:w5 r prev prostate
+r6prost,,,r6prost:w6 r prev prostate
+s5prost,,,s5prost:w5 S prev prostate
+s6prost,,,s6prost:w6 S prev prostate
+r1vgactx.e,,,r1vgactx_e:w1 R Freq vigorous phys activ
+r2vgactx.e,,,r2vgactx_e:w2 R Freq vigorous phys activ
+r3vgactx.e,,,r3vgactx_e:w3 R Freq vigorous phys activ
+r4vgactx.e,,,r4vgactx_e:w4 R Freq vigorous phys activ
+r5vgactx.e,,,r5vgactx_e:w5 R Freq vigorous phys activ
+r6vgactx.e,,,r6vgactx_e:w6 R Freq vigorous phys activ
+s1vgactx.e,,,s1vgactx_e:w1 S Freq vigorous phys activ
+s2vgactx.e,,,s2vgactx_e:w2 S Freq vigorous phys activ
+s3vgactx.e,,,s3vgactx_e:w3 S Freq vigorous phys activ
+s4vgactx.e,,,s4vgactx_e:w4 S Freq vigorous phys activ
+s5vgactx.e,,,s5vgactx_e:w5 S Freq vigorous phys activ
+s6vgactx.e,,,s6vgactx_e:w6 S Freq vigorous phys activ
+r1mdactx.e,,,r1mdactx_e:w1 R Freq moderate phys activ
+r2mdactx.e,,,r2mdactx_e:w2 R Freq moderate phys activ
+r3mdactx.e,,,r3mdactx_e:w3 R Freq moderate phys activ
+r4mdactx.e,,,r4mdactx_e:w4 R Freq moderate phys activ
+r5mdactx.e,,,r5mdactx_e:w5 R Freq moderate phys activ
+r6mdactx.e,,,r6mdactx_e:w6 R Freq moderate phys activ
+s1mdactx.e,,,s1mdactx_e:w1 S Freq moderate phys activ
+s2mdactx.e,,,s2mdactx_e:w2 S Freq moderate phys activ
+s3mdactx.e,,,s3mdactx_e:w3 S Freq moderate phys activ
+s4mdactx.e,,,s4mdactx_e:w4 S Freq moderate phys activ
+s5mdactx.e,,,s5mdactx_e:w5 S Freq moderate phys activ
+s6mdactx.e,,,s6mdactx_e:w6 S Freq moderate phys activ
+r1ltactx.e,,,r1ltactx_e:w1 R Freq light phys activ
+r2ltactx.e,,,r2ltactx_e:w2 R Freq light phys activ
+r3ltactx.e,,,r3ltactx_e:w3 R Freq light phys activ
+r4ltactx.e,,,r4ltactx_e:w4 R Freq light phys activ
+r5ltactx.e,,,r5ltactx_e:w5 R Freq light phys activ
+r6ltactx.e,,,r6ltactx_e:w6 R Freq light phys activ
+s1ltactx.e,,,s1ltactx_e:w1 S Freq light phys activ
+s2ltactx.e,,,s2ltactx_e:w2 S Freq light phys activ
+s3ltactx.e,,,s3ltactx_e:w3 S Freq light phys activ
+s4ltactx.e,,,s4ltactx_e:w4 S Freq light phys activ
+s5ltactx.e,,,s5ltactx_e:w5 S Freq light phys activ
+s6ltactx.e,,,s6ltactx_e:w6 S Freq light phys activ
+r1drink,,,r1drink:w1 R ever drinks any alcohol
+r2drink,,,r2drink:w2 R ever drinks any alcohol
+r3drink,,,r3drink:w3 R ever drinks any alcohol
+r4drink,,,r4drink:w4 R ever drinks any alcohol
+r5drink,,,r5drink:w5 R ever drinks any alcohol
+r6drink,,,r6drink:w6 R ever drinks any alcohol
+s1drink,,,s1drink:w1 S ever drinks any alcohol
+s2drink,,,s2drink:w2 S ever drinks any alcohol
+s3drink,,,s3drink:w3 S ever drinks any alcohol
+s4drink,,,s4drink:w4 S ever drinks any alcohol
+s5drink,,,s5drink:w5 S ever drinks any alcohol
+s6drink,,,s6drink:w6 S ever drinks any alcohol
+r2drinkd.e,,,r2drinkd_e:w2 R # days/week drinks
+r3drinkd.e,,,r3drinkd_e:w3 R # days/week drinks
+r4drinkd.e,,,r4drinkd_e:w4 R # days/week drinks
+r5drinkd.e,,,r5drinkd_e:w5 R # days/week drinks
+r6drinkd.e,,,r6drinkd_e:w6 R # days/week drinks
+s2drinkd.e,,,s2drinkd_e:w2 S # days/week drinks
+s3drinkd.e,,,s3drinkd_e:w3 S # days/week drinks
+s4drinkd.e,,,s4drinkd_e:w4 S # days/week drinks
+s5drinkd.e,,,s5drinkd_e:w5 S # days/week drinks
+s6drinkd.e,,,s6drinkd_e:w6 S # days/week drinks
+r2drinkn.e,,,r2drinkn_e:w2 R # drinks/day
+r3drinkn.e,,,r3drinkn_e:w3 R # drinks/day
+s2drinkn.e,,,s2drinkn_e:w2 S # drinks/day
+s3drinkn.e,,,s3drinkn_e:w3 S # drinks/day
+r4drinkwn.e,,,r4drinkwn_e:w4 R # drinks/week
+r5drinkwn.e,,,r5drinkwn_e:w5 R # drinks/week
+r6drinkwn.e,,,r6drinkwn_e:w6 R # drinks/week
+s4drinkwn.e,,,s4drinkwn_e:w4 S # drinks/week
+s5drinkwn.e,,,s5drinkwn_e:w5 S # drinks/week
+s6drinkwn.e,,,s6drinkwn_e:w6 S # drinks/week
+r1smokev,,,r1smokev:w1 R smoke ever
+r2smokev,,,r2smokev:w2 R smoke ever
+r3smokev,,,r3smokev:w3 R smoke ever
+r4smokev,,,r4smokev:w4 R smoke ever
+r5smokev,,,r5smokev:w5 R smoke ever
+r6smokev,,,r6smokev:w6 R smoke ever
+s1smokev,,,s1smokev:w1 S smoke ever
+s2smokev,,,s2smokev:w2 S smoke ever
+s3smokev,,,s3smokev:w3 S smoke ever
+s4smokev,,,s4smokev:w4 S smoke ever
+s5smokev,,,s5smokev:w5 S smoke ever
+s6smokev,,,s6smokev:w6 S smoke ever
+r1smoken,,,r1smoken:w1 R smokes now
+r2smoken,,,r2smoken:w2 R smokes now
+r3smoken,,,r3smoken:w3 R smokes now
+r4smoken,,,r4smoken:w4 R smokes now
+r5smoken,,,r5smoken:w5 R smokes now
+r6smoken,,,r6smoken:w6 R smokes now
+s1smoken,,,s1smoken:w1 S smokes now
+s2smoken,,,s2smoken:w2 S smokes now
+s3smoken,,,s3smoken:w3 S smokes now
+s4smoken,,,s4smoken:w4 S smokes now
+s5smoken,,,s5smoken:w5 S smokes now
+s6smoken,,,s6smoken:w6 S smokes now
+r2shltc,,,r2shltc:w2 Change in self-reported hlth
+r4shltc,,,r4shltc:w4 Change in self-reported hlth
+r5shltc,,,r5shltc:w5 Change in self-reported hlth
+r6shltc,,,r6shltc:w6 Change in self-reported hlth
+s2shltc,,,s2shltc:w2 Change in self-reported hlth
+s4shltc,,,s4shltc:w4 Change in self-reported hlth
+s5shltc,,,s5shltc:w5 Change in self-reported hlth
+s6shltc,,,s6shltc:w6 Change in self-reported hlth
+r2shltcf,,,r2shltcf:w2 Flag chg self-reported hlth
+r4shltcf,,,r4shltcf:w4 Flag chg self-reported hlth
+r5shltcf,,,r5shltcf:w5 Flag chg self-reported hlth
+r6shltcf,,,r6shltcf:w6 Flag chg self-reported hlth
+s2shltcf,,,s2shltcf:w2 Flag chg self-reported hlth
+s4shltcf,,,s4shltcf:w4 Flag chg self-reported hlth
+s5shltcf,,,s5shltcf:w5 Flag chg self-reported hlth
+s6shltcf,,,s6shltcf:w6 Flag chg self-reported hlth
+r3shltac,,,"r3shltac:w3 Change in self-reported hlth, European scale"
+s3shltac,,,"s3shltac:w3 Change in self-reported hlth, European scale"
+r3shltacf,,,"r3shltacf:w3 Flag chg self-reported hlth, European scale"
+s3shltacf,,,"s3shltacf:w3 Flag chg self-reported hlth, European scale"
+r2adlc,,,r2adlc:w2 Change-ADLs /0-5
+r3adlc,,,r3adlc:w3 Change-ADLs /0-5
+r4adlc,,,r4adlc:w4 Change-ADLs /0-5
+r5adlc,,,r5adlc:w5 Change-ADLs /0-5
+r6adlc,,,r6adlc:w6 Change-ADLs /0-5
+s2adlc,,,s2adlc:w2 Change-ADLs /0-5
+s3adlc,,,s3adlc:w3 Change-ADLs /0-5
+s4adlc,,,s4adlc:w4 Change-ADLs /0-5
+s5adlc,,,s5adlc:w5 Change-ADLs /0-5
+s6adlc,,,s6adlc:w6 Change-ADLs /0-5
+r2adlf,,,r2adlf:w2 Chg Flag-ADLs /0-5
+r3adlf,,,r3adlf:w3 Chg Flag-ADLs /0-5
+r4adlf,,,r4adlf:w4 Chg Flag-ADLs /0-5
+r5adlf,,,r5adlf:w5 Chg Flag-ADLs /0-5
+r6adlf,,,r6adlf:w6 Chg Flag-ADLs /0-5
+s2adlf,,,s2adlf:w2 Chg Flag-ADLs /0-5
+s3adlf,,,s3adlf:w3 Chg Flag-ADLs /0-5
+s4adlf,,,s4adlf:w4 Chg Flag-ADLs /0-5
+s5adlf,,,s5adlf:w5 Chg Flag-ADLs /0-5
+s6adlf,,,s6adlf:w6 Chg Flag-ADLs /0-5
+r2grossc,,,"r2grossc:w2 Chg:Walk1/R,Clim1,Bed,Bath/5"
+r3grossc,,,"r3grossc:w3 Chg:Walk1/R,Clim1,Bed,Bath/5"
+r4grossc,,,"r4grossc:w4 Chg:Walk1/R,Clim1,Bed,Bath/5"
+r5grossc,,,"r5grossc:w5 Chg:Walk1/R,Clim1,Bed,Bath/5"
+r6grossc,,,"r6grossc:w6 Chg:Walk1/R,Clim1,Bed,Bath/5"
+s2grossc,,,"s2grossc:w2 Chg:Walk1/R,Clim1,Bed,Bath/5"
+s3grossc,,,"s3grossc:w3 Chg:Walk1/R,Clim1,Bed,Bath/5"
+s4grossc,,,"s4grossc:w4 Chg:Walk1/R,Clim1,Bed,Bath/5"
+s5grossc,,,"s5grossc:w5 Chg:Walk1/R,Clim1,Bed,Bath/5"
+s6grossc,,,"s6grossc:w6 Chg:Walk1/R,Clim1,Bed,Bath/5"
+r2grossf,,,"r2grossf:w2 ChgF:Walk1/R,Clim1,Bed,Bath /0-5"
+r3grossf,,,"r3grossf:w3 ChgF:Walk1/R,Clim1,Bed,Bath /0-5"
+r4grossf,,,"r4grossf:w4 ChgF:Walk1/R,Clim1,Bed,Bath /0-5"
+r5grossf,,,"r5grossf:w5 ChgF:Walk1/R,Clim1,Bed,Bath /0-5"
+r6grossf,,,"r6grossf:w6 ChgF:Walk1/R,Clim1,Bed,Bath /0-5"
+s2grossf,,,"s2grossf:w2 ChgF:Walk1/R,Clim1,Bed,Bath /0-5"
+s3grossf,,,"s3grossf:w3 ChgF:Walk1/R,Clim1,Bed,Bath /0-5"
+s4grossf,,,"s4grossf:w4 ChgF:Walk1/R,Clim1,Bed,Bath /0-5"
+s5grossf,,,"s5grossf:w5 ChgF:Walk1/R,Clim1,Bed,Bath /0-5"
+s6grossf,,,"s6grossf:w6 ChgF:Walk1/R,Clim1,Bed,Bath /0-5"
+r2finec,,,"r2finec:w2 Chg:Dime,Eat,Dress /0-3"
+r3finec,,,"r3finec:w3 Chg:Dime,Eat,Dress /0-3"
+r4finec,,,"r4finec:w4 Chg:Dime,Eat,Dress /0-3"
+r5finec,,,"r5finec:w5 Chg:Dime,Eat,Dress /0-3"
+r6finec,,,"r6finec:w6 Chg:Dime,Eat,Dress /0-3"
+s2finec,,,"s2finec:w2 Chg:Dime,Eat,Dress /0-3"
+s3finec,,,"s3finec:w3 Chg:Dime,Eat,Dress /0-3"
+s4finec,,,"s4finec:w4 Chg:Dime,Eat,Dress /0-3"
+s5finec,,,"s5finec:w5 Chg:Dime,Eat,Dress /0-3"
+s6finec,,,"s6finec:w6 Chg:Dime,Eat,Dress /0-3"
+r2finef,,,"r2finef:w2 ChgF:Dime,Eat,Dress /0-3"
+r3finef,,,"r3finef:w3 ChgF:Dime,Eat,Dress /0-3"
+r4finef,,,"r4finef:w4 ChgF:Dime,Eat,Dress /0-3"
+r5finef,,,"r5finef:w5 ChgF:Dime,Eat,Dress /0-3"
+r6finef,,,"r6finef:w6 ChgF:Dime,Eat,Dress /0-3"
+s2finef,,,"s2finef:w2 ChgF:Dime,Eat,Dress /0-3"
+s3finef,,,"s3finef:w3 ChgF:Dime,Eat,Dress /0-3"
+s4finef,,,"s4finef:w4 ChgF:Dime,Eat,Dress /0-3"
+s5finef,,,"s5finef:w5 ChgF:Dime,Eat,Dress /0-3"
+s6finef,,,"s6finef:w6 ChgF:Dime,Eat,Dress /0-3"
+r2hibps,,,r2hibps:w2 R had hi BP since last IW
+r3hibps,,,r3hibps:w3 R had hi BP since last IW
+r4hibps,,,r4hibps:w4 R had hi BP since last IW
+r5hibps,,,r5hibps:w5 R had hi BP since last IW
+r6hibps,,,r6hibps:w6 R had hi BP since last IW
+s2hibps,,,s2hibps:w2 S had hi BP since last IW
+s3hibps,,,s3hibps:w3 S had hi BP since last IW
+s4hibps,,,s4hibps:w4 S had hi BP since last IW
+s5hibps,,,s5hibps:w5 S had hi BP since last IW
+s6hibps,,,s6hibps:w6 S had hi BP since last IW
+r2diabs,,,r2diabs:w2 R had diabetes since last IW
+r3diabs,,,r3diabs:w3 R had diabetes since last IW
+r4diabs,,,r4diabs:w4 R had diabetes since last IW
+r5diabs,,,r5diabs:w5 R had diabetes since last IW
+r6diabs,,,r6diabs:w6 R had diabetes since last IW
+s2diabs,,,s2diabs:w2 S had diabetes since last IW
+s3diabs,,,s3diabs:w3 S had diabetes since last IW
+s4diabs,,,s4diabs:w4 S had diabetes since last IW
+s5diabs,,,s5diabs:w5 S had diabetes since last IW
+s6diabs,,,s6diabs:w6 S had diabetes since last IW
+r2cancrs,,,r2cancrs:w2 R had cancer since last IW
+r3cancrs,,,r3cancrs:w3 R had cancer since last IW
+r4cancrs,,,r4cancrs:w4 R had cancer since last IW
+r5cancrs,,,r5cancrs:w5 R had cancer since last IW
+r6cancrs,,,r6cancrs:w6 R had cancer since last IW
+s2cancrs,,,s2cancrs:w2 S had cancer since last IW
+s3cancrs,,,s3cancrs:w3 S had cancer since last IW
+s4cancrs,,,s4cancrs:w4 S had cancer since last IW
+s5cancrs,,,s5cancrs:w5 S had cancer since last IW
+s6cancrs,,,s6cancrs:w6 S had cancer since last IW
+r2lungs,,,r2lungs:w2 R had lung dis since last IW
+r3lungs,,,r3lungs:w3 R had lung dis since last IW
+r4lungs,,,r4lungs:w4 R had lung dis since last IW
+r5lungs,,,r5lungs:w5 R had lung dis since last IW
+r6lungs,,,r6lungs:w6 R had lung dis since last IW
+s2lungs,,,s2lungs:w2 S had lung dis since last IW
+s3lungs,,,s3lungs:w3 S had lung dis since last IW
+s4lungs,,,s4lungs:w4 S had lung dis since last IW
+s5lungs,,,s5lungs:w5 S had lung dis since last IW
+s6lungs,,,s6lungs:w6 S had lung dis since last IW
+r2hearts,,,r2hearts:w2 R had heart prob since last IW
+r3hearts,,,r3hearts:w3 R had heart prob since last IW
+r4hearts,,,r4hearts:w4 R had heart prob since last IW
+r5hearts,,,r5hearts:w5 R had heart prob since last IW
+r6hearts,,,r6hearts:w6 R had heart prob since last IW
+s2hearts,,,s2hearts:w2 S had heart prob since last IW
+s3hearts,,,s3hearts:w3 S had heart prob since last IW
+s4hearts,,,s4hearts:w4 S had heart prob since last IW
+s5hearts,,,s5hearts:w5 S had heart prob since last IW
+s6hearts,,,s6hearts:w6 S had heart prob since last IW
+r2stroks,,,r2stroks:w2 R had stroke since last IW
+r3stroks,,,r3stroks:w3 R had stroke since last IW
+r4stroks,,,r4stroks:w4 R had stroke since last IW
+r5stroks,,,r5stroks:w5 R had stroke since last IW
+r6stroks,,,r6stroks:w6 R had stroke since last IW
+s2stroks,,,s2stroks:w2 S had stroke since last IW
+s3stroks,,,s3stroks:w3 S had stroke since last IW
+s4stroks,,,s4stroks:w4 S had stroke since last IW
+s5stroks,,,s5stroks:w5 S had stroke since last IW
+s6stroks,,,s6stroks:w6 S had stroke since last IW
+r2psychs,,,r2psychs:w2 R had psych prob since last IW
+r3psychs,,,r3psychs:w3 R had psych prob since last IW
+r4psychs,,,r4psychs:w4 R had psych prob since last IW
+r5psychs,,,r5psychs:w5 R had psych prob since last IW
+r6psychs,,,r6psychs:w6 R had psych prob since last IW
+s2psychs,,,s2psychs:w2 S had psych prob since last IW
+s3psychs,,,s3psychs:w3 S had psych prob since last IW
+s4psychs,,,s4psychs:w4 S had psych prob since last IW
+s5psychs,,,s5psychs:w5 S had psych prob since last IW
+s6psychs,,,s6psychs:w6 S had psych prob since last IW
+r2arthrs,,,r2arthrs:w2 R had arthritis since last IW
+r3arthrs,,,r3arthrs:w3 R had arthritis since last IW
+r4arthrs,,,r4arthrs:w4 R had arthritis since last IW
+r5arthrs,,,r5arthrs:w5 R had arthritis since last IW
+r6arthrs,,,r6arthrs:w6 R had arthritis since last IW
+s2arthrs,,,s2arthrs:w2 S had arthritis since last IW
+s3arthrs,,,s3arthrs:w3 S had arthritis since last IW
+s4arthrs,,,s4arthrs:w4 S had arthritis since last IW
+s5arthrs,,,s5arthrs:w5 S had arthritis since last IW
+s6arthrs,,,s6arthrs:w6 S had arthritis since last IW
+r2asthmas,,,r2asthmas:w2 R had asthma since last IW
+r3asthmas,,,r3asthmas:w3 R had asthma since last IW
+r4asthmas,,,r4asthmas:w4 R had asthma since last IW
+r5asthmas,,,r5asthmas:w5 R had asthma since last IW
+r6asthmas,,,r6asthmas:w6 R had asthma since last IW
+s2asthmas,,,s2asthmas:w2 S had asthma since last IW
+s3asthmas,,,s3asthmas:w3 S had asthma since last IW
+s4asthmas,,,s4asthmas:w4 S had asthma since last IW
+s5asthmas,,,s5asthmas:w5 S had asthma since last IW
+s6asthmas,,,s6asthmas:w6 S had asthma since last IW
+r2memrys,,,r2memrys:w2 R had memory prob since last IW
+r3memrys,,,r3memrys:w3 R had memory prob since last IW
+r4memrys,,,r4memrys:w4 R had memory prob since last IW
+r5memrys,,,r5memrys:w5 R had memory prob since last IW
+r6memrys,,,r6memrys:w6 R had memory prob since last IW
+s2memrys,,,s2memrys:w2 S had memory prob since last IW
+s3memrys,,,s3memrys:w3 S had memory prob since last IW
+s4memrys,,,s4memrys:w4 S had memory prob since last IW
+s5memrys,,,s5memrys:w5 S had memory prob since last IW
+s6memrys,,,s6memrys:w6 S had memory prob since last IW
+r1hipriv,,,r1hipriv:w1 R covered by private health insurance
+r2hipriv,,,r2hipriv:w2 R covered by private health insurance
+r3hipriv,,,r3hipriv:w3 R covered by private health insurance
+r4hipriv,,,r4hipriv:w4 R covered by private health insurance
+r5hipriv,,,r5hipriv:w5 R covered by private health insurance
+r6hipriv,,,r6hipriv:w6 R covered by private health insurance
+s1hipriv,,,s1hipriv:w1 S covered by private health insurance
+s2hipriv,,,s2hipriv:w2 S covered by private health insurance
+s3hipriv,,,s3hipriv:w3 S covered by private health insurance
+s4hipriv,,,s4hipriv:w4 S covered by private health insurance
+s5hipriv,,,s5hipriv:w5 S covered by private health insurance
+s6hipriv,,,s6hipriv:w6 S covered by private health insurance
+r1hpsrc,,,r1hpsrc:w1 R source of insurance
+r2hpsrc,,,r2hpsrc:w2 R source of insurance
+r3hpsrc,,,r3hpsrc:w3 R source of insurance
+r4hpsrc,,,r4hpsrc:w4 R source of insurance
+r5hpsrc,,,r5hpsrc:w5 R source of insurance
+r6hpsrc,,,r6hpsrc:w6 R source of insurance
+s1hpsrc,,,s1hpsrc:w1 S source of insurance
+s2hpsrc,,,s2hpsrc:w2 S source of insurance
+s3hpsrc,,,s3hpsrc:w3 S source of insurance
+s4hpsrc,,,s4hpsrc:w4 S source of insurance
+s5hpsrc,,,s5hpsrc:w5 S source of insurance
+s6hpsrc,,,s6hpsrc:w6 S source of insurance
+r1lifein,,,r1lifein:w1 R covered by life insurance
+r2lifein,,,r2lifein:w2 R covered by life insurance
+r3lifein,,,r3lifein:w3 R covered by life insurance
+r4lifein,,,r4lifein:w4 R covered by life insurance
+r5lifein,,,r5lifein:w5 R covered by life insurance
+r6lifein,,,r6lifein:w6 R covered by life insurance
+s1lifein,,,s1lifein:w1 S covered by life insurance
+s2lifein,,,s2lifein:w2 S covered by life insurance
+s3lifein,,,s3lifein:w3 S covered by life insurance
+s4lifein,,,s4lifein:w4 S covered by life insurance
+s5lifein,,,s5lifein:w5 S covered by life insurance
+s6lifein,,,s6lifein:w6 S covered by life insurance
+r1cogimp,,,r1cogimp:w1 whether factors impaired cognition tests
+r2cogimp,,,r2cogimp:w2 whether factors impaired cognition tests
+r3cogimp,,,r3cogimp:w3 whether factors impaired cognition tests
+r4cogimp,,,r4cogimp:w4 whether factors impaired cognition tests
+r5cogimp,,,r5cogimp:w5 whether factors impaired cognition tests
+r6cogimp,,,r6cogimp:w6 whether factors impaired cognition tests
+s1cogimp,,,s1cogimp:w1 whether factors impaired cognition tests
+s2cogimp,,,s2cogimp:w2 whether factors impaired cognition tests
+s3cogimp,,,s3cogimp:w3 whether factors impaired cognition tests
+s4cogimp,,,s4cogimp:w4 whether factors impaired cognition tests
+s5cogimp,,,s5cogimp:w5 whether factors impaired cognition tests
+s6cogimp,,,s6cogimp:w6 whether factors impaired cognition tests
+r1cogothp,,,r1cogothp:w1 whether other people present during cog tests
+r2cogothp,,,r2cogothp:w2 whether other people present during cog tests
+r3cogothp,,,r3cogothp:w3 whether other people present during cog tests
+r4cogothp,,,r4cogothp:w4 whether other people present during cog tests
+r5cogothp,,,r5cogothp:w5 whether other people present during cog tests
+r6cogothp,,,r6cogothp:w6 whether other people present during cog tests
+s1cogothp,,,s1cogothp:w1 whether other people present during cog tests
+s2cogothp,,,s2cogothp:w2 whether other people present during cog tests
+s3cogothp,,,s3cogothp:w3 whether other people present during cog tests
+s4cogothp,,,s4cogothp:w4 whether other people present during cog tests
+s5cogothp,,,s5cogothp:w5 whether other people present during cog tests
+s6cogothp,,,s6cogothp:w6 whether other people present during cog tests
+r1slfmem,,,r1slfmem:w1 Self-reported memory
+r2slfmem,,,r2slfmem:w2 Self-reported memory
+r3slfmem,,,r3slfmem:w3 Self-reported memory
+r4slfmem,,,r4slfmem:w4 Self-reported memory
+s1slfmem,,,s1slfmem:w1 Self-reported memory
+s2slfmem,,,s2slfmem:w2 Self-reported memory
+s3slfmem,,,s3slfmem:w3 Self-reported memory
+s4slfmem,,,s4slfmem:w4 Self-reported memory
+r1readrc,,,r1readrc:w1 word recall list read by
+r2readrc,,,r2readrc:w2 word recall list read by
+r3readrc,,,r3readrc:w3 word recall list read by
+r4readrc,,,r4readrc:w4 word recall list read by
+r5readrc,,,r5readrc:w5 word recall list read by
+r6readrc,,,r6readrc:w6 word recall list read by
+s1readrc,,,s1readrc:w1 word recall list read by
+s2readrc,,,s2readrc:w2 word recall list read by
+s3readrc,,,s3readrc:w3 word recall list read by
+s4readrc,,,s4readrc:w4 word recall list read by
+s5readrc,,,s5readrc:w5 word recall list read by
+s6readrc,,,s6readrc:w6 word recall list read by
+r1imrc,,,r1imrc:w1 immediate word recall
+r2imrc,,,r2imrc:w2 immediate word recall
+r3imrc,,,r3imrc:w3 immediate word recall
+r4imrc,,,r4imrc:w4 immediate word recall
+r5imrc,,,r5imrc:w5 immediate word recall
+r6imrc,,,r6imrc:w6 immediate word recall
+s1imrc,,,s1imrc:w1 immediate word recall
+s2imrc,,,s2imrc:w2 immediate word recall
+s3imrc,,,s3imrc:w3 immediate word recall
+s4imrc,,,s4imrc:w4 immediate word recall
+s5imrc,,,s5imrc:w5 immediate word recall
+s6imrc,,,s6imrc:w6 immediate word recall
+r1dlrc,,,r1dlrc:w1 delayed word recall
+r2dlrc,,,r2dlrc:w2 delayed word recall
+r3dlrc,,,r3dlrc:w3 delayed word recall
+r4dlrc,,,r4dlrc:w4 delayed word recall
+r5dlrc,,,r5dlrc:w5 delayed word recall
+r6dlrc,,,r6dlrc:w6 delayed word recall
+s1dlrc,,,s1dlrc:w1 delayed word recall
+s2dlrc,,,s2dlrc:w2 delayed word recall
+s3dlrc,,,s3dlrc:w3 delayed word recall
+s4dlrc,,,s4dlrc:w4 delayed word recall
+s5dlrc,,,s5dlrc:w5 delayed word recall
+s6dlrc,,,s6dlrc:w6 delayed word recall
+r1mo,,,r1mo:w1 cognition date naming-month
+r2mo,,,r2mo:w2 cognition date naming-month
+r3mo,,,r3mo:w3 cognition date naming-month
+r4mo,,,r4mo:w4 cognition date naming-month
+r5mo,,,r5mo:w5 cognition date naming-month
+r6mo,,,r6mo:w6 cognition date naming-month
+s1mo,,,s1mo:w1 cognition date naming-month
+s2mo,,,s2mo:w2 cognition date naming-month
+s3mo,,,s3mo:w3 cognition date naming-month
+s4mo,,,s4mo:w4 cognition date naming-month
+s5mo,,,s5mo:w5 cognition date naming-month
+s6mo,,,s6mo:w6 cognition date naming-month
+r1dy,,,r1dy:w1 cognition date naming-day of month
+r2dy,,,r2dy:w2 cognition date naming-day of month
+r3dy,,,r3dy:w3 cognition date naming-day of month
+r4dy,,,r4dy:w4 cognition date naming-day of month
+r5dy,,,r5dy:w5 cognition date naming-day of month
+r6dy,,,r6dy:w6 cognition date naming-day of month
+s1dy,,,s1dy:w1 cognition date naming-day of month
+s2dy,,,s2dy:w2 cognition date naming-day of month
+s3dy,,,s3dy:w3 cognition date naming-day of month
+s4dy,,,s4dy:w4 cognition date naming-day of month
+s5dy,,,s5dy:w5 cognition date naming-day of month
+s6dy,,,s6dy:w6 cognition date naming-day of month
+r1yr,,,r1yr:w1 cognition date naming-year
+r2yr,,,r2yr:w2 cognition date naming-year
+r3yr,,,r3yr:w3 cognition date naming-year
+r4yr,,,r4yr:w4 cognition date naming-year
+r5yr,,,r5yr:w5 cognition date naming-year
+r6yr,,,r6yr:w6 cognition date naming-year
+s1yr,,,s1yr:w1 cognition date naming-year
+s2yr,,,s2yr:w2 cognition date naming-year
+s3yr,,,s3yr:w3 cognition date naming-year
+s4yr,,,s4yr:w4 cognition date naming-year
+s5yr,,,s5yr:w5 cognition date naming-year
+s6yr,,,s6yr:w6 cognition date naming-year
+r1dw,,,r1dw:w1 cognition date naming-day of week
+r2dw,,,r2dw:w2 cognition date naming-day of week
+r3dw,,,r3dw:w3 cognition date naming-day of week
+r4dw,,,r4dw:w4 cognition date naming-day of week
+r5dw,,,r5dw:w5 cognition date naming-day of week
+r6dw,,,r6dw:w6 cognition date naming-day of week
+s1dw,,,s1dw:w1 cognition date naming-day of week
+s2dw,,,s2dw:w2 cognition date naming-day of week
+s3dw,,,s3dw:w3 cognition date naming-day of week
+s4dw,,,s4dw:w4 cognition date naming-day of week
+s5dw,,,s5dw:w5 cognition date naming-day of week
+s6dw,,,s6dw:w6 cognition date naming-day of week
+r1orient,,,r1orient:w1 cognition orient(summary date naming)
+r2orient,,,r2orient:w2 cognition orient(summary date naming)
+r3orient,,,r3orient:w3 cognition orient(summary date naming)
+r4orient,,,r4orient:w4 cognition orient(summary date naming)
+r5orient,,,r5orient:w5 cognition orient(summary date naming)
+r6orient,,,r6orient:w6 cognition orient(summary date naming)
+s1orient,,,s1orient:w1 cognition orient (summary date naming)
+s2orient,,,s2orient:w2 cognition orient (summary date naming)
+s3orient,,,s3orient:w3 cognition orient (summary date naming)
+s4orient,,,s4orient:w4 cognition orient (summary date naming)
+s5orient,,,s5orient:w5 cognition orient (summary date naming)
+s6orient,,,s6orient:w6 cognition orient (summary date naming)
+r1verbf,,,r1verbf:w1 verbal fluency score
+r2verbf,,,r2verbf:w2 verbal fluency score
+r3verbf,,,r3verbf:w3 verbal fluency score
+r4verbf,,,r4verbf:w4 verbal fluency score
+r5verbf,,,r5verbf:w5 verbal fluency score
+s1verbf,,,s1verbf:w1 verbal fluency score
+s2verbf,,,s2verbf:w2 verbal fluency score
+s3verbf,,,s3verbf:w3 verbal fluency score
+s4verbf,,,s4verbf:w4 verbal fluency score
+s5verbf,,,s5verbf:w5 verbal fluency score
+r1numer.e,,,r1numer_e:w1 numeracy  score
+r4numer.e,,,r4numer_e:w4 numeracy  score
+r6numer.e,,,r6numer_e:w6 numeracy  score
+s1numer.e,,,s1numer_e:w1 numeracy  score
+s4numer.e,,,s4numer_e:w4 numeracy  score
+s6numer.e,,,s6numer_e:w6 numeracy  score
+r1tr20,,,r1tr20:w1 recall summary  score
+r2tr20,,,r2tr20:w2 recall summary  score
+r3tr20,,,r3tr20:w3 recall summary  score
+r4tr20,,,r4tr20:w4 recall summary  score
+r5tr20,,,r5tr20:w5 recall summary  score
+r6tr20,,,r6tr20:w6 recall summary  score
+s1tr20,,,s1tr20:w1 recall summary  score
+s2tr20,,,s2tr20:w2 recall summary  score
+s3tr20,,,s3tr20:w3 recall summary  score
+s4tr20,,,s4tr20:w4 recall summary  score
+s5tr20,,,s5tr20:w5 recall summary  score
+s6tr20,,,s6tr20:w6 recall summary  score
+r1prmt1,,,r1prmt1:w1 r prospective memory task 1
+r2prmt1,,,r2prmt1:w2 r prospective memory task 1
+r3prmt1,,,r3prmt1:w3 r prospective memory task 1
+r4prmt1,,,r4prmt1:w4 r prospective memory task 1
+r5prmt1,,,r5prmt1:w5 r prospective memory task 1
+s1prmt1,,,s1prmt1:w1 s prospective memory task 1
+s2prmt1,,,s2prmt1:w2 s prospective memory task 1
+s3prmt1,,,s3prmt1:w3 s prospective memory task 1
+s4prmt1,,,s4prmt1:w4 s prospective memory task 1
+s5prmt1,,,s5prmt1:w5 s prospective memory task 1
+r1prmt2,,,r1prmt2:w1 r prospective memory task 2
+s1prmt2,,,s1prmt2:w1 s prospective memory task 2
+c2001cpindex,,,"2001 consumer price index, 2010=100"
+c2002cpindex,,,"2002 consumer price index, 2010=100"
+c2003cpindex,,,"2003 consumer price index, 2010=100"
+c2004cpindex,,,"2004 consumer price index, 2010=100"
+c2005cpindex,,,"2005 consumer price index, 2010=100"
+c2006cpindex,,,"2006 consumer price index, 2010=100"
+c2007cpindex,,,"2007 consumer price index, 2010=100"
+c2008cpindex,,,"2008 consumer price index, 2010=100"
+c2009cpindex,,,"2009 consumer price index, 2010=100"
+c2010cpindex,,,"2010 consumer price index, 2010=100"
+c2011cpindex,,,"2011 consumer price index, 2010=100"
+c2012cpindex,,,"2012 consumer price index, 2010=100"
+c2013cpindex,,,"2013 consumer price index, 2010=100"
+h1arles,,,h1arles:w1 assets: other real estate
+h2arles,,,h2arles:w2 assets: other real estate
+h3arles,,,h3arles:w3 assets: other real estate
+h4arles,,,h4arles:w4 assets: other real estate
+h5arles,,,h5arles:w5 assets: other real estate
+h6arles,,,h6arles:w6 assets: other real estate
+h1afrles,,,h1afrles:w1 asst flag: other real estate
+h2afrles,,,h2afrles:w2 asst flag: other real estate
+h3afrles,,,h3afrles:w3 asst flag: other real estate
+h4afrles,,,h4afrles:w4 asst flag: other real estate
+h5afrles,,,h5afrles:w5 asst flag: other real estate
+h6afrles,,,h6afrles:w6 asst flag: other real estate
+h1absns,,,h1absns:w1 assets: business
+h2absns,,,h2absns:w2 assets: business
+h3absns,,,h3absns:w3 assets: business
+h4absns,,,h4absns:w4 assets: business
+h5absns,,,h5absns:w5 assets: business
+h6absns,,,h6absns:w6 assets: business
+h1afbsns,,,h1afbsns:w1 asst flag: business
+h2afbsns,,,h2afbsns:w2 asst flag: business
+h3afbsns,,,h3afbsns:w3 asst flag: business
+h4afbsns,,,h4afbsns:w4 asst flag: business
+h5afbsns,,,h5afbsns:w5 asst flag: business
+h6afbsns,,,h6afbsns:w6 asst flag: business
+h1aira,,,"h1aira:w1 assets: ISA, PEPS, TESSA"
+h2aira,,,"h2aira:w2 assets: ISA, PEPS, TESSA"
+h3aira,,,"h3aira:w3 assets: ISA, PEPS, TESSA"
+h4aira,,,"h4aira:w4 assets: ISA, PEPS, TESSA"
+h5aira,,,"h5aira:w5 assets: ISA, PEPS, TESSA"
+h6aira,,,"h6aira:w6 assets: ISA, PEPS, TESSA"
+h1afira,,,"h1afira:w1 asst flag: ISA, PEPS, TESSA"
+h2afira,,,"h2afira:w2 asst flag: ISA, PEPS, TESSA"
+h3afira,,,"h3afira:w3 asst flag: ISA, PEPS, TESSA"
+h4afira,,,"h4afira:w4 asst flag: ISA, PEPS, TESSA"
+h5afira,,,"h5afira:w5 asst flag: ISA, PEPS, TESSA"
+h6afira,,,"h6afira:w6 asst flag: ISA, PEPS, TESSA"
+h1astck,,,h1astck:w1 assets: stocks
+h2astck,,,h2astck:w2 assets: stocks
+h3astck,,,h3astck:w3 assets: stocks
+h4astck,,,h4astck:w4 assets: stocks
+h5astck,,,h5astck:w5 assets: stocks
+h6astck,,,h6astck:w6 assets: stocks
+h1afstck,,,h1afstck:w1 asst flag: stocks
+h2afstck,,,h2afstck:w2 asst flag: stocks
+h3afstck,,,h3afstck:w3 asst flag: stocks
+h4afstck,,,h4afstck:w4 asst flag: stocks
+h5afstck,,,h5afstck:w5 asst flag: stocks
+h6afstck,,,h6afstck:w6 asst flag: stocks
+h1achck,,,"h1achck:w1 assets: current,savings acct"
+h2achck,,,"h2achck:w2 assets: current,savings acct"
+h3achck,,,"h3achck:w3 assets: current,savings acct"
+h4achck,,,"h4achck:w4 assets: current,savings acct"
+h5achck,,,"h5achck:w5 assets: current,savings acct"
+h6achck,,,"h6achck:w6 assets: current,savings acct"
+h1afchck,,,"h1afchck:w1 asst flag: current,savings acct"
+h2afchck,,,"h2afchck:w2 asst flag: current,savings acct"
+h3afchck,,,"h3afchck:w3 asst flag: current,savings acct"
+h4afchck,,,"h4afchck:w4 asst flag: current,savings acct"
+h5afchck,,,"h5afchck:w5 asst flag: current,savings acct"
+h6afchck,,,"h6afchck:w6 asst flag: current,savings acct"
+h1abond,,,h1abond:w1 assets: bonds
+h2abond,,,h2abond:w2 assets: bonds
+h3abond,,,h3abond:w3 assets: bonds
+h4abond,,,h4abond:w4 assets: bonds
+h5abond,,,h5abond:w5 assets: bonds
+h6abond,,,h6abond:w6 assets: bonds
+h1afbond,,,h1afbond:w1 asst flag: bonds
+h2afbond,,,h2afbond:w2 asst flag: bonds
+h3afbond,,,h3afbond:w3 asst flag: bonds
+h4afbond,,,h4afbond:w4 asst flag: bonds
+h5afbond,,,h5afbond:w5 asst flag: bonds
+h6afbond,,,h6afbond:w6 asst flag: bonds
+h1adebt,,,h1adebt:w1 assets: debts
+h2adebt,,,h2adebt:w2 assets: debts
+h3adebt,,,h3adebt:w3 assets: debts
+h4adebt,,,h4adebt:w4 assets: debts
+h5adebt,,,h5adebt:w5 assets: debts
+h6adebt,,,h6adebt:w6 assets: debts
+h1afdebt,,,h1afdebt:w1 asst flag: debts
+h2afdebt,,,h2afdebt:w2 asst flag: debts
+h3afdebt,,,h3afdebt:w3 asst flag: debts
+h4afdebt,,,h4afdebt:w4 asst flag: debts
+h5afdebt,,,h5afdebt:w5 asst flag: debts
+h6afdebt,,,h6afdebt:w6 asst flag: debts
+h1ahous,,,h1ahous:w1 value of house/prim res
+h2ahous,,,h2ahous:w2 value of house/prim res
+h3ahous,,,h3ahous:w3 value of house/prim res
+h4ahous,,,h4ahous:w4 value of house/prim res
+h5ahous,,,h5ahous:w5 value of house/prim res
+h6ahous,,,h6ahous:w6 value of house/prim res
+h1afhous,,,h1afhous:w1 flag: value of house/prim res
+h2afhous,,,h2afhous:w2 flag: value of house/prim res
+h3afhous,,,h3afhous:w3 flag: value of house/prim res
+h4afhous,,,h4afhous:w4 flag: value of house/prim res
+h5afhous,,,h5afhous:w5 flag: value of house/prim res
+h6afhous,,,h6afhous:w6 flag: value of house/prim res
+h1amort,,,h1amort:w1 value of mortgage/prim res
+h2amort,,,h2amort:w2 value of mortgage/prim res
+h3amort,,,h3amort:w3 value of mortgage/prim res
+h4amort,,,h4amort:w4 value of mortgage/prim res
+h5amort,,,h5amort:w5 value of mortgage/prim res
+h6amort,,,h6amort:w6 value of mortgage/prim res
+h1afmort,,,h1afmort:w1 flag: value of mortgage/prim res
+h2afmort,,,h2afmort:w2 flag: value of mortgage/prim res
+h3afmort,,,h3afmort:w3 flag: value of mortgage/prim res
+h4afmort,,,h4afmort:w4 flag: value of mortgage/prim res
+h5afmort,,,h5afmort:w5 flag: value of mortgage/prim res
+h6afmort,,,h6afmort:w6 flag: value of mortgage/prim res
+h1atoth,,,h1atoth:w1 net value of house/prim res
+h2atoth,,,h2atoth:w2 net value of house/prim res
+h3atoth,,,h3atoth:w3 net value of house/prim res
+h4atoth,,,h4atoth:w4 net value of house/prim res
+h5atoth,,,h5atoth:w5 net value of house/prim res
+h6atoth,,,h6atoth:w6 net value of house/prim res
+h1aftoth,,,h1aftoth:w1 flag: net value of house/prim res
+h2aftoth,,,h2aftoth:w2 flag: net value of house/prim res
+h3aftoth,,,h3aftoth:w3 flag: net value of house/prim res
+h4aftoth,,,h4aftoth:w4 flag: net value of house/prim res
+h5aftoth,,,h5aftoth:w5 flag: net value of house/prim res
+h6aftoth,,,h6aftoth:w6 flag: net value of house/prim res
+h1aftothn,,,h1aftothn:w1 flag: multiple couple home ownership
+h2aftothn,,,h2aftothn:w2 flag: multiple couple home ownership
+h3aftothn,,,h3aftothn:w3 flag: multiple couple home ownership
+h4aftothn,,,h4aftothn:w4 flag: multiple couple home ownership
+h5aftothn,,,h5aftothn:w5 flag: multiple couple home ownership
+h6aftothn,,,h6aftothn:w6 flag: multiple couple home ownership
+h1atotf,,,h1atotf:w1 non-housing financial wealth
+h2atotf,,,h2atotf:w2 non-housing financial wealth
+h3atotf,,,h3atotf:w3 non-housing financial wealth
+h4atotf,,,h4atotf:w4 non-housing financial wealth
+h5atotf,,,h5atotf:w5 non-housing financial wealth
+h6atotf,,,h6atotf:w6 non-housing financial wealth
+h1aftotf,,,h1aftotf:w1 flag: non-housing financial wealth
+h2aftotf,,,h2aftotf:w2 flag: non-housing financial wealth
+h3aftotf,,,h3aftotf:w3 flag: non-housing financial wealth
+h4aftotf,,,h4aftotf:w4 flag: non-housing financial wealth
+h5aftotf,,,h5aftotf:w5 flag: non-housing financial wealth
+h6aftotf,,,h6aftotf:w6 flag: non-housing financial wealth
+h1atotb,,,h1atotb:w1 total all assets inc. 2nd hm
+h2atotb,,,h2atotb:w2 total all assets inc. 2nd hm
+h3atotb,,,h3atotb:w3 total all assets inc. 2nd hm
+h4atotb,,,h4atotb:w4 total all assets inc. 2nd hm
+h5atotb,,,h5atotb:w5 total all assets inc. 2nd hm
+h6atotb,,,h6atotb:w6 total all assets inc. 2nd hm
+h1aftotb,,,h1aftotb:w1 flag total all assets inc. 2nd hm
+h2aftotb,,,h2aftotb:w2 flag total all assets inc. 2nd hm
+h3aftotb,,,h3aftotb:w3 flag total all assets inc. 2nd hm
+h4aftotb,,,h4aftotb:w4 flag total all assets inc. 2nd hm
+h5aftotb,,,h5aftotb:w5 flag total all assets inc. 2nd hm
+h6aftotb,,,h6aftotb:w6 flag total all assets inc. 2nd hm
+r1itearn,,,r1itearn:w1 income: r employment earnings (after tax)
+r2itearn,,,r2itearn:w2 income: r employment earnings (after tax)
+r3itearn,,,r3itearn:w3 income: r employment earnings (after tax)
+r4itearn,,,r4itearn:w4 income: r employment earnings (after tax)
+r5itearn,,,r5itearn:w5 income: r employment earnings (after tax)
+r6itearn,,,r6itearn:w6 income: r employment earnings (after tax)
+s1itearn,,,s1itearn:w1 income: s employment earnings (after tax)
+s2itearn,,,s2itearn:w2 income: s employment earnings (after tax)
+s3itearn,,,s3itearn:w3 income: s employment earnings (after tax)
+s4itearn,,,s4itearn:w4 income: s employment earnings (after tax)
+s5itearn,,,s5itearn:w5 income: s employment earnings (after tax)
+s6itearn,,,s6itearn:w6 income: s employment earnings (after tax)
+r1itifearn,,,r1itifearn:w1 impflag: r employment earnings
+r2itifearn,,,r2itifearn:w2 impflag: r employment earnings
+r3itifearn,,,r3itifearn:w3 impflag: r employment earnings
+r4itifearn,,,r4itifearn:w4 impflag: r employment earnings
+r5itifearn,,,r5itifearn:w5 impflag: r employment earnings
+r6itifearn,,,r6itifearn:w6 impflag: r employment earnings
+s1itifearn,,,s1itifearn:w1 impflag: s employment earnings
+s2itifearn,,,s2itifearn:w2 impflag: s employment earnings
+s3itifearn,,,s3itifearn:w3 impflag: s employment earnings
+s4itifearn,,,s4itifearn:w4 impflag: s employment earnings
+s5itifearn,,,s5itifearn:w5 impflag: s employment earnings
+s6itifearn,,,s6itifearn:w6 impflag: s employment earnings
+h1isemp,,,h1isemp:w1 income: self-employ earnings (before tax)
+h2isemp,,,h2isemp:w2 income: self-employ earnings (before tax)
+h3isemp,,,h3isemp:w3 income: self-employ earnings (before tax)
+h4isemp,,,h4isemp:w4 income: self-employ earnings (before tax)
+h5isemp,,,h5isemp:w5 income: self-employ earnings (before tax)
+h6isemp,,,h6isemp:w6 income: self-employ earnings (before tax)
+h1iifsemp,,,h1iifsemp:w1 impflag: self-employ earnings
+h2iifsemp,,,h2iifsemp:w2 impflag: self-employ earnings
+h3iifsemp,,,h3iifsemp:w3 impflag: self-employ earnings
+h4iifsemp,,,h4iifsemp:w4 impflag: self-employ earnings
+h5iifsemp,,,h5iifsemp:w5 impflag: self-employ earnings
+h6iifsemp,,,h6iifsemp:w6 impflag: self-employ earnings
+h1itrent,,,h1itrent:w1 income: rental income from other property (after tax)
+h2itrent,,,h2itrent:w2 income: rental income from other property (after tax)
+h3itrent,,,h3itrent:w3 income: rental income from other property (after tax)
+h4itrent,,,h4itrent:w4 income: rental income from other property (after tax)
+h5itrent,,,h5itrent:w5 income: rental income from other property (after tax)
+h6itrent,,,h6itrent:w6 income: rental income from other property (after tax)
+h1itifrent,,,h1itifrent:w1 impflag: rental income from other property
+h2itifrent,,,h2itifrent:w2 impflag: rental income from other property
+h3itifrent,,,h3itifrent:w3 impflag: rental income from other property
+h4itifrent,,,h4itifrent:w4 impflag: rental income from other property
+h5itifrent,,,h5itifrent:w5 impflag: rental income from other property
+h6itifrent,,,h6itifrent:w6 impflag: rental income from other property
+h1ittrest,,,h1ittrest:w1 income: interest income from financial assets (after tax)
+h2ittrest,,,h2ittrest:w2 income: interest income from financial assets (after tax)
+h3ittrest,,,h3ittrest:w3 income: interest income from financial assets (after tax)
+h4ittrest,,,h4ittrest:w4 income: interest income from financial assets (after tax)
+h5ittrest,,,h5ittrest:w5 income: interest income from financial assets (after tax)
+h6ittrest,,,h6ittrest:w6 income: interest income from financial assets (after tax)
+h1ittfrest,,,h1ittfrest:w1 impflag: interest income from financial assets
+h2ittfrest,,,h2ittfrest:w2 impflag: interest income from financial assets
+h3ittfrest,,,h3ittfrest:w3 impflag: interest income from financial assets
+h4ittfrest,,,h4ittfrest:w4 impflag: interest income from financial assets
+h5ittfrest,,,h5ittfrest:w5 impflag: interest income from financial assets
+h6ittfrest,,,h6ittfrest:w6 impflag: interest income from financial assets
+h1icap,,,h1icap:w1 income: couple level capital income
+h2icap,,,h2icap:w2 income: couple level capital income
+h3icap,,,h3icap:w3 income: couple level capital income
+h4icap,,,h4icap:w4 income: couple level capital income
+h5icap,,,h5icap:w5 income: couple level capital income
+h6icap,,,h6icap:w6 income: couple level capital income
+h1ifcap,,,h1ifcap:w1 impflag: couple level capital income
+h2ifcap,,,h2ifcap:w2 impflag: couple level capital income
+h3ifcap,,,h3ifcap:w3 impflag: couple level capital income
+h4ifcap,,,h4ifcap:w4 impflag: couple level capital income
+h5ifcap,,,h5ifcap:w5 impflag: couple level capital income
+h6ifcap,,,h6ifcap:w6 impflag: couple level capital income
+h1itfcap,,,h1itfcap:w1 taxflag: couple level capital income
+h2itfcap,,,h2itfcap:w2 taxflag: couple level capital income
+h3itfcap,,,h3itfcap:w3 taxflag: couple level capital income
+h4itfcap,,,h4itfcap:w4 taxflag: couple level capital income
+h5itfcap,,,h5itfcap:w5 taxflag: couple level capital income
+h6itfcap,,,h6itfcap:w6 taxflag: couple level capital income
+r1itpena,,,r1itpena:w1 income: r pension + annuity (after tax)
+r2itpena,,,r2itpena:w2 income: r pension + annuity (after tax)
+r3itpena,,,r3itpena:w3 income: r pension + annuity (after tax)
+r4itpena,,,r4itpena:w4 income: r pension + annuity (after tax)
+r5itpena,,,r5itpena:w5 income: r pension + annuity (after tax)
+r6itpena,,,r6itpena:w6 income: r pension + annuity (after tax)
+s1itpena,,,s1itpena:w1 income: s pension + annuity (after tax)
+s2itpena,,,s2itpena:w2 income: s pension + annuity (after tax)
+s3itpena,,,s3itpena:w3 income: s pension + annuity (after tax)
+s4itpena,,,s4itpena:w4 income: s pension + annuity (after tax)
+s5itpena,,,s5itpena:w5 income: s pension + annuity (after tax)
+s6itpena,,,s6itpena:w6 income: s pension + annuity (after tax)
+r1itifpena,,,r1itifpena:w1 impflag: r pension + annuity
+r2itifpena,,,r2itifpena:w2 impflag: r pension + annuity
+r3itifpena,,,r3itifpena:w3 impflag: r pension + annuity
+r4itifpena,,,r4itifpena:w4 impflag: r pension + annuity
+r5itifpena,,,r5itifpena:w5 impflag: r pension + annuity
+r6itifpena,,,r6itifpena:w6 impflag: r pension + annuity
+s1itifpena,,,s1itifpena:w1 impflag: s pension + annuity
+s2itifpena,,,s2itifpena:w2 impflag: s pension + annuity
+s3itifpena,,,s3itifpena:w3 impflag: s pension + annuity
+s4itifpena,,,s4itifpena:w4 impflag: s pension + annuity
+s5itifpena,,,s5itifpena:w5 impflag: s pension + annuity
+s6itifpena,,,s6itifpena:w6 impflag: s pension + annuity
+r1issdi,,,r1issdi:w1 income: r public disability pension
+r2issdi,,,r2issdi:w2 income: r public disability pension
+r3issdi,,,r3issdi:w3 income: r public disability pension
+r4issdi,,,r4issdi:w4 income: r public disability pension
+r5issdi,,,r5issdi:w5 income: r public disability pension
+r6issdi,,,r6issdi:w6 income: r public disability pension
+s1issdi,,,s1issdi:w1 income: s public disability pension
+s2issdi,,,s2issdi:w2 income: s public disability pension
+s3issdi,,,s3issdi:w3 income: s public disability pension
+s4issdi,,,s4issdi:w4 income: s public disability pension
+s5issdi,,,s5issdi:w5 income: s public disability pension
+s6issdi,,,s6issdi:w6 income: s public disability pension
+r1ifssdi,,,r1ifssdi:w1 impflag: r public disability pension
+r2ifssdi,,,r2ifssdi:w2 impflag: r public disability pension
+r3ifssdi,,,r3ifssdi:w3 impflag: r public disability pension
+r4ifssdi,,,r4ifssdi:w4 impflag: r public disability pension
+r5ifssdi,,,r5ifssdi:w5 impflag: r public disability pension
+r6ifssdi,,,r6ifssdi:w6 impflag: r public disability pension
+s1ifssdi,,,s1ifssdi:w1 impflag: s public disability pension
+s2ifssdi,,,s2ifssdi:w2 impflag: s public disability pension
+s3ifssdi,,,s3ifssdi:w3 impflag: s public disability pension
+s4ifssdi,,,s4ifssdi:w4 impflag: s public disability pension
+s5ifssdi,,,s5ifssdi:w5 impflag: s public disability pension
+s6ifssdi,,,s6ifssdi:w6 impflag: s public disability pension
+r1isret,,,r1isret:w1 income: r public old-age pension
+r2isret,,,r2isret:w2 income: r public old-age pension
+r3isret,,,r3isret:w3 income: r public old-age pension
+r4isret,,,r4isret:w4 income: r public old-age pension
+r5isret,,,r5isret:w5 income: r public old-age pension
+r6isret,,,r6isret:w6 income: r public old-age pension
+s1isret,,,s1isret:w1 income: s public old-age pension
+s2isret,,,s2isret:w2 income: s public old-age pension
+s3isret,,,s3isret:w3 income: s public old-age pension
+s4isret,,,s4isret:w4 income: s public old-age pension
+s5isret,,,s5isret:w5 income: s public old-age pension
+s6isret,,,s6isret:w6 income: s public old-age pension
+r1ifsret,,,r1ifsret:w1 incflag: r public old-age pension
+r2ifsret,,,r2ifsret:w2 incflag: r public old-age pension
+r3ifsret,,,r3ifsret:w3 incflag: r public old-age pension
+r4ifsret,,,r4ifsret:w4 incflag: r public old-age pension
+r5ifsret,,,r5ifsret:w5 incflag: r public old-age pension
+r6ifsret,,,r6ifsret:w6 incflag: r public old-age pension
+s1ifsret,,,s1ifsret:w1 incflag: s public old-age pension
+s2ifsret,,,s2ifsret:w2 incflag: s public old-age pension
+s3ifsret,,,s3ifsret:w3 incflag: s public old-age pension
+s4ifsret,,,s4ifsret:w4 incflag: s public old-age pension
+s5ifsret,,,s5ifsret:w5 incflag: s public old-age pension
+s6ifsret,,,s6ifsret:w6 incflag: s public old-age pension
+r1ipubpen,,,r1ipubpen:w1 income: r public pensions
+r2ipubpen,,,r2ipubpen:w2 income: r public pensions
+r3ipubpen,,,r3ipubpen:w3 income: r public pensions
+r4ipubpen,,,r4ipubpen:w4 income: r public pensions
+r5ipubpen,,,r5ipubpen:w5 income: r public pensions
+r6ipubpen,,,r6ipubpen:w6 income: r public pensions
+s1ipubpen,,,s1ipubpen:w1 income: s public pensions
+s2ipubpen,,,s2ipubpen:w2 income: s public pensions
+s3ipubpen,,,s3ipubpen:w3 income: s public pensions
+s4ipubpen,,,s4ipubpen:w4 income: s public pensions
+s5ipubpen,,,s5ipubpen:w5 income: s public pensions
+s6ipubpen,,,s6ipubpen:w6 income: s public pensions
+r1ifpubpen,,,r1ifpubpen:w1 impflag: r public pensions
+r2ifpubpen,,,r2ifpubpen:w2 impflag: r public pensions
+r3ifpubpen,,,r3ifpubpen:w3 impflag: r public pensions
+r4ifpubpen,,,r4ifpubpen:w4 impflag: r public pensions
+r5ifpubpen,,,r5ifpubpen:w5 impflag: r public pensions
+r6ifpubpen,,,r6ifpubpen:w6 impflag: r public pensions
+s1ifpubpen,,,s1ifpubpen:w1 impflag: s public pensions
+s2ifpubpen,,,s2ifpubpen:w2 impflag: s public pensions
+s3ifpubpen,,,s3ifpubpen:w3 impflag: s public pensions
+s4ifpubpen,,,s4ifpubpen:w4 impflag: s public pensions
+s5ifpubpen,,,s5ifpubpen:w5 impflag: s public pensions
+s6ifpubpen,,,s6ifpubpen:w6 impflag: s public pensions
+r1igxfr,,,r1igxfr:w1 income: r other gov transfers
+r2igxfr,,,r2igxfr:w2 income: r other gov transfers
+r3igxfr,,,r3igxfr:w3 income: r other gov transfers
+r4igxfr,,,r4igxfr:w4 income: r other gov transfers
+r5igxfr,,,r5igxfr:w5 income: r other gov transfers
+r6igxfr,,,r6igxfr:w6 income: r other gov transfers
+s1igxfr,,,s1igxfr:w1 income: s other gov transfers
+s2igxfr,,,s2igxfr:w2 income: s other gov transfers
+s3igxfr,,,s3igxfr:w3 income: s other gov transfers
+s4igxfr,,,s4igxfr:w4 income: s other gov transfers
+s5igxfr,,,s5igxfr:w5 income: s other gov transfers
+s6igxfr,,,s6igxfr:w6 income: s other gov transfers
+r1ifgxfr,,,r1ifgxfr:w1 impflag: r other gov transfers
+r2ifgxfr,,,r2ifgxfr:w2 impflag: r other gov transfers
+r3ifgxfr,,,r3ifgxfr:w3 impflag: r other gov transfers
+r4ifgxfr,,,r4ifgxfr:w4 impflag: r other gov transfers
+r5ifgxfr,,,r5ifgxfr:w5 impflag: r other gov transfers
+r6ifgxfr,,,r6ifgxfr:w6 impflag: r other gov transfers
+s1ifgxfr,,,s1ifgxfr:w1 impflag: s other gov transfers
+s2ifgxfr,,,s2ifgxfr:w2 impflag: s other gov transfers
+s3ifgxfr,,,s3ifgxfr:w3 impflag: s other gov transfers
+s4ifgxfr,,,s4ifgxfr:w4 impflag: s other gov transfers
+s5ifgxfr,,,s5ifgxfr:w5 impflag: s other gov transfers
+s6ifgxfr,,,s6ifgxfr:w6 impflag: s other gov transfers
+h1iothr,,,h1iothr:w1 income: other household income
+h2iothr,,,h2iothr:w2 income: other household income
+h3iothr,,,h3iothr:w3 income: other household income
+h4iothr,,,h4iothr:w4 income: other household income
+h5iothr,,,h5iothr:w5 income: other household income
+h6iothr,,,h6iothr:w6 income: other household income
+h1ifothr,,,h1ifothr:w1 impflag: other household income
+h2ifothr,,,h2ifothr:w2 impflag: other household income
+h3ifothr,,,h3ifothr:w3 impflag: other household income
+h4ifothr,,,h4ifothr:w4 impflag: other household income
+h5ifothr,,,h5ifothr:w5 impflag: other household income
+h6ifothr,,,h6ifothr:w6 impflag: other household income
+h1itot,,,h1itot:w1 income: total couple level income
+h2itot,,,h2itot:w2 income: total couple level income
+h3itot,,,h3itot:w3 income: total couple level income
+h4itot,,,h4itot:w4 income: total couple level income
+h5itot,,,h5itot:w5 income: total couple level income
+h6itot,,,h6itot:w6 income: total couple level income
+h1iftot,,,h1iftot:w1 impflag: total couple level income
+h2iftot,,,h2iftot:w2 impflag: total couple level income
+h3iftot,,,h3iftot:w3 impflag: total couple level income
+h4iftot,,,h4iftot:w4 impflag: total couple level income
+h5iftot,,,h5iftot:w5 impflag: total couple level income
+h6iftot,,,h6iftot:w6 impflag: total couple level income
+h1ifttot,,,h1ifttot:w1 taxflag: total couple level income
+h2ifttot,,,h2ifttot:w2 taxflag: total couple level income
+h3ifttot,,,h3ifttot:w3 taxflag: total couple level income
+h4ifttot,,,h4ifttot:w4 taxflag: total couple level income
+h5ifttot,,,h5ifttot:w5 taxflag: total couple level income
+h6ifttot,,,h6ifttot:w6 taxflag: total couple level income
+hh1cfoodi,,,hh1cfoodi:w1 hhold weekly food consumption in house
+hh2cfoodi,,,hh2cfoodi:w2 hhold weekly food consumption in house
+hh3cfoodi,,,hh3cfoodi:w3 hhold weekly food consumption in house
+hh4cfoodi,,,hh4cfoodi:w4 hhold weekly food consumption in house
+hh5cfoodi,,,hh5cfoodi:w5 hhold weekly food consumption in house
+hh6cfoodi,,,hh6cfoodi:w6 hhold weekly food consumption in house
+hh1cfoodo,,,hh1cfoodo:w1 hhold weekly food consumption outside house
+hh2cfoodo,,,hh2cfoodo:w2 hhold weekly food consumption outside house
+hh3cfoodo,,,hh3cfoodo:w3 hhold weekly food consumption outside house
+hh4cfoodo,,,hh4cfoodo:w4 hhold weekly food consumption outside house
+hh5cfoodo,,,hh5cfoodo:w5 hhold weekly food consumption outside house
+hh6cfoodo,,,hh6cfoodo:w6 hhold weekly food consumption outside house
+hh1cfood,,,hh1cfood:w1 hhold total weekly food consumption
+hh2cfood,,,hh2cfood:w2 hhold total weekly food consumption
+hh3cfood,,,hh3cfood:w3 hhold total weekly food consumption
+hh4cfood,,,hh4cfood:w4 hhold total weekly food consumption
+hh5cfood,,,hh5cfood:w5 hhold total weekly food consumption
+hh6cfood,,,hh6cfood:w6 hhold total weekly food consumption
+hh2cclo1m,,,hh2cclo1m:w2 hhold monthly clothing exp
+hh3cclo1m,,,hh3cclo1m:w3 hhold monthly clothing exp
+hh4cclo1m,,,hh4cclo1m:w4 hhold monthly clothing exp
+hh5cclo1m,,,hh5cclo1m:w5 hhold monthly clothing exp
+hh6cclo1m,,,hh6cclo1m:w6 hhold monthly clothing exp
+hh2clei1m,,,hh2clei1m:w2 hhold monthly leisure exp
+hh4clei1m,,,hh4clei1m:w4 hhold monthly leisure exp
+hh5clei1m,,,hh5clei1m:w5 hhold monthly leisure exp
+hh6clei1m,,,hh6clei1m:w6 hhold monthly leisure exp
+hh1crent,,,hh1crent:w1 hhold monthly rent
+hh2crent,,,hh2crent:w2 hhold monthly rent
+hh3crent,,,hh3crent:w3 hhold monthly rent
+hh4crent,,,hh4crent:w4 hhold monthly rent
+hh5crent,,,hh5crent:w5 hhold monthly rent
+hh6crent,,,hh6crent:w6 hhold monthly rent
+hh2cutil,,,hh2cutil:w2 hhold monthly utility/fuel
+hh3cutil,,,hh3cutil:w3 hhold monthly utility/fuel
+hh4cutil,,,hh4cutil:w4 hhold monthly utility/fuel
+hh5cutil,,,hh5cutil:w5 hhold monthly utility/fuel
+hh6cutil,,,hh6cutil:w6 hhold monthly utility/fuel
+hh2ctot,,,hh2ctot:w2 hhold total monthly consumption
+hh3ctot,,,hh3ctot:w3 hhold total monthly consumption
+hh4ctot,,,hh4ctot:w4 hhold total monthly consumption
+hh5ctot,,,hh5ctot:w5 hhold total monthly consumption
+hh6ctot,,,hh6ctot:w6 hhold total monthly consumption
+r1pubpen,,,r1pubpen:w1 r receives public pension
+r2pubpen,,,r2pubpen:w2 r receives public pension
+r3pubpen,,,r3pubpen:w3 r receives public pension
+r4pubpen,,,r4pubpen:w4 r receives public pension
+r5pubpen,,,r5pubpen:w5 r receives public pension
+r6pubpen,,,r6pubpen:w6 r receives public pension
+s1pubpen,,,s1pubpen:w1 s receives public pension
+s2pubpen,,,s2pubpen:w2 s receives public pension
+s3pubpen,,,s3pubpen:w3 s receives public pension
+s4pubpen,,,s4pubpen:w4 s receives public pension
+s5pubpen,,,s5pubpen:w5 s receives public pension
+s6pubpen,,,s6pubpen:w6 s receives public pension
+r1peninc,,,r1peninc:w1 r current receiving private pension income
+r2peninc,,,r2peninc:w2 r current receiving private pension income
+r3peninc,,,r3peninc:w3 r current receiving private pension income
+r4peninc,,,r4peninc:w4 r current receiving private pension income
+r5peninc,,,r5peninc:w5 r current receiving private pension income
+r6peninc,,,r6peninc:w6 r current receiving private pension income
+s1peninc,,,s1peninc:w1 s current receiving private pension income
+s2peninc,,,s2peninc:w2 s current receiving private pension income
+s3peninc,,,s3peninc:w3 s current receiving private pension income
+s4peninc,,,s4peninc:w4 s current receiving private pension income
+s5peninc,,,s5peninc:w5 s current receiving private pension income
+s6peninc,,,s6peninc:w6 s current receiving private pension income
+r1peninm,,,r1peninm:w1 # private pensions r currently receives income
+r2peninm,,,r2peninm:w2 # private pensions r currently receives income
+r3peninm,,,r3peninm:w3 # private pensions r currently receives income
+r4peninm,,,r4peninm:w4 # private pensions r currently receives income
+r5peninm,,,r5peninm:w5 # private pensions r currently receives income
+r6peninm,,,r6peninm:w6 # private pensions r currently receives income
+s1peninm,,,s1peninm:w1 # private pensions s currently receives income
+s2peninm,,,s2peninm:w2 # private pensions s currently receives income
+s3peninm,,,s3peninm:w3 # private pensions s currently receives income
+s4peninm,,,s4peninm:w4 # private pensions s currently receives income
+s5peninm,,,s5peninm:w5 # private pensions s currently receives income
+s6peninm,,,s6peninm:w6 # private pensions s currently receives income
+r1penct,,,r1penct:w1 # pensions from current job
+r2penct,,,r2penct:w2 # pensions from current job
+r3penct,,,r3penct:w3 # pensions from current job
+r4penct,,,r4penct:w4 # pensions from current job
+r5penct,,,r5penct:w5 # pensions from current job
+r6penct,,,r6penct:w6 # pensions from current job
+s1penct,,,s1penct:w1 # pensions from current job
+s2penct,,,s2penct:w2 # pensions from current job
+s3penct,,,s3penct:w3 # pensions from current job
+s4penct,,,s4penct:w4 # pensions from current job
+s5penct,,,s5penct:w5 # pensions from current job
+s6penct,,,s6penct:w6 # pensions from current job
+r1jcpen,,,r1jcpen:w1 r any pension from current job
+r2jcpen,,,r2jcpen:w2 r any pension from current job
+r3jcpen,,,r3jcpen:w3 r any pension from current job
+r4jcpen,,,r4jcpen:w4 r any pension from current job
+r5jcpen,,,r5jcpen:w5 r any pension from current job
+r6jcpen,,,r6jcpen:w6 r any pension from current job
+s1jcpen,,,s1jcpen:w1 s any pension from current job
+s2jcpen,,,s2jcpen:w2 s any pension from current job
+s3jcpen,,,s3jcpen:w3 s any pension from current job
+s4jcpen,,,s4jcpen:w4 s any pension from current job
+s5jcpen,,,s5jcpen:w5 s any pension from current job
+s6jcpen,,,s6jcpen:w6 s any pension from current job
+r1ptyp1,,,r1ptyp1:w1 r current pension type #1
+r2ptyp1,,,r2ptyp1:w2 r current pension type #1
+r3ptyp1,,,r3ptyp1:w3 r current pension type #1
+r4ptyp1,,,r4ptyp1:w4 r current pension type #1
+r5ptyp1,,,r5ptyp1:w5 r current pension type #1
+r6ptyp1,,,r6ptyp1:w6 r current pension type #1
+s1ptyp1,,,s1ptyp1:w1 s current pension type #1
+s2ptyp1,,,s2ptyp1:w2 s current pension type #1
+s3ptyp1,,,s3ptyp1:w3 s current pension type #1
+s4ptyp1,,,s4ptyp1:w4 s current pension type #1
+s5ptyp1,,,s5ptyp1:w5 s current pension type #1
+s6ptyp1,,,s6ptyp1:w6 s current pension type #1
+r1ptyp2,,,r1ptyp2:w1 r current pension type #2
+r2ptyp2,,,r2ptyp2:w2 r current pension type #2
+r3ptyp2,,,r3ptyp2:w3 r current pension type #2
+r4ptyp2,,,r4ptyp2:w4 r current pension type #2
+r5ptyp2,,,r5ptyp2:w5 r current pension type #2
+r6ptyp2,,,r6ptyp2:w6 r current pension type #2
+s1ptyp2,,,s1ptyp2:w1 s current pension type #2
+s2ptyp2,,,s2ptyp2:w2 s current pension type #2
+s3ptyp2,,,s3ptyp2:w3 s current pension type #2
+s4ptyp2,,,s4ptyp2:w4 s current pension type #2
+s5ptyp2,,,s5ptyp2:w5 s current pension type #2
+s6ptyp2,,,s6ptyp2:w6 s current pension type #2
+r2ptyp3,,,r2ptyp3:w2 r current pension type #3
+r6ptyp3,,,r6ptyp3:w6 r current pension type #3
+s2ptyp3,,,s2ptyp3:w2 s current pension type #3
+s6ptyp3,,,s6ptyp3:w6 s current pension type #3
+h1hhres,,,h1hhres:w1 Number of people in Household
+h2hhres,,,h2hhres:w2 Number of people in Household
+h3hhres,,,h3hhres:w3 Number of people in Household
+h4hhres,,,h4hhres:w4 Number of people in Household
+h5hhres,,,h5hhres:w5 Number of people in Household
+h6hhres,,,h6hhres:w6 Number of people in Household
+h1child,,,h1child:w1 Number of living children R/P
+h2child,,,h2child:w2 Number of living children R/p
+h3child,,,h3child:w3 Number of living children R/P
+h4child,,,h4child:w4 Number of living children R/P
+h5child,,,h5child:w5 Number of living children R/P
+h6child,,,h6child:w6 Number of living children R/P
+r1livsib,,,r1livsib:w1 r Number of living siblings
+r2livsib,,,r2livsib:w2 r Number of living siblings
+r3livsib,,,r3livsib:w3 r Number of living siblings
+r4livsib,,,r4livsib:w4 r Number of living siblings
+r5livsib,,,r5livsib:w5 r Number of living siblings
+r6livsib,,,r6livsib:w6 r Number of living siblings
+s1livsib,,,s1livsib:w1 s Number of living siblings
+s2livsib,,,s2livsib:w2 s Number of living siblings
+s3livsib,,,s3livsib:w3 s Number of living siblings
+s4livsib,,,s4livsib:w4 s Number of living siblings
+s5livsib,,,s5livsib:w5 s Number of living siblings
+s6livsib,,,s6livsib:w6 s Number of living siblings
+r1livpar,,,r1livpar:w1 r Number of living parents
+r2livpar,,,r2livpar:w2 r Number of living parents
+r3livpar,,,r3livpar:w3 r Number of living parents
+r4livpar,,,r4livpar:w4 r Number of living parents
+r5livpar,,,r5livpar:w5 r Number of living parents
+r6livpar,,,r6livpar:w6 r Number of living parents
+s1livpar,,,s1livpar:w1 s Number of living parents
+s2livpar,,,s2livpar:w2 s Number of living parents
+s3livpar,,,s3livpar:w3 s Number of living parents
+s4livpar,,,s4livpar:w4 s Number of living parents
+s5livpar,,,s5livpar:w5 s Number of living parents
+s6livpar,,,s6livpar:w6 s Number of living parents
+h1coresd,,,h1coresd:w1 Any Child co-reside with R/S
+h2coresd,,,h2coresd:w2 Any Child co-reside with R/S
+h3coresd,,,h3coresd:w3 Any Child co-reside with R/S
+h4coresd,,,h4coresd:w4 Any Child co-reside with R/S
+h5coresd,,,h5coresd:w5 Any Child co-reside with R/S
+h6coresd,,,h6coresd:w6 Any Child co-reside with R/S
+r1kcntf,,,r1kcntf:w1 any weekly contact w/ children in person
+r2kcntf,,,r2kcntf:w2 any weekly contact w/ children in person
+r3kcntf,,,r3kcntf:w3 any weekly contact w/ children in person
+r4kcntf,,,r4kcntf:w4 any weekly contact w/ children in person
+r5kcntf,,,r5kcntf:w5 any weekly contact w/ children in person
+r6kcntf,,,r6kcntf:w6 any weekly contact w/ children in person
+s1kcntf,,,s1kcntf:w1 any weekly contact w/ children in person
+s2kcntf,,,s2kcntf:w2 any weekly contact w/ children in person
+s3kcntf,,,s3kcntf:w3 any weekly contact w/ children in person
+s4kcntf,,,s4kcntf:w4 any weekly contact w/ children in person
+s5kcntf,,,s5kcntf:w5 any weekly contact w/ children in person
+s6kcntf,,,s6kcntf:w6 any weekly contact w/ children in person
+r1kcntpm,,,r1kcntpm:w1 any weekly contact w/ children-phone/email
+r2kcntpm,,,r2kcntpm:w2 any weekly contact w/ children-phone/email
+r3kcntpm,,,r3kcntpm:w3 any weekly contact w/ children-phone/email
+r4kcntpm,,,r4kcntpm:w4 any weekly contact w/ children-phone/email
+r5kcntpm,,,r5kcntpm:w5 any weekly contact w/ children-phone/email
+r6kcntpm,,,r6kcntpm:w6 any weekly contact w/ children-phone/email
+s1kcntpm,,,s1kcntpm:w1 any weekly contact w/ children-phone/email
+s2kcntpm,,,s2kcntpm:w2 any weekly contact w/ children-phone/email
+s3kcntpm,,,s3kcntpm:w3 any weekly contact w/ children-phone/email
+s4kcntpm,,,s4kcntpm:w4 any weekly contact w/ children-phone/email
+s5kcntpm,,,s5kcntpm:w5 any weekly contact w/ children-phone/email
+s6kcntpm,,,s6kcntpm:w6 any weekly contact w/ children-phone/email
+r1kcnt,,,r1kcnt:w1 any weekly contact w/ children in person/phone/email
+r2kcnt,,,r2kcnt:w2 any weekly contact w/ children in person/phone/email
+r3kcnt,,,r3kcnt:w3 any weekly contact w/ children in person/phone/email
+r4kcnt,,,r4kcnt:w4 any weekly contact w/ children in person/phone/email
+r5kcnt,,,r5kcnt:w5 any weekly contact w/ children in person/phone/email
+r6kcnt,,,r6kcnt:w6 any weekly contact w/ children in person/phone/email
+s1kcnt,,,s1kcnt:w1 any weekly contact w/ children in person/phone/email
+s2kcnt,,,s2kcnt:w2 any weekly contact w/ children in person/phone/email
+s3kcnt,,,s3kcnt:w3 any weekly contact w/ children in person/phone/email
+s4kcnt,,,s4kcnt:w4 any weekly contact w/ children in person/phone/email
+s5kcnt,,,s5kcnt:w5 any weekly contact w/ children in person/phone/email
+s6kcnt,,,s6kcnt:w6 any weekly contact w/ children in person/phone/email
+r1rcntf,,,r1rcntf:w1 any weekly contact w/ relative in person
+r2rcntf,,,r2rcntf:w2 any weekly contact w/ relative in person
+r3rcntf,,,r3rcntf:w3 any weekly contact w/ relative in person
+r4rcntf,,,r4rcntf:w4 any weekly contact w/ relative in person
+r5rcntf,,,r5rcntf:w5 any weekly contact w/ relative in person
+r6rcntf,,,r6rcntf:w6 any weekly contact w/ relative in person
+s1rcntf,,,s1rcntf:w1 any weekly contact w/ relative in person
+s2rcntf,,,s2rcntf:w2 any weekly contact w/ relative in person
+s3rcntf,,,s3rcntf:w3 any weekly contact w/ relative in person
+s4rcntf,,,s4rcntf:w4 any weekly contact w/ relative in person
+s5rcntf,,,s5rcntf:w5 any weekly contact w/ relative in person
+s6rcntf,,,s6rcntf:w6 any weekly contact w/ relative in person
+r2rcntpm,,,r2rcntpm:w2 any weekly contact w/ relative-phone/email
+r3rcntpm,,,r3rcntpm:w3 any weekly contact w/ relative-phone/email
+r5rcntpm,,,r5rcntpm:w5 any weekly contact w/ relative-phone/email
+r6rcntpm,,,r6rcntpm:w6 any weekly contact w/ relative-phone/email
+s2rcntpm,,,s2rcntpm:w2 any weekly contact w/ relative-phone/email
+s3rcntpm,,,s3rcntpm:w3 any weekly contact w/ relative-phone/email
+s5rcntpm,,,s5rcntpm:w5 any weekly contact w/ relative-phone/email
+s6rcntpm,,,s6rcntpm:w6 any weekly contact w/ relative-phone/email
+r1rcntm,,,r1rcntm:w1 any weekly contact w/ relative email
+r4rcntm,,,r4rcntm:w4 any weekly contact w/ relative email
+s1rcntm,,,s1rcntm:w1 any weekly contact w/ relative email
+s4rcntm,,,s4rcntm:w4 any weekly contact w/ relative email
+r2rcnt,,,r2rcnt:w2 any weekly contact w/ relative in person/phone/email
+r3rcnt,,,r3rcnt:w3 any weekly contact w/ relative in person/phone/email
+r5rcnt,,,r5rcnt:w5 any weekly contact w/ relative in person/phone/email
+r6rcnt,,,r6rcnt:w6 any weekly contact w/ relative in person/phone/email
+s2rcnt,,,s2rcnt:w2 any weekly contact w/ relative in person/phone/email
+s3rcnt,,,s3rcnt:w3 any weekly contact w/ relative in person/phone/email
+s5rcnt,,,s5rcnt:w5 any weekly contact w/ relative in person/phone/email
+s6rcnt,,,s6rcnt:w6 any weekly contact w/ relative in person/phone/email
+r1fcntf,,,r1fcntf:w1 any weekly contact w/ friend in person
+r2fcntf,,,r2fcntf:w2 any weekly contact w/ friend in person
+r3fcntf,,,r3fcntf:w3 any weekly contact w/ friend in person
+r4fcntf,,,r4fcntf:w4 any weekly contact w/ friend in person
+r5fcntf,,,r5fcntf:w5 any weekly contact w/ friend in person
+r6fcntf,,,r6fcntf:w6 any weekly contact w/ friend in person
+s1fcntf,,,s1fcntf:w1 any weekly contact w/ friend in person
+s2fcntf,,,s2fcntf:w2 any weekly contact w/ friend in person
+s3fcntf,,,s3fcntf:w3 any weekly contact w/ friend in person
+s4fcntf,,,s4fcntf:w4 any weekly contact w/ friend in person
+s5fcntf,,,s5fcntf:w5 any weekly contact w/ friend in person
+s6fcntf,,,s6fcntf:w6 any weekly contact w/ friend in person
+r1fcntpm,,,r1fcntpm:w1 any weekly contact w/ friend phone/email
+r2fcntpm,,,r2fcntpm:w2 any weekly contact w/ friend phone/email
+r3fcntpm,,,r3fcntpm:w3 any weekly contact w/ friend phone/email
+r4fcntpm,,,r4fcntpm:w4 any weekly contact w/ friend phone/email
+r5fcntpm,,,r5fcntpm:w5 any weekly contact w/ friend phone/email
+r6fcntpm,,,r6fcntpm:w6 any weekly contact w/ friend phone/email
+s1fcntpm,,,s1fcntpm:w1 any weekly contact w/ friend phone/email
+s2fcntpm,,,s2fcntpm:w2 any weekly contact w/ friend phone/email
+s3fcntpm,,,s3fcntpm:w3 any weekly contact w/ friend phone/email
+s4fcntpm,,,s4fcntpm:w4 any weekly contact w/ friend phone/email
+s5fcntpm,,,s5fcntpm:w5 any weekly contact w/ friend phone/email
+s6fcntpm,,,s6fcntpm:w6 any weekly contact w/ friend phone/email
+r1fcnt,,,r1fcnt:w1 any weekly contact w/ friend in person/phone/email
+r2fcnt,,,r2fcnt:w2 any weekly contact w/ friend in person/phone/email
+r3fcnt,,,r3fcnt:w3 any weekly contact w/ friend in person/phone/email
+r4fcnt,,,r4fcnt:w4 any weekly contact w/ friend in person/phone/email
+r5fcnt,,,r5fcnt:w5 any weekly contact w/ friend in person/phone/email
+r6fcnt,,,r6fcnt:w6 any weekly contact w/ friend in person/phone/email
+s1fcnt,,,s1fcnt:w1 any weekly contact w/ friend in person/phone/email
+s2fcnt,,,s2fcnt:w2 any weekly contact w/ friend in person/phone/email
+s3fcnt,,,s3fcnt:w3 any weekly contact w/ friend in person/phone/email
+s4fcnt,,,s4fcnt:w4 any weekly contact w/ friend in person/phone/email
+s5fcnt,,,s5fcnt:w5 any weekly contact w/ friend in person/phone/email
+s6fcnt,,,s6fcnt:w6 any weekly contact w/ friend in person/phone/email
+r1rcaany,,,r1rcaany:w1 R Received any informal care from family
+r2rcaany,,,r2rcaany:w2 R Received any informal care from family
+r3rcaany,,,r3rcaany:w3 R Received any informal care from family
+r4rcaany,,,r4rcaany:w4 R Received any informal care from family
+r5rcaany,,,r5rcaany:w5 R Received any informal care from family
+s1rcaany,,,s1rcaany:w1 S Received any informal care from family
+s2rcaany,,,s2rcaany:w2 S Received any informal care from family
+s3rcaany,,,s3rcaany:w3 S Received any informal care from family
+s4rcaany,,,s4rcaany:w4 S Received any informal care from family
+s5rcaany,,,s5rcaany:w5 S Received any informal care from family
+r1gcaany,,,r1gcaany:w1 R Gave any informal care to anyone
+r2gcaany,,,r2gcaany:w2 R Gave any informal care to anyone
+r3gcaany,,,r3gcaany:w3 R Gave any informal care to anyone
+r4gcaany,,,r4gcaany:w4 R Gave any informal care to anyone
+r5gcaany,,,r5gcaany:w5 R Gave any informal care to anyone
+r6gcaany,,,r6gcaany:w6 R Gave any informal care to anyone
+s1gcaany,,,s1gcaany:w1 S Gave any informal care to anyone
+s2gcaany,,,s2gcaany:w2 S Gave any informal care to anyone
+s3gcaany,,,s3gcaany:w3 S Gave any informal care to anyone
+s4gcaany,,,s4gcaany:w4 S Gave any informal care to anyone
+s5gcaany,,,s5gcaany:w5 S Gave any informal care to anyone
+s6gcaany,,,s6gcaany:w6 S Gave any informal care to anyone
+r1gkcare,,,r1gkcare:w1 R gave care to grandchildren
+r2gkcare,,,r2gkcare:w2 R gave care to grandchildren
+r3gkcare,,,r3gkcare:w3 R gave care to grandchildren
+r4gkcare,,,r4gkcare:w4 R gave care to grandchildren
+r5gkcare,,,r5gkcare:w5 R gave care to grandchildren
+r6gkcare,,,r6gkcare:w6 R gave care to grandchildren
+s1gkcare,,,s1gkcare:w1 S gave care to grandchildren
+s2gkcare,,,s2gkcare:w2 S gave care to grandchildren
+s3gkcare,,,s3gkcare:w3 S gave care to grandchildren
+s4gkcare,,,s4gkcare:w4 S gave care to grandchildren
+s5gkcare,,,s5gkcare:w5 S gave care to grandchildren
+s6gkcare,,,s6gkcare:w6 S gave care to grandchildren
+h2gany,,,h2gany:w2 any transfers given
+h4gany,,,h4gany:w4 Any transfers given
+h5gany,,,h5gany:w5 Any transfers given
+h6gany,,,h6gany:w6 Any transfers given
+h4tcany,,,h4tcany:w4 Any transfers given to children/ grandchildren
+h5tcany,,,h5tcany:w5 Any transfers given to children/ grandchildren
+h6tcany,,,h6tcany:w6 Any transfers given to children/ grandchildren
+h4toany,,,h4toany:w4 Any transfers given to other relatives
+h5toany,,,h5toany:w5 Any transfers given to other relatives
+h6toany,,,h6toany:w6 Any transfers given to other relatives
+h4tfany,,,h4tfany:w4 Any transfers given to other non-relatives
+h5tfany,,,h5tfany:w5 Any transfers given to other non-relatives
+h6tfany,,,h6tfany:w6 Any transfers given to other non-relatives
+r1work,,,r1work:w1 R working for pay
+r2work,,,r2work:w2 R working for pay
+r3work,,,r3work:w3 R working for pay
+r4work,,,r4work:w4 R working for pay
+r5work,,,r5work:w5 R working for pay
+r6work,,,r6work:w6 R working for pay
+s1work,,,s1work:w1 S working for pay
+s2work,,,s2work:w2 S working for pay
+s3work,,,s3work:w3 S working for pay
+s4work,,,s4work:w4 S working for pay
+s5work,,,s5work:w5 S working for pay
+s6work,,,s6work:w6 S working for pay
+r1work2,,,r1work2:w1 R Works at 2nd job
+r2work2,,,r2work2:w2 R Works at 2nd job
+r3work2,,,r3work2:w3 R Works at 2nd job
+r4work2,,,r4work2:w4 R Works at 2nd job
+r5work2,,,r5work2:w5 R Works at 2nd job
+r6work2,,,r6work2:w6 R Works at 2nd job
+s1work2,,,s1work2:w1 S Works at 2nd job
+s2work2,,,s2work2:w2 S Works at 2nd job
+s3work2,,,s3work2:w3 S Works at 2nd job
+s4work2,,,s4work2:w4 S Works at 2nd job
+s5work2,,,s5work2:w5 S Works at 2nd job
+s6work2,,,s6work2:w6 S Works at 2nd job
+r1slfemp,,,r1slfemp:w1 Whether Self-Employed
+r2slfemp,,,r2slfemp:w2 Whether Self-Employed
+r3slfemp,,,r3slfemp:w3 Whether Self-Employed
+r4slfemp,,,r4slfemp:w4 Whether Self-Employed
+r5slfemp,,,r5slfemp:w5 Whether Self-Employed
+r6slfemp,,,r6slfemp:w6 Whether Self-Employed
+s1slfemp,,,s1slfemp:w1 Whether Self-Employed
+s2slfemp,,,s2slfemp:w2 Whether Self-Employed
+s3slfemp,,,s3slfemp:w3 Whether Self-Employed
+s4slfemp,,,s4slfemp:w4 Whether Self-Employed
+s5slfemp,,,s5slfemp:w5 Whether Self-Employed
+s6slfemp,,,s6slfemp:w6 Whether Self-Employed
+r1lbrf.e,,,r1lbrf_e:w1 R labor force status
+r2lbrf.e,,,r2lbrf_e:w2 R labor force status
+r3lbrf.e,,,r3lbrf_e:w3 R labor force status
+r4lbrf.e,,,r4lbrf_e:w4 R labor force status
+r5lbrf.e,,,r5lbrf_e:w5 R labor force status
+r6lbrf.e,,,r6lbrf_e:w6 R labor force status
+s1lbrf.e,,,s1lbrf_e:w1 S labor force status
+s2lbrf.e,,,s2lbrf_e:w2 S labor force status
+s3lbrf.e,,,s3lbrf_e:w3 S labor force status
+s4lbrf.e,,,s4lbrf_e:w4 S labor force status
+s5lbrf.e,,,s5lbrf_e:w5 S labor force status
+s6lbrf.e,,,s6lbrf_e:w6 S labor force status
+r1inlbrf,,,r1inlbrf:W1 =1 if r is in the labor force
+r2inlbrf,,,r2inlbrf:W2 =1 if r is in the labor force
+r3inlbrf,,,r3inlbrf:W3 =1 if r is in the labor force
+r4inlbrf,,,r4inlbrf:W4 =1 if r is in the labor force
+r5inlbrf,,,r5inlbrf:W5 =1 if r is in the labor force
+r6inlbrf,,,r6inlbrf:W6 =1 if r is in the labor force
+s1inlbrf,,,s1inlbrf:W1 =1 if s is in the labor force
+s2inlbrf,,,s2inlbrf:W2 =1 if s is in the labor force
+s3inlbrf,,,s3inlbrf:W3 =1 if s is in the labor force
+s4inlbrf,,,s4inlbrf:W4 =1 if s is in the labor force
+s5inlbrf,,,s5inlbrf:W5 =1 if s is in the labor force
+s6inlbrf,,,s6inlbrf:W6 =1 if s is in the labor force
+r1unemp,,,r1unemp:w1 =1 if r is unemployed
+r2unemp,,,r2unemp:w2 =1 if r is unemployed
+r3unemp,,,r3unemp:w3 =1 if r is unemployed
+r4unemp,,,r4unemp:w4 =1 if r is unemployed
+r5unemp,,,r5unemp:w5 =1 if r is unemployed
+r6unemp,,,r6unemp:w6 =1 if r is unemployed
+s1unemp,,,s1unemp:w1 =1 if s is unemployed
+s2unemp,,,s2unemp:w2 =1 if s is unemployed
+s3unemp,,,s3unemp:w3 =1 if s is unemployed
+s4unemp,,,s4unemp:w4 =1 if s is unemployed
+s5unemp,,,s5unemp:w5 =1 if s is unemployed
+s6unemp,,,s6unemp:w6 =1 if s is unemployed
+r1jhours,,,r1jhours:w1 Hours worked/week main job
+r2jhours,,,r2jhours:w2 Hours worked/week main job
+r3jhours,,,r3jhours:w3 Hours worked/week main job
+r4jhours,,,r4jhours:w4 Hours worked/week main job
+r5jhours,,,r5jhours:w5 Hours worked/week main job
+r6jhours,,,r6jhours:w6 Hours worked/week main job
+s1jhours,,,s1jhours:w1 Hours worked/week main job
+s2jhours,,,s2jhours:w2 Hours worked/week main job
+s3jhours,,,s3jhours:w3 Hours worked/week main job
+s4jhours,,,s4jhours:w4 Hours worked/week main job
+s5jhours,,,s5jhours:w5 Hours worked/week main job
+s6jhours,,,s6jhours:w6 Hours worked/week main job
+r1jhour2.e,,,r1jhour2_e:w1 Hours worked/week 2nd job
+r2jhour2.e,,,r2jhour2_e:w2 Hours worked/week 2nd job
+r3jhour2.e,,,r3jhour2_e:w3 Hours worked/week 2nd job
+r4jhour2.e,,,r4jhour2_e:w4 Hours worked/week 2nd job
+r5jhour2.e,,,r5jhour2_e:w5 Hours worked/week 2nd job
+r6jhour2.e,,,r6jhour2_e:w6 Hours worked/week 2nd job
+s1jhour2.e,,,s1jhour2_e:w1 Hours worked/week 2nd job
+s2jhour2.e,,,s2jhour2_e:w2 Hours worked/week 2nd job
+s3jhour2.e,,,s3jhour2_e:w3 Hours worked/week 2nd job
+s4jhour2.e,,,s4jhour2_e:w4 Hours worked/week 2nd job
+s5jhour2.e,,,s5jhour2_e:w5 Hours worked/week 2nd job
+s6jhour2.e,,,s6jhour2_e:w6 Hours worked/week 2nd job
+r1jweeks.e,,,r1jweeks_e:w1 Weeks worked/year
+r2jweeks.e,,,r2jweeks_e:w2 Weeks worked/year
+r3jweeks.e,,,r3jweeks_e:w3 Weeks worked/year
+r4jweeks.e,,,r4jweeks_e:w4 Weeks worked/year
+r5jweeks.e,,,r5jweeks_e:w5 Weeks worked/year
+r6jweeks.e,,,r6jweeks_e:w6 Weeks worked/year
+s1jweeks.e,,,s1jweeks_e:w1 Weeks worked/year
+s2jweeks.e,,,s2jweeks_e:w2 Weeks worked/year
+s3jweeks.e,,,s3jweeks_e:w3 Weeks worked/year
+s4jweeks.e,,,s4jweeks_e:w4 Weeks worked/year
+s5jweeks.e,,,s5jweeks_e:w5 Weeks worked/year
+s6jweeks.e,,,s6jweeks_e:w6 Weeks worked/year
+r1wgihr.e,,,r1wgihr_e:w1 Imputed Wage Rate-Hrly
+r2wgihr.e,,,r2wgihr_e:w2 Imputed Wage Rate-Hrly
+r3wgihr.e,,,r3wgihr_e:w3 Imputed Wage Rate-Hrly
+r4wgihr.e,,,r4wgihr_e:w4 Imputed Wage Rate-Hrly
+r5wgihr.e,,,r5wgihr_e:w5 Imputed Wage Rate-Hrly
+r6wgihr.e,,,r6wgihr_e:w6 Imputed Wage Rate-Hrly
+s1wgihr.e,,,s1wgihr_e:w1 Imputed Wage Rate-Hrly
+s2wgihr.e,,,s2wgihr_e:w2 Imputed Wage Rate-Hrly
+s3wgihr.e,,,s3wgihr_e:w3 Imputed Wage Rate-Hrly
+s4wgihr.e,,,s4wgihr_e:w4 Imputed Wage Rate-Hrly
+s5wgihr.e,,,s5wgihr_e:w5 Imputed Wage Rate-Hrly
+s6wgihr.e,,,s6wgihr_e:w6 Imputed Wage Rate-Hrly
+r1wgiwk.e,,,r1wgiwk_e:w1 Imputed Wage Rate-Wkly
+r2wgiwk.e,,,r2wgiwk_e:w2 Imputed Wage Rate-Wkly
+r3wgiwk.e,,,r3wgiwk_e:w3 Imputed Wage Rate-Wkly
+r4wgiwk.e,,,r4wgiwk_e:w4 Imputed Wage Rate-Wkly
+r5wgiwk.e,,,r5wgiwk_e:w5 Imputed Wage Rate-Wkly
+r6wgiwk.e,,,r6wgiwk_e:w6 Imputed Wage Rate-Wkly
+s1wgiwk.e,,,s1wgiwk_e:w1 Imputed Wage Rate-Wkly
+s2wgiwk.e,,,s2wgiwk_e:w2 Imputed Wage Rate-Wkly
+s3wgiwk.e,,,s3wgiwk_e:w3 Imputed Wage Rate-Wkly
+s4wgiwk.e,,,s4wgiwk_e:w4 Imputed Wage Rate-Wkly
+s5wgiwk.e,,,s5wgiwk_e:w5 Imputed Wage Rate-Wkly
+s6wgiwk.e,,,s6wgiwk_e:w6 Imputed Wage Rate-Wkly
+r1wgfhr.e,,,r1wgfhr_e:w1 Impute Flag Wage Rate-Hrly
+r2wgfhr.e,,,r2wgfhr_e:w2 Impute Flag Wage Rate-Hrly
+r3wgfhr.e,,,r3wgfhr_e:w3 Impute Flag Wage Rate-Hrly
+r4wgfhr.e,,,r4wgfhr_e:w4 Impute Flag Wage Rate-Hrly
+r5wgfhr.e,,,r5wgfhr_e:w5 Impute Flag Wage Rate-Hrly
+r6wgfhr.e,,,r6wgfhr_e:w6 Impute Flag Wage Rate-Hrly
+s1wgfhr.e,,,s1wgfhr_e:w1 Impute Flag Wage Rate-Hrly
+s2wgfhr.e,,,s2wgfhr_e:w2 Impute Flag Wage Rate-Hrly
+s3wgfhr.e,,,s3wgfhr_e:w3 Impute Flag Wage Rate-Hrly
+s4wgfhr.e,,,s4wgfhr_e:w4 Impute Flag Wage Rate-Hrly
+s5wgfhr.e,,,s5wgfhr_e:w5 Impute Flag Wage Rate-Hrly
+s6wgfhr.e,,,s6wgfhr_e:w6 Impute Flag Wage Rate-Hrly
+r1wgfwk.e,,,r1wgfwk_e:w1 Impute Flag Wage Rate-Wkly
+r2wgfwk.e,,,r2wgfwk_e:w2 Impute Flag Wage Rate-Wkly
+r3wgfwk.e,,,r3wgfwk_e:w3 Impute Flag Wage Rate-Wkly
+r4wgfwk.e,,,r4wgfwk_e:w4 Impute Flag Wage Rate-Wkly
+r5wgfwk.e,,,r5wgfwk_e:w5 Impute Flag Wage Rate-Wkly
+r6wgfwk.e,,,r6wgfwk_e:w6 Impute Flag Wage Rate-Wkly
+s1wgfwk.e,,,s1wgfwk_e:w1 Impute Flag Wage Rate-Wkly
+s2wgfwk.e,,,s2wgfwk_e:w2 Impute Flag Wage Rate-Wkly
+s3wgfwk.e,,,s3wgfwk_e:w3 Impute Flag Wage Rate-Wkly
+s4wgfwk.e,,,s4wgfwk_e:w4 Impute Flag Wage Rate-Wkly
+s5wgfwk.e,,,s5wgfwk_e:w5 Impute Flag Wage Rate-Wkly
+s6wgfwk.e,,,s6wgfwk_e:w6 Impute Flag Wage Rate-Wkly
+r1jphys.e,,,r1jphys_e:w1 Cur job req lots phys effort
+r2jphys.e,,,r2jphys_e:w2 Cur job req lots phys effort
+r3jphys.e,,,r3jphys_e:w3 Cur job req lots phys effort
+r4jphys.e,,,r4jphys_e:w4 Cur job req lots phys effort
+r5jphys.e,,,r5jphys_e:w5 Cur job req lots phys effort
+r6jphys.e,,,r6jphys_e:w6 Cur job req lots phys effort
+s1jphys.e,,,s1jphys_e:w1 Cur job req lots phys effort
+s2jphys.e,,,s2jphys_e:w2 Cur job req lots phys effort
+s3jphys.e,,,s3jphys_e:w3 Cur job req lots phys effort
+s4jphys.e,,,s4jphys_e:w4 Cur job req lots phys effort
+s5jphys.e,,,s5jphys_e:w5 Cur job req lots phys effort
+s6jphys.e,,,s6jphys_e:w6 Cur job req lots phys effort
+r1jcten,,,r1jcten:w1 Current Job Tenure
+r2jcten,,,r2jcten:w2 Current Job Tenure
+r3jcten,,,r3jcten:w3 Current Job Tenure
+r4jcten,,,r4jcten:w4 Current Job Tenure
+r5jcten,,,r5jcten:w5 Current Job Tenure
+r6jcten,,,r6jcten:w6 Current Job Tenure
+s1jcten,,,s1jcten:w1 Current Job Tenure
+s2jcten,,,s2jcten:w2 Current Job Tenure
+s3jcten,,,s3jcten:w3 Current Job Tenure
+s4jcten,,,s4jcten:w4 Current Job Tenure
+s5jcten,,,s5jcten:w5 Current Job Tenure
+s6jcten,,,s6jcten:w6 Current Job Tenure
+r1fjcten,,,r1fjcten:w1 Flag Current Job Tenure
+r2fjcten,,,r2fjcten:w2 Flag Current Job Tenure
+r3fjcten,,,r3fjcten:w3 Flag Current Job Tenure
+r4fjcten,,,r4fjcten:w4 Flag Current Job Tenure
+r5fjcten,,,r5fjcten:w5 Flag Current Job Tenure
+r6fjcten,,,r6fjcten:w6 Flag Current Job Tenure
+s1fjcten,,,s1fjcten:w1 Flag Current Job Tenure
+s2fjcten,,,s2fjcten:w2 Flag Current Job Tenure
+s3fjcten,,,s3fjcten:w3 Flag Current Job Tenure
+s4fjcten,,,s4fjcten:w4 Flag Current Job Tenure
+s5fjcten,,,s5fjcten:w5 Flag Current Job Tenure
+s6fjcten,,,s6fjcten:w6 Flag Current Job Tenure
+r2jcocc.e,,,r2jcocc_e:w2 Current Job Occupation
+r3jcocc.e,,,r3jcocc_e:w3 Current Job Occupation
+r4jcocc.e,,,r4jcocc_e:w4 Current Job Occupation
+r5jcocc.e,,,r5jcocc_e:w5 Current Job Occupation
+r6jcocc.e,,,r6jcocc_e:w6 Current Job Occupation
+s2jcocc.e,,,s2jcocc_e:w2 Current Job Occupation
+s3jcocc.e,,,s3jcocc_e:w3 Current Job Occupation
+s4jcocc.e,,,s4jcocc_e:w4 Current Job Occupation
+s5jcocc.e,,,s5jcocc_e:w5 Current Job Occupation
+s6jcocc.e,,,s6jcocc_e:w6 Current Job Occupation
+r1jlastm,,,r1jlastm:w1 Month Last Worked/not workng
+r2jlastm,,,r2jlastm:w2 Month Last Worked/not workng
+r3jlastm,,,r3jlastm:w3 Month Last Worked/not workng
+r4jlastm,,,r4jlastm:w4 Month Last Worked/not workng
+r5jlastm,,,r5jlastm:w5 Month Last Worked/not workng
+r6jlastm,,,r6jlastm:w6 Month Last Worked/not workng
+s1jlastm,,,s1jlastm:w1 Month Last Worked/not workng
+s2jlastm,,,s2jlastm:w2 Month Last Worked/not workng
+s3jlastm,,,s3jlastm:w3 Month Last Worked/not workng
+s4jlastm,,,s4jlastm:w4 Month Last Worked/not workng
+s5jlastm,,,s5jlastm:w5 Month Last Worked/not workng
+s6jlastm,,,s6jlastm:w6 Month Last Worked/not workng
+r1jlasty,,,r1jlasty:w1 Year Last Worked/not workng
+r2jlasty,,,r2jlasty:w2 Year Last Worked/not workng
+r3jlasty,,,r3jlasty:w3 Year Last Worked/not workng
+r4jlasty,,,r4jlasty:w4 Year Last Worked/not workng
+r5jlasty,,,r5jlasty:w5 Year Last Worked/not workng
+r6jlasty,,,r6jlasty:w6 Year Last Worked/not workng
+s1jlasty,,,s1jlasty:w1 Year Last Worked/not workng
+s2jlasty,,,s2jlasty:w2 Year Last Worked/not workng
+s3jlasty,,,s3jlasty:w3 Year Last Worked/not workng
+s4jlasty,,,s4jlasty:w4 Year Last Worked/not workng
+s5jlasty,,,s5jlasty:w5 Year Last Worked/not workng
+s6jlasty,,,s6jlasty:w6 Year Last Worked/not workng
+r1retemp,,,r1retemp:w1 whether R retired
+r2retemp,,,r2retemp:w2 whether R retired
+r3retemp,,,r3retemp:w3 whether R retired
+r4retemp,,,r4retemp:w4 whether R retired
+r5retemp,,,r5retemp:w5 whether R retired
+r6retemp,,,r6retemp:w6 whether R retired
+s1retemp,,,s1retemp:w1 whether S retired
+s2retemp,,,s2retemp:w2 whether S retired
+s3retemp,,,s3retemp:w3 whether S retired
+s4retemp,,,s4retemp:w4 whether S retired
+s5retemp,,,s5retemp:w5 whether S retired
+s6retemp,,,s6retemp:w6 whether S retired
+r1retage,,,r1retage:w1 R retirement age
+r2retage,,,r2retage:w2 R retirement age
+r3retage,,,r3retage:w3 R retirement age
+r4retage,,,r4retage:w4 R retirement age
+r5retage,,,r5retage:w5 R retirement age
+r6retage,,,r6retage:w6 R retirement age
+s1retage,,,s1retage:w1 S retirement age
+s2retage,,,s2retage:w2 S retirement age
+s3retage,,,s3retage:w3 S retirement age
+s4retage,,,s4retage:w4 S retirement age
+s5retage,,,s5retage:w5 S retirement age
+s6retage,,,s6retage:w6 S retirement age
+r3liv85,,,r3liv85:w3 R probability of living to age 85
+r4liv85,,,r4liv85:w4 R probability of living to age 85
+r5liv85,,,r5liv85:w5 R probability of living to age 85
+r6liv85,,,r6liv85:w6 R probability of living to age 85
+s3liv85,,,s3liv85:w3 S probability of living to age 85
+s4liv85,,,s4liv85:w4 S probability of living to age 85
+s5liv85,,,s5liv85:w5 S probability of living to age 85
+s6liv85,,,s6liv85:w6 S probability of living to age 85
+r1liv10,,,r1liv10:w1 R probability of living to 75-120
+r2liv10,,,r2liv10:w2 R probability of living to 75-120
+r3liv10,,,r3liv10:w3 R probability of living to 75-120
+r4liv10,,,r4liv10:w4 R probability of living to 75-120
+r5liv10,,,r5liv10:w5 R probability of living to 75-120
+r6liv10,,,r6liv10:w6 R probability of living to 75-120
+s1liv10,,,s1liv10:w1 S probability of living to 75-120
+s2liv10,,,s2liv10:w2 S probability of living to 75-120
+s3liv10,,,s3liv10:w3 S probability of living to 75-120
+s4liv10,,,s4liv10:w4 S probability of living to 75-120
+s5liv10,,,s5liv10:w5 S probability of living to 75-120
+s6liv10,,,s6liv10:w6 S probability of living to 75-120
+r1liv10a,,,r1liv10a:w1 R age used in live 75-120
+r2liv10a,,,r2liv10a:w2 R age used in live 75-120
+r3liv10a,,,r3liv10a:w3 R age used in live 75-120
+r4liv10a,,,r4liv10a:w4 R age used in live 75-120
+r5liv10a,,,r5liv10a:w5 R age used in live 75-120
+r6liv10a,,,r6liv10a:w6 R age used in live 75-120
+s1liv10a,,,s1liv10a:w1 S age used in live 75-120
+s2liv10a,,,s2liv10a:w2 S age used in live 75-120
+s3liv10a,,,s3liv10a:w3 S age used in live 75-120
+s4liv10a,,,s4liv10a:w4 S age used in live 75-120
+s5liv10a,,,s5liv10a:w5 S age used in live 75-120
+s6liv10a,,,s6liv10a:w6 S age used in live 75-120
+r1inher,,,r1inher:w1 R probability of receiving an inheritance
+r2inher,,,r2inher:w2 R probability of receiving an inheritance
+r3inher,,,r3inher:w3 R probability of receiving an inheritance
+r4inher,,,r4inher:w4 R probability of receiving an inheritance
+r5inher,,,r5inher:w5 R probability of receiving an inheritance
+r6inher,,,r6inher:w6 R probability of receiving an inheritance
+s1inher,,,s1inher:w1 S probability of receiving an inheritance
+s2inher,,,s2inher:w2 S probability of receiving an inheritance
+s3inher,,,s3inher:w3 S probability of receiving an inheritance
+s4inher,,,s4inher:w4 S probability of receiving an inheritance
+s5inher,,,s5inher:w5 S probability of receiving an inheritance
+s6inher,,,s6inher:w6 S probability of receiving an inheritance
+r1beq50p,,,r1beq50p:w1 R probability of leaving bequest 50K+
+r2beq50p,,,r2beq50p:w2 R probability of leaving bequest 50K+
+r3beq50p,,,r3beq50p:w3 R probability of leaving bequest 50K+
+r4beq50p,,,r4beq50p:w4 R probability of leaving bequest 50K+
+r5beq50p,,,r5beq50p:w5 R probability of leaving bequest 50K+
+r6beq50p,,,r6beq50p:w6 R probability of leaving bequest 50K+
+s1beq50p,,,s1beq50p:w1 S probability of leaving bequest 50K+
+s2beq50p,,,s2beq50p:w2 S probability of leaving bequest 50K+
+s3beq50p,,,s3beq50p:w3 S probability of leaving bequest 50K+
+s4beq50p,,,s4beq50p:w4 S probability of leaving bequest 50K+
+s5beq50p,,,s5beq50p:w5 S probability of leaving bequest 50K+
+s6beq50p,,,s6beq50p:w6 S probability of leaving bequest 50K+
+r1beq150p,,,r1beq150p:w1 R probability of leaving bequest 150K+
+r2beq150p,,,r2beq150p:w2 R probability of leaving bequest 150K+
+r3beq150p,,,r3beq150p:w3 R probability of leaving bequest 150K+
+r4beq150p,,,r4beq150p:w4 R probability of leaving bequest 150K+
+r5beq150p,,,r5beq150p:w5 R probability of leaving bequest 150K+
+r6beq150p,,,r6beq150p:w6 R probability of leaving bequest 150K+
+s1beq150p,,,s1beq150p:w1 S probability of leaving bequest 150K+
+s2beq150p,,,s2beq150p:w2 S probability of leaving bequest 150K+
+s3beq150p,,,s3beq150p:w3 S probability of leaving bequest 150K+
+s4beq150p,,,s4beq150p:w4 S probability of leaving bequest 150K+
+s5beq150p,,,s5beq150p:w5 S probability of leaving bequest 150K+
+s6beq150p,,,s6beq150p:w6 S probability of leaving bequest 150K+
+r1workat,,,r1workat:w1 R probability of working full time after age
+r2workat,,,r2workat:w2 R probability of working full time after age
+r3workat,,,r3workat:w3 R probability of working full time after age
+r4workat,,,r4workat:w4 R probability of working full time after age
+r5workat,,,r5workat:w5 R probability of working full time after age
+r6workat,,,r6workat:w6 R probability of working full time after age
+s1workat,,,s1workat:w1 S probability of working full time after age
+s2workat,,,s2workat:w2 S probability of working full time after age
+s3workat,,,s3workat:w3 S probability of working full time after age
+s4workat,,,s4workat:w4 S probability of working full time after age
+s5workat,,,s5workat:w5 S probability of working full time after age
+s6workat,,,s6workat:w6 S probability of working full time after age
+r1workata,,,r1workata:w1 R age used in probability of working full time
+r2workata,,,r2workata:w2 R age used in probability of working full time
+r3workata,,,r3workata:w3 R age used in probability of working full time
+r4workata,,,r4workata:w4 R age used in probability of working full time
+r5workata,,,r5workata:w5 R age used in probability of working full time
+r6workata,,,r6workata:w6 R age used in probability of working full time
+s1workata,,,s1workata:w1 S age used in probability of working full time
+s2workata,,,s2workata:w2 S age used in probability of working full time
+s3workata,,,s3workata:w3 S age used in probability of working full time
+s4workata,,,s4workata:w4 S age used in probability of working full time
+s5workata,,,s5workata:w5 S age used in probability of working full time
+s6workata,,,s6workata:w6 S age used in probability of working full time
+r1workl65,,,r1workl65:w1 R work limit health problem after age 65
+r2workl65,,,r2workl65:w2 R work limit health problem after age 65
+r3workl65,,,r3workl65:w3 R work limit health problem after age 65
+r4workl65,,,r4workl65:w4 R work limit health problem after age 65
+r5workl65,,,r5workl65:w5 R work limit health problem after age 65
+r6workl65,,,r6workl65:w6 R work limit health problem after age 65
+s1workl65,,,s1workl65:w1 S work limit health problem after age 65
+s2workl65,,,s2workl65:w2 S work limit health problem after age 65
+s3workl65,,,s3workl65:w3 S work limit health problem after age 65
+s4workl65,,,s4workl65:w4 S work limit health problem after age 65
+s5workl65,,,s5workl65:w5 S work limit health problem after age 65
+s6workl65,,,s6workl65:w6 S work limit health problem after age 65
+r2pnhm5y,,,r2pnhm5y:w2 R probability move to nursing home in next 5 years
+r6pnhm5y,,,r6pnhm5y:w6 R probability move to nursing home in next 5 years
+s2pnhm5y,,,s2pnhm5y:w2 S probability move to nursing home in next 5 years
+s6pnhm5y,,,s6pnhm5y:w6 S probability move to nursing home in next 5 years
